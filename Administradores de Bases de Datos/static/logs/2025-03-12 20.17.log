@@ -1,0 +1,17 @@
+2025-03-12 20:17:07 --- Archivo 2025-03-12 20.17.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.17.log
+2025-03-12 20:17:07 ---  * Debugger is active!
+2025-03-12 20:17:07 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:19:31 --- 127.0.0.1 - - [12/Mar/2025 20:19:31] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:19:31 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:19:32 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-12 20:19:32 --- 127.0.0.1 - - [12/Mar/2025 20:19:32] "[35m[1mGET /login/callback?state=9aVshJCx3Wrz1xr4xyLO2pZDFPz9rV&code=4/0AQSTgQEnnVInmW-Hzksw-baMIcGFzQseq3ct9olx2H3I-xQaPP0orxOSZvO_WZuT9ZM61w&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 500 -
+2025-03-12 20:19:33 --- 127.0.0.1 - - [12/Mar/2025 20:19:33] "[36mGET /login/callback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:19:33 --- 127.0.0.1 - - [12/Mar/2025 20:19:33] "[36mGET /login/callback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-12 20:19:33 --- 127.0.0.1 - - [12/Mar/2025 20:19:33] "[36mGET /login/callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-12 20:19:33 --- 127.0.0.1 - - [12/Mar/2025 20:19:33] "[36mGET /login/callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-12 20:20:00 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:20:00 --- 127.0.0.1 - - [12/Mar/2025 20:20:00] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:20:00 --- 127.0.0.1 - - [12/Mar/2025 20:20:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:20:00 --- 127.0.0.1 - - [12/Mar/2025 20:20:00] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:20:00 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:20:00 --- Servidor desconectado

@@ -1,0 +1,46 @@
+2025-03-14 13:57:35 --- Archivo 2025-03-14 13.57.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 13.57.log
+2025-03-14 13:57:35 ---  * Debugger is active!
+2025-03-14 13:57:35 ---  * Debugger PIN: 827-411-152
+2025-03-14 13:59:27 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:59:27 --- 127.0.0.1 - - [14/Mar/2025 13:59:27] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:59:28 --- 127.0.0.1 - - [14/Mar/2025 13:59:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:59:51 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:59:51 --- 127.0.0.1 - - [14/Mar/2025 13:59:51] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-14 13:59:51 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:59:51 --- 127.0.0.1 - - [14/Mar/2025 13:59:51] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:59:52 --- 127.0.0.1 - - [14/Mar/2025 13:59:52] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:59:52 --- 127.0.0.1 - - [14/Mar/2025 13:59:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:59:52 --- 127.0.0.1 - - [14/Mar/2025 13:59:52] "[36mGET /static/images/products/product_8.png HTTP/1.1[0m" 304 -
+2025-03-14 13:59:52 --- 127.0.0.1 - - [14/Mar/2025 13:59:52] "GET /static/images/products/product_9.png HTTP/1.1" 200 -
+2025-03-14 14:01:08 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 14:01:08 --- 127.0.0.1 - - [14/Mar/2025 14:01:08] "GET /products HTTP/1.1" 200 -
+2025-03-14 14:01:08 --- 127.0.0.1 - - [14/Mar/2025 14:01:08] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 14:01:08 --- 127.0.0.1 - - [14/Mar/2025 14:01:08] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 14:01:09 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-14 14:01:09 --- 127.0.0.1 - - [14/Mar/2025 14:01:09] "GET /contact HTTP/1.1" 200 -
+2025-03-14 14:01:09 --- 127.0.0.1 - - [14/Mar/2025 14:01:09] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 14:01:10 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 14:01:10 --- 127.0.0.1 - - [14/Mar/2025 14:01:10] "GET /upload HTTP/1.1" 200 -
+2025-03-14 14:01:10 --- 127.0.0.1 - - [14/Mar/2025 14:01:10] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 14:01:28 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 14:01:28 --- 127.0.0.1 - - [14/Mar/2025 14:01:28] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-14 14:01:28 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 14:01:28 --- 127.0.0.1 - - [14/Mar/2025 14:01:28] "GET /products HTTP/1.1" 200 -
+2025-03-14 14:01:28 --- 127.0.0.1 - - [14/Mar/2025 14:01:28] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 14:01:29 --- 127.0.0.1 - - [14/Mar/2025 14:01:29] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 14:01:29 --- 127.0.0.1 - - [14/Mar/2025 14:01:29] "GET /static/images/products/product_1.png HTTP/1.1" 200 -
+2025-03-14 14:01:31 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 14:01:31 --- 127.0.0.1 - - [14/Mar/2025 14:01:31] "GET /upload HTTP/1.1" 200 -
+2025-03-14 14:01:31 --- 127.0.0.1 - - [14/Mar/2025 14:01:31] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 14:02:20 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 14:02:20 --- 127.0.0.1 - - [14/Mar/2025 14:02:20] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-14 14:02:21 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 14:02:21 --- 127.0.0.1 - - [14/Mar/2025 14:02:21] "GET /products HTTP/1.1" 200 -
+2025-03-14 14:02:21 --- 127.0.0.1 - - [14/Mar/2025 14:02:21] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 14:02:21 --- 127.0.0.1 - - [14/Mar/2025 14:02:21] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 14:02:21 --- 127.0.0.1 - - [14/Mar/2025 14:02:21] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-14 14:02:21 --- 127.0.0.1 - - [14/Mar/2025 14:02:21] "GET /static/images/products/product_2.png HTTP/1.1" 200 -
+2025-03-14 14:03:18 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 14:03:18 --- 127.0.0.1 - - [14/Mar/2025 14:03:18] "GET /products HTTP/1.1" 200 -
+2025-03-14 14:03:18 --- 127.0.0.1 - - [14/Mar/2025 14:03:18] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 14:03:18 --- 127.0.0.1 - - [14/Mar/2025 14:03:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -

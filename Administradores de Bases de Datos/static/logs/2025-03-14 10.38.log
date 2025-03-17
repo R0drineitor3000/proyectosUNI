@@ -1,0 +1,15 @@
+2025-03-14 10:38:49 --- Archivo 2025-03-14 10.38.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 10.38.log
+2025-03-14 10:38:49 ---  * Debugger is active!
+2025-03-14 10:38:49 ---  * Debugger PIN: 827-411-152
+2025-03-14 10:39:00 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 10:39:00 --- 127.0.0.1 - - [14/Mar/2025 10:39:00] "GET /products HTTP/1.1" 200 -
+2025-03-14 10:39:01 --- 127.0.0.1 - - [14/Mar/2025 10:39:01] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 10:39:01 --- 127.0.0.1 - - [14/Mar/2025 10:39:01] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 10:39:01 --- 127.0.0.1 - - [14/Mar/2025 10:39:01] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 10:39:11 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 10:39:11 --- 127.0.0.1 - - [14/Mar/2025 10:39:11] "GET /products HTTP/1.1" 200 -
+2025-03-14 10:39:11 --- 127.0.0.1 - - [14/Mar/2025 10:39:11] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 10:39:11 --- 127.0.0.1 - - [14/Mar/2025 10:39:11] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 10:39:11 --- 127.0.0.1 - - [14/Mar/2025 10:39:11] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 10:40:31 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\accounts.py', reloading
+2025-03-14 10:40:31 --- Servidor desconectado

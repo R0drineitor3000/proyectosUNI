@@ -1,0 +1,28 @@
+2025-03-11 13:23:01 --- Archivo 2025-03-11 13.23.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-11 13.23.log
+2025-03-11 13:23:01 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-11 13:23:01 --- [33mPress CTRL+C to quit[0m
+2025-03-11 13:23:01 ---  * Restarting with stat
+2025-03-11 13:23:03 --- Archivo 2025-03-11 13.23.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-11 13.23.log
+2025-03-11 13:23:03 ---  * Debugger is active!
+2025-03-11 13:23:03 ---  * Debugger PIN: 827-411-152
+2025-03-11 13:23:11 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-11 13:23:11 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-11 13:23:11 --- 127.0.0.1 - - [11/Mar/2025 13:23:11] "GET /login HTTP/1.1" 200 -
+2025-03-11 13:23:11 --- 127.0.0.1 - - [11/Mar/2025 13:23:11] "GET /login HTTP/1.1" 200 -
+2025-03-11 13:23:12 --- 127.0.0.1 - - [11/Mar/2025 13:23:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:23:22 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-11 13:23:23 --- 127.0.0.1: m@s.c ha iniciado sesión
+2025-03-11 13:23:23 --- 127.0.0.1 - - [11/Mar/2025 13:23:23] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-11 13:23:24 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-11 13:23:24 --- 127.0.0.1 - - [11/Mar/2025 13:23:24] "GET / HTTP/1.1" 200 -
+2025-03-11 13:23:24 --- 127.0.0.1 - - [11/Mar/2025 13:23:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:23:27 --- 127.0.0.1: m@s.c ha iniciado sesión
+2025-03-11 13:23:27 --- 127.0.0.1 - - [11/Mar/2025 13:23:27] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-11 13:23:27 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-11 13:23:27 --- 127.0.0.1 - - [11/Mar/2025 13:23:27] "GET / HTTP/1.1" 200 -
+2025-03-11 13:23:27 --- 127.0.0.1 - - [11/Mar/2025 13:23:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-11 13:24:57 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-11 13:24:57 --- Servidor desconectado
+2025-03-11 13:24:57 ---  * Restarting with stat
+2025-03-11 13:25:55 --- Servidor desconectado

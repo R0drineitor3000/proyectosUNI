@@ -1,0 +1,18 @@
+2025-03-12 20:33:24 --- Archivo 2025-03-12 20.33.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.33.log
+2025-03-12 20:33:24 ---  * Debugger is active!
+2025-03-12 20:33:24 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:33:50 --- 127.0.0.1 - - [12/Mar/2025 20:33:50] "[33mGET /login/OAuth HTTP/1.1[0m" 404 -
+2025-03-12 20:33:52 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:33:52 --- 127.0.0.1 - - [12/Mar/2025 20:33:52] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:33:53 --- 127.0.0.1 - - [12/Mar/2025 20:33:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:33:53 --- 127.0.0.1 - - [12/Mar/2025 20:33:53] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:33:54 --- 127.0.0.1 - - [12/Mar/2025 20:33:54] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-12 20:34:24 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:34:24 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-12 20:34:24 --- 127.0.0.1 - - [12/Mar/2025 20:34:24] "[35m[1mGET /login/callback?state=QTJyM7AVShUT33pA56wacNiuOjtqqO&code=4/0AQSTgQHyD7SsNcDtHthHvUMM1eGshOOO1eehAax43GBHUgQgyzdi7tISwI9Fxie8-Nmc1A&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 500 -
+2025-03-12 20:34:24 --- 127.0.0.1 - - [12/Mar/2025 20:34:24] "GET /login/callback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-12 20:34:25 --- 127.0.0.1 - - [12/Mar/2025 20:34:25] "GET /login/callback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-12 20:34:25 --- 127.0.0.1 - - [12/Mar/2025 20:34:25] "GET /login/callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-12 20:34:25 --- 127.0.0.1 - - [12/Mar/2025 20:34:25] "[36mGET /login/callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-12 20:35:24 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:35:24 --- Servidor desconectado

@@ -1,0 +1,40 @@
+2025-03-13 11:05:12 --- Archivo 2025-03-13 11.05.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 11.05.log
+2025-03-13 11:05:12 ---  * Debugger is active!
+2025-03-13 11:05:12 ---  * Debugger PIN: 827-411-152
+2025-03-13 11:05:23 --- 127.0.0.1 - - [13/Mar/2025 11:05:23] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 11:05:23 --- 127.0.0.1 - - [13/Mar/2025 11:05:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:05:31 --- 127.0.0.1 - - [13/Mar/2025 11:05:31] "[35m[1mPOST /login/complete HTTP/1.1[0m" 500 -
+2025-03-13 11:05:32 --- 127.0.0.1 - - [13/Mar/2025 11:05:32] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:05:32 --- 127.0.0.1 - - [13/Mar/2025 11:05:32] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-13 11:05:32 --- 127.0.0.1 - - [13/Mar/2025 11:05:32] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-13 11:05:32 --- 127.0.0.1 - - [13/Mar/2025 11:05:32] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-13 11:05:52 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 11:05:52 --- Servidor desconectado
+2025-03-13 11:05:55 --- Archivo 2025-03-13 11.05.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 11.05.log
+2025-03-13 11:05:55 ---  * Debugger is active!
+2025-03-13 11:05:55 ---  * Debugger PIN: 827-411-152
+2025-03-13 11:06:01 --- 127.0.0.1 - - [13/Mar/2025 11:06:01] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-13 11:06:01 --- 127.0.0.1 - - [13/Mar/2025 11:06:01] "[32mGET /profile HTTP/1.1[0m" 302 -
+2025-03-13 11:06:02 --- 127.0.0.1 - - [13/Mar/2025 11:06:02] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 11:06:03 --- 127.0.0.1 - - [13/Mar/2025 11:06:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:06:09 --- 127.0.0.1 - - [13/Mar/2025 11:06:09] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-13 11:06:10 --- 127.0.0.1 - - [13/Mar/2025 11:06:10] "[32mGET /profile HTTP/1.1[0m" 302 -
+2025-03-13 11:06:10 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:06:10 --- 127.0.0.1 - - [13/Mar/2025 11:06:10] "GET / HTTP/1.1" 200 -
+2025-03-13 11:06:10 --- 127.0.0.1 - - [13/Mar/2025 11:06:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:07:11 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:07:11 --- 127.0.0.1 - - [13/Mar/2025 11:07:11] "GET / HTTP/1.1" 200 -
+2025-03-13 11:07:11 --- 127.0.0.1 - - [13/Mar/2025 11:07:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:07:12 --- 127.0.0.1 - - [13/Mar/2025 11:07:12] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:07:12 --- 127.0.0.1 - - [13/Mar/2025 11:07:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:07:12 --- 127.0.0.1 - - [13/Mar/2025 11:07:12] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:07:13 --- 127.0.0.1 - - [13/Mar/2025 11:07:13] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 11:07:14 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 11:07:14 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 11:07:14 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-13 11:07:15 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 745
+2025-03-13 11:07:15 --- 127.0.0.1 - - [13/Mar/2025 11:07:15] "[32mGET /login/callback?state=2upjFr9vOpuVWy0jO3riczoA54DqOm&code=4/0AQSTgQGYvUwAFX79O-y7C7aS_0qBwd7FQZN55EF6Xct6nZ0r9z5tUp-M2BVvsJIh0WlBpg&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 11:07:15 --- 127.0.0.1 - - [13/Mar/2025 11:07:15] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 11:07:15 --- 127.0.0.1 - - [13/Mar/2025 11:07:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:07:16 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\accounts.py', reloading
+2025-03-13 11:07:16 --- Servidor desconectado

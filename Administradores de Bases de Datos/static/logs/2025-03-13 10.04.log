@@ -1,0 +1,45 @@
+2025-03-13 10:04:07 --- Archivo 2025-03-13 10.04.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 10.04.log
+2025-03-13 10:04:07 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 10:04:07 --- [33mPress CTRL+C to quit[0m
+2025-03-13 10:04:07 ---  * Restarting with stat
+2025-03-13 10:04:13 --- Archivo 2025-03-13 10.04.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 10.04.log
+2025-03-13 10:04:13 ---  * Debugger is active!
+2025-03-13 10:04:13 ---  * Debugger PIN: 827-411-152
+2025-03-13 10:04:22 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 10:04:22 --- 127.0.0.1 - - [13/Mar/2025 10:04:22] "GET / HTTP/1.1" 200 -
+2025-03-13 10:04:23 --- 127.0.0.1 - - [13/Mar/2025 10:04:23] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-13 10:04:24 --- 127.0.0.1 - - [13/Mar/2025 10:04:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-13 10:04:25 --- 127.0.0.1 - - [13/Mar/2025 10:04:25] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:04:25 --- 127.0.0.1 - - [13/Mar/2025 10:04:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:04:25 --- 127.0.0.1 - - [13/Mar/2025 10:04:25] "GET /static/images/google-login-color.png HTTP/1.1" 200 -
+2025-03-13 10:04:26 --- 127.0.0.1 - - [13/Mar/2025 10:04:26] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 10:04:52 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 10:04:52 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 10:04:52 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-13 10:04:52 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 745
+2025-03-13 10:04:52 --- 127.0.0.1 - - [13/Mar/2025 10:04:52] "[32mGET /login/callback?state=mnjLFRGlmrP5BIDmYC9V2tFEEVtsBl&code=4/0AQSTgQHNzNprN41J1TTWytVUDtwWRPrwqnXioc0yd2-CO5ezvP8WN6qRLK2DGJBQsNpOpw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-13 10:04:52 --- 127.0.0.1 - - [13/Mar/2025 10:04:52] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:04:53 --- 127.0.0.1 - - [13/Mar/2025 10:04:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:04:53 --- 127.0.0.1 - - [13/Mar/2025 10:04:53] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 10:07:03 --- 127.0.0.1 - - [13/Mar/2025 10:07:03] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:07:04 --- 127.0.0.1 - - [13/Mar/2025 10:07:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:07:04 --- 127.0.0.1 - - [13/Mar/2025 10:07:04] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 10:07:05 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 10:07:05 --- Servidor desconectado
+2025-03-13 10:07:05 ---  * Restarting with stat
+2025-03-13 10:08:43 ---  * Restarting with stat
+2025-03-13 10:09:25 ---  * Restarting with stat
+2025-03-13 10:10:38 ---  * Restarting with stat
+2025-03-13 10:11:58 ---  * Restarting with stat
+2025-03-13 10:12:57 ---  * Restarting with stat
+2025-03-13 10:14:09 ---  * Restarting with stat
+2025-03-13 10:15:21 ---  * Restarting with stat
+2025-03-13 10:17:37 ---  * Restarting with stat
+2025-03-13 10:18:06 ---  * Restarting with stat
+2025-03-13 10:18:29 ---  * Restarting with stat
+2025-03-13 10:20:32 ---  * Restarting with stat
+2025-03-13 10:22:01 ---  * Restarting with stat
+2025-03-13 10:22:12 ---  * Restarting with stat
+2025-03-13 10:30:53 ---  * Restarting with stat
+2025-03-13 10:30:53 --- Servidor desconectado

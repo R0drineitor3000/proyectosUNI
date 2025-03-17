@@ -1,0 +1,94 @@
+2025-03-14 13:12:42 --- Archivo 2025-03-14 13.12.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 13.12.log
+2025-03-14 13:12:42 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-14 13:12:42 --- [33mPress CTRL+C to quit[0m
+2025-03-14 13:12:42 ---  * Restarting with stat
+2025-03-14 13:12:45 --- Archivo 2025-03-14 13.12.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 13.12.log
+2025-03-14 13:12:45 ---  * Debugger is active!
+2025-03-14 13:12:45 ---  * Debugger PIN: 827-411-152
+2025-03-14 13:12:50 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:12:50 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:12:50 --- 127.0.0.1 - - [14/Mar/2025 13:12:50] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:12:50 --- 127.0.0.1 - - [14/Mar/2025 13:12:50] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:12:50 --- 127.0.0.1 - - [14/Mar/2025 13:12:50] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-14 13:12:50 --- 127.0.0.1 - - [14/Mar/2025 13:12:50] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:12:50 --- 127.0.0.1 - - [14/Mar/2025 13:12:50] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:12:51 --- 127.0.0.1 - - [14/Mar/2025 13:12:51] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:13:05 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 13:13:05 --- 127.0.0.1 - - [14/Mar/2025 13:13:05] "GET / HTTP/1.1" 200 -
+2025-03-14 13:13:06 --- 127.0.0.1 - - [14/Mar/2025 13:13:06] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:13:06 --- 127.0.0.1 - - [14/Mar/2025 13:13:06] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:13:06 --- 127.0.0.1 - - [14/Mar/2025 13:13:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:13:06 --- 127.0.0.1 - - [14/Mar/2025 13:13:06] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 13:13:06 --- 127.0.0.1 - - [14/Mar/2025 13:13:06] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 13:13:07 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:13:07 --- 127.0.0.1 - - [14/Mar/2025 13:13:07] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:13:07 --- 127.0.0.1 - - [14/Mar/2025 13:13:07] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:13:07 --- 127.0.0.1 - - [14/Mar/2025 13:13:07] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-14 13:13:08 --- 127.0.0.1 - - [14/Mar/2025 13:13:08] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:13:08 --- 127.0.0.1 - - [14/Mar/2025 13:13:08] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:22 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:14:22 --- 127.0.0.1 - - [14/Mar/2025 13:14:22] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:14:22 --- 127.0.0.1 - - [14/Mar/2025 13:14:22] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:14:23 --- 127.0.0.1 - - [14/Mar/2025 13:14:23] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-14 13:14:23 --- 127.0.0.1 - - [14/Mar/2025 13:14:23] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:23 --- 127.0.0.1 - - [14/Mar/2025 13:14:23] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:25 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 13:14:25 --- 127.0.0.1 - - [14/Mar/2025 13:14:25] "GET / HTTP/1.1" 200 -
+2025-03-14 13:14:25 --- 127.0.0.1 - - [14/Mar/2025 13:14:25] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:25 --- 127.0.0.1 - - [14/Mar/2025 13:14:25] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:14:25 --- 127.0.0.1 - - [14/Mar/2025 13:14:25] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:14:25 --- 127.0.0.1 - - [14/Mar/2025 13:14:25] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:25 --- 127.0.0.1 - - [14/Mar/2025 13:14:25] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:26 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:14:26 --- 127.0.0.1 - - [14/Mar/2025 13:14:26] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:14:26 --- 127.0.0.1 - - [14/Mar/2025 13:14:26] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:14:26 --- 127.0.0.1 - - [14/Mar/2025 13:14:26] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-14 13:14:27 --- 127.0.0.1 - - [14/Mar/2025 13:14:27] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:27 --- 127.0.0.1 - - [14/Mar/2025 13:14:27] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:48 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:14:48 --- 127.0.0.1 - - [14/Mar/2025 13:14:48] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:14:48 --- 127.0.0.1 - - [14/Mar/2025 13:14:48] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:14:48 --- 127.0.0.1 - - [14/Mar/2025 13:14:48] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-14 13:14:49 --- 127.0.0.1 - - [14/Mar/2025 13:14:49] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:14:49 --- 127.0.0.1 - - [14/Mar/2025 13:14:49] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:15:04 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:15:04 --- 127.0.0.1 - - [14/Mar/2025 13:15:04] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:15:04 --- 127.0.0.1 - - [14/Mar/2025 13:15:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:16:27 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:16:27 --- 127.0.0.1 - - [14/Mar/2025 13:16:27] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2025-03-14 13:16:28 --- 127.0.0.1 - - [14/Mar/2025 13:16:28] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:16:28 --- 127.0.0.1 - - [14/Mar/2025 13:16:28] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-14 13:16:28 --- 127.0.0.1 - - [14/Mar/2025 13:16:28] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:16:28 --- 127.0.0.1 - - [14/Mar/2025 13:16:28] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-14 13:18:54 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:18:54 --- 127.0.0.1 - - [14/Mar/2025 13:18:54] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:18:54 --- 127.0.0.1 - - [14/Mar/2025 13:18:54] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:19:03 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:19:03 --- 127.0.0.1 - - [14/Mar/2025 13:19:03] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:19:03 --- 127.0.0.1 - - [14/Mar/2025 13:19:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:21:48 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:21:48 --- 127.0.0.1 - - [14/Mar/2025 13:21:48] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:21:48 --- 127.0.0.1 - - [14/Mar/2025 13:21:48] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:21:50 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:21:50 --- 127.0.0.1 - - [14/Mar/2025 13:21:50] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:21:50 --- 127.0.0.1 - - [14/Mar/2025 13:21:50] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:22:06 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:22:06 --- 127.0.0.1 - - [14/Mar/2025 13:22:06] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:22:07 --- 127.0.0.1 - - [14/Mar/2025 13:22:07] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:23:39 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:23:39 --- 127.0.0.1 - - [14/Mar/2025 13:23:39] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:23:39 --- 127.0.0.1 - - [14/Mar/2025 13:23:39] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:26:03 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\products.py', reloading
+2025-03-14 13:26:03 --- Servidor desconectado
+2025-03-14 13:26:03 ---  * Restarting with stat
+2025-03-14 13:26:36 ---  * Restarting with stat
+2025-03-14 13:26:59 ---  * Restarting with stat
+2025-03-14 13:27:22 ---  * Restarting with stat
+2025-03-14 13:29:19 ---  * Restarting with stat
+2025-03-14 13:30:31 ---  * Restarting with stat
+2025-03-14 13:30:44 ---  * Restarting with stat
+2025-03-14 13:32:23 ---  * Restarting with stat
+2025-03-14 13:32:35 ---  * Restarting with stat
+2025-03-14 13:34:24 ---  * Restarting with stat
+2025-03-14 13:34:24 --- Servidor desconectado

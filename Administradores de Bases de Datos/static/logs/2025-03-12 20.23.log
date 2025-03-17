@@ -1,0 +1,23 @@
+2025-03-12 20:23:23 --- Archivo 2025-03-12 20.23.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.23.log
+2025-03-12 20:23:23 ---  * Debugger is active!
+2025-03-12 20:23:23 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:24:56 --- 127.0.0.1 - - [12/Mar/2025 20:24:56] code 400, message Bad request version ('localhost\x00')
+2025-03-12 20:24:56 --- 127.0.0.1 - - [12/Mar/2025 20:24:56] "[31m[1m\x16\x03\x01\x06²\x01\x00\x06®\x03\x03G~\x13Ôò\x151Ñ\x06<Þ§|Ñ]2M{hdë\x9028\x85þ9÷?\x85¬\x13 O\x0bóõÅ·\x05}¦ü\x0d\x04Å=ÇEC¼ \x12!H/Ó\x08¥÷Ô²°Ty\x00 ªª\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06E::\x00\x00ÿ\x01\x00\x01\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01þ\x0d\x00º\x00\x00\x01\x00\x01\x1b\x00 í\x1aÉ\x9d#>Ô È?\x8d¿Wâyp]±÷\x02v\x0d\x10ÛÑ{ãUAÀTc\x00\x90A\x10Â¢`è7ºo1\x15\x8f·Î\x03(n\x11)%2({¢ÉØ(ªÒ\x0bw\x8b®¡\x82Í¹!{\x82\x81Of¼\x81Ô\x82\x0c\x81\x8aÚ\x11zË\x0c\x18Hª$\x8d§0°,b\x8d\x04Õ\x9a\x15þd\x17ü1tEUTsÓoÉ\x01\x9e±øðSÈ9\x8b\x88p9è\x82\x87\x0dÐÉdò[õ±j4\x14U\x91ºÝ»Û_\x86\x06X \x0f\x03\\È{y:aé\x0bê\x87\x0c¡ói@*HßT\\¦\x86\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00-\x00\x02\x01\x01\x00\x12\x00\x00DÍ\x00\x05\x00\x03\x02h2\x00#\x00\x00\x00\x00\x00\x0e\x00\x0c\x00\x00\x09localhost\x00[0m" 400 -
+2025-03-12 20:24:56 --- 127.0.0.1 - - [12/Mar/2025 20:24:56] code 400, message Bad request version ('\x8e\x1bëmT\x80Ï=\x84ÈÞ\x00')
+2025-03-12 20:24:56 --- 127.0.0.1 - - [12/Mar/2025 20:24:56] "[31m[1m\x16\x03\x01\x06ò\x01\x00\x06î\x03\x03âÅ(°À2\x84ã\x05ø\x82(¡Ò\x0d\x86^Q\x9b\x0dÍ¨â>\x11"dñ\x18ºêÐ 1 \x07OÂû.$õ\x9c©°\x90\x10\x99f´#Gî\x0d\x8e\x1bëmT\x80Ï=\x84ÈÞ\x00 [0m" 400 -
+2025-03-12 20:24:57 --- 127.0.0.1 - - [12/Mar/2025 20:24:57] code 400, message Bad request version ('S')
+2025-03-12 20:24:57 --- 127.0.0.1 - - [12/Mar/2025 20:24:57] "[31m[1m\x16\x03\x01\x06Ò\x01\x00\x06Î\x03\x03\x07T²[V4\x87 \x14\x83\x1b&Y9nmÊ©ÅH\x09\x88\x1d\x16\x07£ÕÉÕ{é\x08 H6e\x87ÔÞ\x18Ã´¿W_¯»µè÷ç\x0c{\x88\x80DxVi\x0e\x13M-xÔ\x00 ºº\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06eÊÊ\x00\x00\x00\x1b\x00\x03\x02\x00\x02\x003\x04ï\x04íºº\x00\x01\x00\x11ì\x04À¡l­\x10ª-Ù°\x91H²4eå\x1dê\x1aGÕºc\x91lÃÒ\x85C\x90\x97FLÛ\x04»9\x04ËÓ\x82$ÓL\x9dkyÓQ\x12\x91xy8\x11®ÎQ\x13OÈ)+¨cr§¾\x9eYMÚ¸³\\Á~\x04·Î\x80'Ïé\x88È\x82[³'Ñ+\x95Ð\x06È0a«9\x15\x0d»\x1e90\x99o\x9a/BiÇéÅ,dx)Ni6 »©YX\x09S[0m" 400 -
+2025-03-12 20:24:57 --- 127.0.0.1 - - [12/Mar/2025 20:24:57] code 400, message Bad request version ('\x009%l\x7f\x10\x0499C8ÑÑÅ\x01ðÝÛE\x18¦úI~.¾\x07ÛR\x82«H\x00\x90åx·Ë')
+2025-03-12 20:24:57 --- 127.0.0.1 - - [12/Mar/2025 20:24:57] "[31m[1m\x16\x03\x01\x06²\x01\x00\x06®\x03\x03+"Ò«\x98IµÊë\x03¥0æó{Õó«\x8f{\x8dãn3\x96Ò£*Ü\x01Z\x95 \x86A¸pbÜºªÝúVÖ(\x88\x86J D+¤ëÀ^5*·dÅÏ³1Y\x00 úú\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06Eúú\x00\x00\x00#\x00\x00\x00\x0d\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00-\x00\x02\x01\x01þ\x0d\x00º\x00\x00\x01\x00\x01\x8e\x00 \x009%l\x7f\x10\x0499C8ÑÑÅ\x01ðÝÛE\x18¦úI~.¾\x07ÛR\x82«H\x00\x90åx·Ë[0m" 400 -
+2025-03-12 20:25:28 --- 127.0.0.1 - - [12/Mar/2025 20:25:28] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:26:47 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:26:47 --- 127.0.0.1 - - [12/Mar/2025 20:26:47] "GET / HTTP/1.1" 200 -
+2025-03-12 20:26:48 --- 127.0.0.1 - - [12/Mar/2025 20:26:47] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-12 20:26:49 --- 127.0.0.1 - - [12/Mar/2025 20:26:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 20:26:50 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:26:50 --- 127.0.0.1 - - [12/Mar/2025 20:26:50] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:26:51 --- 127.0.0.1 - - [12/Mar/2025 20:26:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:26:51 --- 127.0.0.1 - - [12/Mar/2025 20:26:51] "GET /static/images/google-login-color.png HTTP/1.1" 200 -
+2025-03-12 20:26:52 --- 127.0.0.1 - - [12/Mar/2025 20:26:52] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:27:45 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:27:45 --- Servidor desconectado

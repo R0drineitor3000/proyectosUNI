@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Subir un Producto{% endblock %}
+
+{% block content %}
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header text-center">
+            <h3>Subir un producto</h3>
+          </div>
+          <div class="card-body">
+            <form method="POST" id="uploadForm" enctype="multipart/form-data">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre del Producto</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="details" class="form-label">Detalles</label>
+                <textarea class="form-control" id="details" name="details" rows="3"></textarea>
+              </div>
+
+              <div class="mb-3">
+                <label for="price" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="price" name="price" min="0" step="0.01" required>
+              </div>
+
+              <div class="mb-3">
+			     <label for="stock" class="form-label">Stock</label>
+			     <input type="number" class="form-control" id="stock" name="stock" min="0" step="1">
+			   </div>
+
+              <div class="mb-3">
+                <label for="picture" class="form-label">Imagen</label>
+                <input type="file" class="form-control" id="picture" name="picture" accept="image/*" required>
+              </div>
+              <button type="submit" class="btn btn-primary">Subir Producto</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}

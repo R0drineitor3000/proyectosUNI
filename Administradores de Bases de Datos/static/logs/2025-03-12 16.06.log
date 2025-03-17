@@ -1,0 +1,111 @@
+2025-03-12 16:06:38 --- Archivo 2025-03-12 16.06.log creado con éxito en C:\Users\LABORATORIO 4\Desktop\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 16.06.log
+2025-03-12 16:06:38 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 16:06:38 --- [33mPress CTRL+C to quit[0m
+2025-03-12 16:06:38 ---  * Restarting with stat
+2025-03-12 16:06:39 --- Archivo 2025-03-12 16.06.log creado con éxito en C:\Users\LABORATORIO 4\Desktop\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 16.06.log
+2025-03-12 16:06:39 ---  * Debugger is active!
+2025-03-12 16:06:39 ---  * Debugger PIN: 667-134-967
+2025-03-12 16:06:47 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:06:47 --- 127.0.0.1 - - [12/Mar/2025 16:06:47] "GET / HTTP/1.1" 200 -
+2025-03-12 16:06:48 --- 127.0.0.1 - - [12/Mar/2025 16:06:48] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-12 16:06:48 --- 127.0.0.1 - - [12/Mar/2025 16:06:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 16:06:55 --- 127.0.0.1 - - [12/Mar/2025 16:06:55] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 16:07:03 --- 127.0.0.1 - - [12/Mar/2025 16:07:03] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 16:07:19 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:07:19 --- 127.0.0.1 - - [12/Mar/2025 16:07:19] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:07:19 --- 127.0.0.1 - - [12/Mar/2025 16:07:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:08:05 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:08:05 --- 127.0.0.1 - - [12/Mar/2025 16:08:05] "GET / HTTP/1.1" 200 -
+2025-03-12 16:08:06 --- 127.0.0.1 - - [12/Mar/2025 16:08:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:08:06 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:08:06 --- 127.0.0.1 - - [12/Mar/2025 16:08:06] "GET / HTTP/1.1" 200 -
+2025-03-12 16:08:07 --- 127.0.0.1 - - [12/Mar/2025 16:08:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:10:36 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:10:36 --- 127.0.0.1 - - [12/Mar/2025 16:10:36] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:10:37 --- 127.0.0.1 - - [12/Mar/2025 16:10:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:10:41 --- 127.0.0.1 - - [12/Mar/2025 16:10:41] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 16:10:46 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:10:46 --- 127.0.0.1 - - [12/Mar/2025 16:10:46] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:10:46 --- 127.0.0.1 - - [12/Mar/2025 16:10:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:11:25 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:11:25 --- 127.0.0.1 - - [12/Mar/2025 16:11:25] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:11:25 --- 127.0.0.1 - - [12/Mar/2025 16:11:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:11:57 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:11:57 --- 127.0.0.1 - - [12/Mar/2025 16:11:57] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:11:57 --- 127.0.0.1 - - [12/Mar/2025 16:11:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:13:17 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:13:17 --- 127.0.0.1 - - [12/Mar/2025 16:13:17] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:13:18 --- 127.0.0.1 - - [12/Mar/2025 16:13:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:13:22 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:13:22 --- 127.0.0.1 - - [12/Mar/2025 16:13:22] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:13:22 --- 127.0.0.1 - - [12/Mar/2025 16:13:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:14:15 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:14:15 --- 127.0.0.1 - - [12/Mar/2025 16:14:15] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:14:15 --- 127.0.0.1 - - [12/Mar/2025 16:14:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:15:53 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:15:53 --- 127.0.0.1 - - [12/Mar/2025 16:15:53] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:15:53 --- 127.0.0.1 - - [12/Mar/2025 16:15:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:15:54 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:15:54 --- 127.0.0.1 - - [12/Mar/2025 16:15:54] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:15:54 --- 127.0.0.1 - - [12/Mar/2025 16:15:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:24:28 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:24:28 --- 127.0.0.1 - - [12/Mar/2025 16:24:28] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:24:29 --- 127.0.0.1 - - [12/Mar/2025 16:24:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:24:38 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:24:38 --- 127.0.0.1 - - [12/Mar/2025 16:24:38] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:24:39 --- 127.0.0.1 - - [12/Mar/2025 16:24:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:25:09 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:25:09 --- 127.0.0.1 - - [12/Mar/2025 16:25:09] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:25:09 --- 127.0.0.1 - - [12/Mar/2025 16:25:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:25:16 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:25:16 --- 127.0.0.1 - - [12/Mar/2025 16:25:16] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:25:17 --- 127.0.0.1 - - [12/Mar/2025 16:25:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:26:02 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:26:02 --- 127.0.0.1 - - [12/Mar/2025 16:26:02] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:26:03 --- 127.0.0.1 - - [12/Mar/2025 16:26:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:26:39 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:26:39 --- 127.0.0.1 - - [12/Mar/2025 16:26:39] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:26:40 --- 127.0.0.1 - - [12/Mar/2025 16:26:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:26:52 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:26:52 --- 127.0.0.1 - - [12/Mar/2025 16:26:52] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:26:53 --- 127.0.0.1 - - [12/Mar/2025 16:26:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:27:02 --- 127.0.0.1 - - [12/Mar/2025 16:27:02] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 16:27:08 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:27:08 --- 127.0.0.1 - - [12/Mar/2025 16:27:08] "GET / HTTP/1.1" 200 -
+2025-03-12 16:27:08 --- 127.0.0.1 - - [12/Mar/2025 16:27:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:27:10 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:27:10 --- 127.0.0.1 - - [12/Mar/2025 16:27:10] "GET / HTTP/1.1" 200 -
+2025-03-12 16:27:10 --- 127.0.0.1 - - [12/Mar/2025 16:27:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:27:13 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:27:13 --- 127.0.0.1 - - [12/Mar/2025 16:27:13] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:27:13 --- 127.0.0.1 - - [12/Mar/2025 16:27:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:27:25 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:27:25 --- 127.0.0.1 - - [12/Mar/2025 16:27:25] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:27:25 --- 127.0.0.1 - - [12/Mar/2025 16:27:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:30:43 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:30:43 --- 127.0.0.1 - - [12/Mar/2025 16:30:43] "GET / HTTP/1.1" 200 -
+2025-03-12 16:30:44 --- 127.0.0.1 - - [12/Mar/2025 16:30:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-12 16:30:44 --- 127.0.0.1 - - [12/Mar/2025 16:30:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 16:31:41 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:31:41 --- 127.0.0.1 - - [12/Mar/2025 16:31:41] "GET / HTTP/1.1" 200 -
+2025-03-12 16:31:41 --- 127.0.0.1 - - [12/Mar/2025 16:31:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:31:45 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:31:45 --- 127.0.0.1 - - [12/Mar/2025 16:31:45] "GET / HTTP/1.1" 200 -
+2025-03-12 16:31:45 --- 127.0.0.1 - - [12/Mar/2025 16:31:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:31:48 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:31:48 --- 127.0.0.1 - - [12/Mar/2025 16:31:48] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:31:48 --- 127.0.0.1 - - [12/Mar/2025 16:31:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:31:51 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 16:31:51 --- 127.0.0.1 - - [12/Mar/2025 16:31:51] "GET /signin HTTP/1.1" 200 -
+2025-03-12 16:31:51 --- 127.0.0.1 - - [12/Mar/2025 16:31:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:31:54 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:31:54 --- 127.0.0.1 - - [12/Mar/2025 16:31:54] "GET / HTTP/1.1" 200 -
+2025-03-12 16:31:54 --- 127.0.0.1 - - [12/Mar/2025 16:31:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:32:01 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 16:32:01 --- 127.0.0.1 - - [12/Mar/2025 16:32:01] "GET /login HTTP/1.1" 200 -
+2025-03-12 16:32:02 --- 127.0.0.1 - - [12/Mar/2025 16:32:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 16:32:03 --- 127.0.0.1 - - [12/Mar/2025 16:32:03] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 16:32:15 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 16:32:15 --- 127.0.0.1 - - [12/Mar/2025 16:32:15] "GET / HTTP/1.1" 200 -
+2025-03-12 16:32:15 --- 127.0.0.1 - - [12/Mar/2025 16:32:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

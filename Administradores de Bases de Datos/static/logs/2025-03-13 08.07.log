@@ -1,0 +1,20 @@
+2025-03-13 08:07:13 --- Archivo 2025-03-13 08.07.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 08.07.log
+2025-03-13 08:07:13 ---  * Debugger is active!
+2025-03-13 08:07:13 ---  * Debugger PIN: 827-411-152
+2025-03-13 08:07:19 --- 127.0.0.1 - - [13/Mar/2025 08:07:19] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 08:07:20 --- 127.0.0.1 - - [13/Mar/2025 08:07:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 08:07:30 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 08:07:30 --- 127.0.0.1 - - [13/Mar/2025 08:07:30] "GET / HTTP/1.1" 200 -
+2025-03-13 08:07:30 --- 127.0.0.1 - - [13/Mar/2025 08:07:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 08:07:32 --- 127.0.0.1 - - [13/Mar/2025 08:07:32] "GET /login HTTP/1.1" 200 -
+2025-03-13 08:07:33 --- 127.0.0.1 - - [13/Mar/2025 08:07:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 08:07:33 --- 127.0.0.1 - - [13/Mar/2025 08:07:33] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 08:08:28 --- 127.0.0.1 - - [13/Mar/2025 08:08:28] "GET /login HTTP/1.1" 200 -
+2025-03-13 08:08:28 --- 127.0.0.1 - - [13/Mar/2025 08:08:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 08:08:28 --- 127.0.0.1 - - [13/Mar/2025 08:08:28] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 08:08:32 --- 127.0.0.1 - - [13/Mar/2025 08:08:32] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 08:08:32 --- 127.0.0.1 - - [13/Mar/2025 08:08:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 08:17:06 --- 127.0.0.1 - - [13/Mar/2025 08:17:06] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 08:17:07 --- 127.0.0.1 - - [13/Mar/2025 08:17:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 08:18:47 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 08:18:47 --- Servidor desconectado

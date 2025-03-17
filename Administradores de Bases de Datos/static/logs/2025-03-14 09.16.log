@@ -1,0 +1,85 @@
+2025-03-14 09:16:16 --- Archivo 2025-03-14 09.16.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 09.16.log
+2025-03-14 09:16:16 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-14 09:16:16 --- [33mPress CTRL+C to quit[0m
+2025-03-14 09:16:16 ---  * Restarting with stat
+2025-03-14 09:16:18 --- Archivo 2025-03-14 09.16.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 09.16.log
+2025-03-14 09:16:18 ---  * Debugger is active!
+2025-03-14 09:16:18 ---  * Debugger PIN: 827-411-152
+2025-03-14 09:16:23 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:16:23 --- 127.0.0.1 - - [14/Mar/2025 09:16:23] "GET / HTTP/1.1" 200 -
+2025-03-14 09:16:24 --- 127.0.0.1 - - [14/Mar/2025 09:16:24] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:24 --- 127.0.0.1 - - [14/Mar/2025 09:16:24] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:16:24 --- 127.0.0.1 - - [14/Mar/2025 09:16:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:24 --- 127.0.0.1 - - [14/Mar/2025 09:16:24] "[36mGET /static/images/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 09:16:24 --- 127.0.0.1 - - [14/Mar/2025 09:16:24] "[36mGET /static/images/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 09:16:29 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:16:29 --- 127.0.0.1 - - [14/Mar/2025 09:16:29] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:16:30 --- 127.0.0.1 - - [14/Mar/2025 09:16:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:31 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:16:31 --- 127.0.0.1 - - [14/Mar/2025 09:16:31] "GET /contact HTTP/1.1" 200 -
+2025-03-14 09:16:31 --- 127.0.0.1 - - [14/Mar/2025 09:16:31] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:31 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:16:31 --- 127.0.0.1 - - [14/Mar/2025 09:16:31] "GET /contact HTTP/1.1" 200 -
+2025-03-14 09:16:32 --- 127.0.0.1 - - [14/Mar/2025 09:16:32] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:32 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:16:32 --- 127.0.0.1 - - [14/Mar/2025 09:16:32] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:16:33 --- 127.0.0.1 - - [14/Mar/2025 09:16:33] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:33 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:16:33 --- 127.0.0.1 - - [14/Mar/2025 09:16:33] "GET / HTTP/1.1" 200 -
+2025-03-14 09:16:33 --- 127.0.0.1 - - [14/Mar/2025 09:16:33] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "[36mGET /static/images/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "[36mGET /static/images/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 09:16:34 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:34 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:16:34 --- 127.0.0.1 - - [14/Mar/2025 09:16:34] "GET /contact HTTP/1.1" 200 -
+2025-03-14 09:16:35 --- 127.0.0.1 - - [14/Mar/2025 09:16:35] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:16:37 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:16:37 --- 127.0.0.1 - - [14/Mar/2025 09:16:37] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:16:38 --- 127.0.0.1 - - [14/Mar/2025 09:16:38] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:17:33 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:17:33 --- 127.0.0.1 - - [14/Mar/2025 09:17:33] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:17:33 --- 127.0.0.1 - - [14/Mar/2025 09:17:33] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:02 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:19:02 --- 127.0.0.1 - - [14/Mar/2025 09:19:02] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:19:02 --- 127.0.0.1 - - [14/Mar/2025 09:19:02] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:03 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:19:03 --- 127.0.0.1 - - [14/Mar/2025 09:19:03] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:19:03 --- 127.0.0.1 - - [14/Mar/2025 09:19:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:15 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:19:15 --- 127.0.0.1 - - [14/Mar/2025 09:19:15] "GET /contact HTTP/1.1" 200 -
+2025-03-14 09:19:15 --- 127.0.0.1 - - [14/Mar/2025 09:19:15] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:16 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:19:16 --- 127.0.0.1 - - [14/Mar/2025 09:19:16] "GET / HTTP/1.1" 200 -
+2025-03-14 09:19:16 --- 127.0.0.1 - - [14/Mar/2025 09:19:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:16 --- 127.0.0.1 - - [14/Mar/2025 09:19:16] "[36mGET /static/images/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 09:19:16 --- 127.0.0.1 - - [14/Mar/2025 09:19:16] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:16 --- 127.0.0.1 - - [14/Mar/2025 09:19:16] "[36mGET /static/images/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 09:19:16 --- 127.0.0.1 - - [14/Mar/2025 09:19:16] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:19:17 --- 127.0.0.1 - - [14/Mar/2025 09:19:17] "GET /login HTTP/1.1" 200 -
+2025-03-14 09:19:17 --- 127.0.0.1 - - [14/Mar/2025 09:19:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:17 --- 127.0.0.1 - - [14/Mar/2025 09:19:17] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-14 09:19:17 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-14 09:19:17 --- 127.0.0.1 - - [14/Mar/2025 09:19:17] "GET /signin HTTP/1.1" 200 -
+2025-03-14 09:19:18 --- 127.0.0.1 - - [14/Mar/2025 09:19:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:18 --- 127.0.0.1 - - [14/Mar/2025 09:19:18] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-14 09:19:18 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:19:18 --- 127.0.0.1 - - [14/Mar/2025 09:19:18] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:19:19 --- 127.0.0.1 - - [14/Mar/2025 09:19:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:19:54 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-14 09:19:54 --- Servidor desconectado
+2025-03-14 09:19:54 ---  * Restarting with stat
+2025-03-14 09:21:20 ---  * Restarting with stat
+2025-03-14 09:21:57 ---  * Restarting with stat
+2025-03-14 09:22:08 ---  * Restarting with stat
+2025-03-14 09:26:16 ---  * Restarting with stat
+2025-03-14 09:26:26 ---  * Restarting with stat
+2025-03-14 09:28:10 ---  * Restarting with stat
+2025-03-14 09:28:36 ---  * Restarting with stat
+2025-03-14 09:29:59 ---  * Restarting with stat
+2025-03-14 09:32:45 ---  * Restarting with stat
+2025-03-14 09:32:45 --- Servidor desconectado

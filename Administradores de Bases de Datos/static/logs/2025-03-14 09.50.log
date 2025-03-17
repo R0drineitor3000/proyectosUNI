@@ -1,0 +1,16 @@
+2025-03-14 09:50:57 --- Archivo 2025-03-14 09.50.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 09.50.log
+2025-03-14 09:50:57 ---  * Debugger is active!
+2025-03-14 09:50:58 ---  * Debugger PIN: 827-411-152
+2025-03-14 09:51:04 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:51:04 --- 127.0.0.1 - - [14/Mar/2025 09:51:04] "GET / HTTP/1.1" 200 -
+2025-03-14 09:51:04 --- 127.0.0.1 - - [14/Mar/2025 09:51:04] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:51:04 --- 127.0.0.1 - - [14/Mar/2025 09:51:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:51:04 --- 127.0.0.1 - - [14/Mar/2025 09:51:04] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:51:04 --- 127.0.0.1 - - [14/Mar/2025 09:51:04] "[36mGET /static/images/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 09:51:04 --- 127.0.0.1 - - [14/Mar/2025 09:51:04] "[36mGET /static/images/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 09:51:06 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-14 09:51:06 --- 127.0.0.1 - - [14/Mar/2025 09:51:06] "GET /signin HTTP/1.1" 200 -
+2025-03-14 09:51:06 --- 127.0.0.1 - - [14/Mar/2025 09:51:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:51:07 --- 127.0.0.1 - - [14/Mar/2025 09:51:07] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-14 09:51:55 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-14 09:51:55 --- Servidor desconectado

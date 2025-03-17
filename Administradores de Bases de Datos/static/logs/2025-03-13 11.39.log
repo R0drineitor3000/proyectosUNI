@@ -1,0 +1,77 @@
+2025-03-13 11:39:41 --- Archivo 2025-03-13 11.39.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 11.39.log
+2025-03-13 11:39:41 ---  * Debugger is active!
+2025-03-13 11:39:41 ---  * Debugger PIN: 827-411-152
+2025-03-13 11:39:49 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:39:49 --- 127.0.0.1 - - [13/Mar/2025 11:39:49] "GET / HTTP/1.1" 200 -
+2025-03-13 11:39:50 --- 127.0.0.1 - - [13/Mar/2025 11:39:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-13 11:39:50 --- 127.0.0.1 - - [13/Mar/2025 11:39:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-13 11:39:52 --- 127.0.0.1 - - [13/Mar/2025 11:39:52] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:39:52 --- 127.0.0.1 - - [13/Mar/2025 11:39:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:39:52 --- 127.0.0.1 - - [13/Mar/2025 11:39:52] "GET /static/images/google-login-color.png HTTP/1.1" 200 -
+2025-03-13 11:39:53 --- 127.0.0.1 - - [13/Mar/2025 11:39:53] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 11:40:27 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 11:40:27 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 11:40:27 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-13 11:40:28 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 738
+2025-03-13 11:40:28 --- 127.0.0.1 - - [13/Mar/2025 11:40:28] "[32mGET /login/callback?state=HBZhpu9k85Z1oJUP2UTMDK8gN03RAp&code=4/0AQSTgQEhGBCyDscDaKHlCUauWtamRFmDDhrP_PFnd8h1zO6EoWDy0zvNvjU3TwaWkAYctA&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-13 11:40:28 --- 127.0.0.1 - - [13/Mar/2025 11:40:28] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-03-13 11:40:28 --- 127.0.0.1 - - [13/Mar/2025 11:40:28] "GET /profile HTTP/1.1" 200 -
+2025-03-13 11:40:28 --- 127.0.0.1 - - [13/Mar/2025 11:40:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:31 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:40:31 --- 127.0.0.1 - - [13/Mar/2025 11:40:31] "GET / HTTP/1.1" 200 -
+2025-03-13 11:40:31 --- 127.0.0.1 - - [13/Mar/2025 11:40:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:32 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:40:32 --- 127.0.0.1 - - [13/Mar/2025 11:40:32] "GET / HTTP/1.1" 200 -
+2025-03-13 11:40:32 --- 127.0.0.1 - - [13/Mar/2025 11:40:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:33 --- 127.0.0.1: r0drigos3villa@gmail.com ha cerrado sesión
+2025-03-13 11:40:33 --- 127.0.0.1 - - [13/Mar/2025 11:40:33] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-13 11:40:33 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:40:33 --- 127.0.0.1 - - [13/Mar/2025 11:40:33] "GET / HTTP/1.1" 200 -
+2025-03-13 11:40:33 --- 127.0.0.1 - - [13/Mar/2025 11:40:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:34 --- 127.0.0.1 - - [13/Mar/2025 11:40:34] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:40:35 --- 127.0.0.1 - - [13/Mar/2025 11:40:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:35 --- 127.0.0.1 - - [13/Mar/2025 11:40:35] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:40:35 --- 127.0.0.1 - - [13/Mar/2025 11:40:35] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 11:40:36 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 11:40:36 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 11:40:36 --- 127.0.0.1 - - [13/Mar/2025 11:40:36] "[32mGET /login/callback?state=V0u9c5GAM2D3fCFEGEWmdEQqkFAcBD&code=4/0AQSTgQFgXMDrCGxcKAKr4nbEuEzp3Mk7Xn0bMMFXbZUoKaqS_8uZ2kR82Zp2ZIaZh9AvRg&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 11:40:36 --- 127.0.0.1 - - [13/Mar/2025 11:40:36] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-03-13 11:40:37 --- 127.0.0.1 - - [13/Mar/2025 11:40:37] "GET /profile HTTP/1.1" 200 -
+2025-03-13 11:40:37 --- 127.0.0.1 - - [13/Mar/2025 11:40:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:50 --- 127.0.0.1: r0drigos3villa@gmail.com ha cerrado sesión
+2025-03-13 11:40:50 --- 127.0.0.1 - - [13/Mar/2025 11:40:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-13 11:40:50 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:40:50 --- 127.0.0.1 - - [13/Mar/2025 11:40:50] "GET / HTTP/1.1" 200 -
+2025-03-13 11:40:50 --- 127.0.0.1 - - [13/Mar/2025 11:40:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:51 --- 127.0.0.1 - - [13/Mar/2025 11:40:51] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:40:51 --- 127.0.0.1 - - [13/Mar/2025 11:40:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:40:51 --- 127.0.0.1 - - [13/Mar/2025 11:40:51] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:40:59 --- 127.0.0.1: r0drigos3villa@gmail.com ha iniciado sesión
+2025-03-13 11:40:59 --- 127.0.0.1 - - [13/Mar/2025 11:40:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-13 11:41:00 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:41:00 --- 127.0.0.1 - - [13/Mar/2025 11:41:00] "GET / HTTP/1.1" 200 -
+2025-03-13 11:41:00 --- 127.0.0.1 - - [13/Mar/2025 11:41:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:41:01 --- 127.0.0.1: r0drigos3villa@gmail.com ha cerrado sesión
+2025-03-13 11:41:01 --- 127.0.0.1 - - [13/Mar/2025 11:41:01] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-13 11:41:02 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:41:02 --- 127.0.0.1 - - [13/Mar/2025 11:41:02] "GET / HTTP/1.1" 200 -
+2025-03-13 11:41:02 --- 127.0.0.1 - - [13/Mar/2025 11:41:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:41:02 --- 127.0.0.1 - - [13/Mar/2025 11:41:02] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:41:03 --- 127.0.0.1 - - [13/Mar/2025 11:41:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:41:03 --- 127.0.0.1 - - [13/Mar/2025 11:41:03] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:41:19 --- 127.0.0.1 - - [13/Mar/2025 11:41:19] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 11:41:20 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 11:41:20 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 11:41:20 --- 127.0.0.1 - - [13/Mar/2025 11:41:20] "[32mGET /login/callback?state=OoENUHbypf06usFo4WCy1QIuvS7BrT&code=4/0AQSTgQF5BEPmZ9UR0YtGS_UT7FofRwEbsTcDMCmpstbcX4y9gWT9uTji_QTXlzr5jy1z9g&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 11:41:20 --- 127.0.0.1 - - [13/Mar/2025 11:41:20] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 11:41:21 --- 127.0.0.1 - - [13/Mar/2025 11:41:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:41:30 --- 127.0.0.1 - - [13/Mar/2025 11:41:30] "[35m[1mPOST /login/complete HTTP/1.1[0m" 500 -
+2025-03-13 11:41:30 --- 127.0.0.1 - - [13/Mar/2025 11:41:30] "GET /login/complete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-13 11:41:30 --- 127.0.0.1 - - [13/Mar/2025 11:41:30] "GET /login/complete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-13 11:41:30 --- 127.0.0.1 - - [13/Mar/2025 11:41:30] "GET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-13 11:41:30 --- 127.0.0.1 - - [13/Mar/2025 11:41:30] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-13 11:41:48 --- 127.0.0.1 - - [13/Mar/2025 11:41:48] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-03-13 11:41:48 --- 127.0.0.1 - - [13/Mar/2025 11:41:48] "GET /profile HTTP/1.1" 200 -
+2025-03-13 11:41:48 --- 127.0.0.1 - - [13/Mar/2025 11:41:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:41:49 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 11:41:49 --- Servidor desconectado

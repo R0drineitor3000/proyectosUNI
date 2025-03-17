@@ -1,0 +1,31 @@
+2025-03-13 11:38:34 --- Archivo 2025-03-13 11.38.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 11.38.log
+2025-03-13 11:38:34 ---  * Debugger is active!
+2025-03-13 11:38:34 ---  * Debugger PIN: 827-411-152
+2025-03-13 11:39:01 --- 127.0.0.1 - - [13/Mar/2025 11:39:01] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 11:39:02 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 11:39:02 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 11:39:02 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-13 11:39:03 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 741
+2025-03-13 11:39:03 --- 127.0.0.1 - - [13/Mar/2025 11:39:03] "[32mGET /login/callback?state=OCTMyowGztvvNFBtztNKxe1DjR4n3R&code=4/0AQSTgQGKzbk0RKqPrLU_M1d5K25Zwzh5wvty266c29R7F-tnzC88HmkZplQtMYLOvnb0Lw&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 11:39:03 --- 127.0.0.1 - - [13/Mar/2025 11:39:03] "[35m[1mGET /login/complete HTTP/1.1[0m" 500 -
+2025-03-13 11:39:04 --- 127.0.0.1 - - [13/Mar/2025 11:39:04] "GET /login/complete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-13 11:39:04 --- 127.0.0.1 - - [13/Mar/2025 11:39:04] "GET /login/complete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-13 11:39:04 --- 127.0.0.1 - - [13/Mar/2025 11:39:04] "GET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-13 11:39:04 --- 127.0.0.1 - - [13/Mar/2025 11:39:04] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-13 11:39:09 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 11:39:09 --- 127.0.0.1 - - [13/Mar/2025 11:39:09] "GET / HTTP/1.1" 200 -
+2025-03-13 11:39:10 --- 127.0.0.1 - - [13/Mar/2025 11:39:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:39:11 --- 127.0.0.1 - - [13/Mar/2025 11:39:11] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:39:11 --- 127.0.0.1 - - [13/Mar/2025 11:39:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:39:11 --- 127.0.0.1 - - [13/Mar/2025 11:39:11] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:39:12 --- 127.0.0.1 - - [13/Mar/2025 11:39:12] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 11:39:12 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 11:39:13 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 11:39:13 --- 127.0.0.1 - - [13/Mar/2025 11:39:13] "[32mGET /login/callback?state=cV802aVN5wwEBSO7Qh9zuRBiiLp1dR&code=4/0AQSTgQHUkuoP5ZFNafheIvERlMhvPrqWkuUwNlKRM-0zAcpl-Hz7CwbQo7zyQlt_EZYrFA&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 11:39:13 --- 127.0.0.1 - - [13/Mar/2025 11:39:13] "[35m[1mGET /login/complete HTTP/1.1[0m" 500 -
+2025-03-13 11:39:13 --- 127.0.0.1 - - [13/Mar/2025 11:39:13] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:39:13 --- 127.0.0.1 - - [13/Mar/2025 11:39:13] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-13 11:39:13 --- 127.0.0.1 - - [13/Mar/2025 11:39:13] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-13 11:39:13 --- 127.0.0.1 - - [13/Mar/2025 11:39:13] "[36mGET /login/complete?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-13 11:39:38 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 11:39:38 --- Servidor desconectado

@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block styles %}<link rel="stylesheet" href="/static/styles/cards.css">{% endblock %} <!--Estilo para las "cajitas" de cada producto-->
+
+{% block content %}
+    <div class="container mt-5">
+        <h2 class="text-center">
+            <i class="fas fa-box"></i> Nuestros Productos
+        </h2>
+        
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card">                   
+                        <img src="static/images/products/leche.png" class="card-img-top" alt="Producto 1">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Leche</h5>
+                        <p class="card-text fw-bold">C$30.00</p>
+                        <a href='/products' class="btn btn-success">
+                            <i class="fas fa-shopping-cart"></i> Comprar
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/images/products/crema-batida.png" class="card-img-top" alt="Producto 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Crema</h5>
+                        <p class="card-text fw-bold">C$25.00</p>
+                        <a href='/products' class="btn btn-success">
+                            <i class="fas fa-shopping-cart"></i> Comprar
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="static/images/products/queso.png" class="card-img-top" alt="Producto 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Cuajada</h5>
+                        <p class="card-text fw-bold">C$80.00</p>
+                        <a href='/products' class="btn btn-success">
+							<i class="fas fa-shopping-cart"></i> Comprar
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

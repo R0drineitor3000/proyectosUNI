@@ -1,0 +1,39 @@
+2025-03-12 20:59:14 --- Archivo 2025-03-12 20.59.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.59.log
+2025-03-12 20:59:14 ---  * Debugger is active!
+2025-03-12 20:59:14 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:59:22 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:59:23 --- Servidor desconectado
+2025-03-12 20:59:25 --- Archivo 2025-03-12 20.59.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.59.log
+2025-03-12 20:59:25 ---  * Debugger is active!
+2025-03-12 20:59:25 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:59:31 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:59:31 --- 127.0.0.1 - - [12/Mar/2025 20:59:31] "GET / HTTP/1.1" 200 -
+2025-03-12 20:59:31 --- 127.0.0.1 - - [12/Mar/2025 20:59:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:59:34 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:59:34 --- 127.0.0.1 - - [12/Mar/2025 20:59:34] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-12 20:59:34 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:59:34 --- 127.0.0.1 - - [12/Mar/2025 20:59:34] "GET / HTTP/1.1" 200 -
+2025-03-12 20:59:34 --- 127.0.0.1 - - [12/Mar/2025 20:59:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:59:44 --- 127.0.0.1: {'at_hash': 'iHtqruB0tLocPeE_mGm-Og', 'aud': '844246365046-9rdf1fkctigl8cefgskr77n7uavuhrhp.apps.googleusercontent.com', 'azp': '844246365046-9rdf1fkctigl8cefgskr77n7uavuhrhp.apps.googleusercontent.com', 'email': 'r0drigos3villa@gmail.com', 'email_verified': True, 'exp': 1741838095, 'iat': 1741834495, 'iss': 'accounts.google.com', 'nonce': 'f3bDiRrkalzZOOxt_N2cOA', 'sub': '113236450080085406730'} ha cerrado sesión
+2025-03-12 20:59:44 --- 127.0.0.1 - - [12/Mar/2025 20:59:44] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-12 20:59:44 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:59:44 --- 127.0.0.1 - - [12/Mar/2025 20:59:44] "GET / HTTP/1.1" 200 -
+2025-03-12 20:59:44 --- 127.0.0.1 - - [12/Mar/2025 20:59:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:59:45 --- 127.0.0.1 - - [12/Mar/2025 20:59:45] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:59:46 --- 127.0.0.1 - - [12/Mar/2025 20:59:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:59:46 --- 127.0.0.1 - - [12/Mar/2025 20:59:46] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:59:47 --- 127.0.0.1 - - [12/Mar/2025 20:59:47] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-12 20:59:48 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:59:48 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-12 20:59:48 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-12 20:59:49 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 741
+2025-03-12 20:59:49 --- 127.0.0.1 - - [12/Mar/2025 20:59:49] "[32mGET /login/callback?state=otrrFyDn1Dj63IV9cncJLZeIDHvUff&code=4/0AQSTgQERKvh7ldJQanBYX1XmQPnpelmwytoL4HxP1djZWsuAXR9Loq4ugru_2eU2WSFQjA&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-12 20:59:49 --- 127.0.0.1 - - [12/Mar/2025 20:59:49] "GET /profile HTTP/1.1" 200 -
+2025-03-12 20:59:50 --- 127.0.0.1 - - [12/Mar/2025 20:59:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:59:53 --- 127.0.0.1 - - [12/Mar/2025 20:59:53] "GET /profile HTTP/1.1" 200 -
+2025-03-12 20:59:53 --- 127.0.0.1 - - [12/Mar/2025 20:59:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:59:54 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:59:54 --- 127.0.0.1 - - [12/Mar/2025 20:59:54] "GET / HTTP/1.1" 200 -
+2025-03-12 20:59:55 --- 127.0.0.1 - - [12/Mar/2025 20:59:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 21:01:59 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 21:01:59 --- Servidor desconectado

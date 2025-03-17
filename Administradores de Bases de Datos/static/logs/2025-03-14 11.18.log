@@ -1,0 +1,29 @@
+2025-03-14 11:18:09 --- Archivo 2025-03-14 11.18.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 11.18.log
+2025-03-14 11:18:09 ---  * Debugger is active!
+2025-03-14 11:18:09 ---  * Debugger PIN: 827-411-152
+2025-03-14 11:18:46 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\accounts.py', reloading
+2025-03-14 11:18:46 --- Servidor desconectado
+2025-03-14 11:18:49 --- Archivo 2025-03-14 11.18.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 11.18.log
+2025-03-14 11:18:49 ---  * Debugger is active!
+2025-03-14 11:18:49 ---  * Debugger PIN: 827-411-152
+2025-03-14 11:19:19 --- 127.0.0.1 - - [14/Mar/2025 11:19:19] "[32mPOST /purchase HTTP/1.1[0m" 302 -
+2025-03-14 11:19:19 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 11:19:19 --- 127.0.0.1 - - [14/Mar/2025 11:19:19] "GET / HTTP/1.1" 200 -
+2025-03-14 11:19:20 --- 127.0.0.1 - - [14/Mar/2025 11:19:20] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 11:19:20 --- 127.0.0.1 - - [14/Mar/2025 11:19:20] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 11:19:20 --- 127.0.0.1 - - [14/Mar/2025 11:19:20] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 11:19:20 --- 127.0.0.1 - - [14/Mar/2025 11:19:20] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 11:19:20 --- 127.0.0.1 - - [14/Mar/2025 11:19:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 11:19:21 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 11:19:21 --- 127.0.0.1 - - [14/Mar/2025 11:19:21] "GET /products HTTP/1.1" 200 -
+2025-03-14 11:19:22 --- 127.0.0.1 - - [14/Mar/2025 11:19:22] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 11:19:22 --- 127.0.0.1 - - [14/Mar/2025 11:19:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 11:19:23 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 11:19:23 --- 127.0.0.1 - - [14/Mar/2025 11:19:23] "GET / HTTP/1.1" 200 -
+2025-03-14 11:19:24 --- 127.0.0.1 - - [14/Mar/2025 11:19:24] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 11:19:24 --- 127.0.0.1 - - [14/Mar/2025 11:19:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 11:19:24 --- 127.0.0.1 - - [14/Mar/2025 11:19:24] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 11:19:24 --- 127.0.0.1 - - [14/Mar/2025 11:19:24] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 11:19:24 --- 127.0.0.1 - - [14/Mar/2025 11:19:24] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 11:21:15 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\accounts.py', reloading
+2025-03-14 11:21:15 --- Servidor desconectado

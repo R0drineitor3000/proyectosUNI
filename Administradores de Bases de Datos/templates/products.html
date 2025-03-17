@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Productos{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/cards.css">{% endblock %} <!--Estilo para las "cajitas" de cada producto-->
+
+{% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">
+        <i class="fas fa-box"></i> Nuestros Productos
+    </h2>
+    
+    <div class="row">
+        {% if productos %}
+            {% for producto in productos %}
+                <!-- Para cada producto, creamos una tarjeta -->
+                <div class="col-md-4">
+                    <!-- Formulario para enviar el POST -->
+                    <form action="{{ url_for('purchase') }}" method="POST">
+                        <!-- Campo oculto con la ID del producto -->
+                        <input type="hidden" name="producto_id" value="{{ producto.id }}">
+
+                        <div class="card">
+                            {% if producto.picture %}
+                                <img src="{{ url_for('static', filename='images' + producto.picture) }}" class="card-img-top" alt="{{ producto.nombre }}">
+                            {% else %}
+                                <img src="{{ url_for('static', filename='images/products/leche.png') }}" class="card-img-top" alt="{{ producto.nombre }}">
+                            {% endif %}
+                            <div class="card-body text-center">
+                                <h5 class="card-title">{{ producto.name }}</h5>
+                                <p class="card-text fw-bold">C${{ producto.price }}</p>
+                                <p><small class="card-text fw-bold">{{ producto.poster }}</small></p>
+                                <!-- Botón que envía el formulario -->
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-shopping-cart"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-center">No hay productos disponibles en este momento.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

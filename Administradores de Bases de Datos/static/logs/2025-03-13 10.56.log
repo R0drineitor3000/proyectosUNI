@@ -1,0 +1,38 @@
+2025-03-13 10:56:30 --- Archivo 2025-03-13 10.56.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 10.56.log
+2025-03-13 10:56:30 ---  * Debugger is active!
+2025-03-13 10:56:30 ---  * Debugger PIN: 827-411-152
+2025-03-13 10:56:47 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 10:56:47 --- 127.0.0.1 - - [13/Mar/2025 10:56:47] "GET / HTTP/1.1" 200 -
+2025-03-13 10:56:48 --- 127.0.0.1 - - [13/Mar/2025 10:56:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:56:48 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 10:56:48 --- Servidor desconectado
+2025-03-13 10:56:52 --- Archivo 2025-03-13 10.56.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 10.56.log
+2025-03-13 10:56:52 ---  * Debugger is active!
+2025-03-13 10:56:52 ---  * Debugger PIN: 827-411-152
+2025-03-13 10:56:59 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-13 10:56:59 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-13 10:56:59 --- 127.0.0.1 - - [13/Mar/2025 10:56:59] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:56:59 --- 127.0.0.1 - - [13/Mar/2025 10:56:59] "GET /signin HTTP/1.1" 200 -
+2025-03-13 10:56:59 --- 127.0.0.1 - - [13/Mar/2025 10:56:59] "GET / HTTP/1.1" 200 -
+2025-03-13 10:56:59 --- 127.0.0.1 - - [13/Mar/2025 10:56:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:57:02 --- 127.0.0.1 - - [13/Mar/2025 10:57:02] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:57:02 --- 127.0.0.1 - - [13/Mar/2025 10:57:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:57:02 --- 127.0.0.1 - - [13/Mar/2025 10:57:02] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 10:57:03 --- 127.0.0.1 - - [13/Mar/2025 10:57:03] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 10:57:04 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 10:57:04 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 10:57:04 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-13 10:57:05 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 744
+2025-03-13 10:57:05 --- 127.0.0.1 - - [13/Mar/2025 10:57:05] "[32mGET /login/callback?state=U0OuIN9OdavD5kMRD6jzOH6Bzm6Y65&code=4/0AQSTgQGTEYCJz9ZNmhMz1dtsfFN5vkI48HdrHeWEdOKYogAHHxwen6-6G2svsW-c3Rvl-g&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 10:57:05 --- 127.0.0.1 - - [13/Mar/2025 10:57:05] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:57:05 --- 127.0.0.1 - - [13/Mar/2025 10:57:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:57:05 --- 127.0.0.1 - - [13/Mar/2025 10:57:05] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 10:57:07 --- 127.0.0.1 - - [13/Mar/2025 10:57:07] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 10:57:08 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 10:57:08 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 10:57:08 --- 127.0.0.1 - - [13/Mar/2025 10:57:08] "[32mGET /login/callback?state=1cQm9pS2G2dEzgfRqaQyGTOB8xhkw3&code=4/0AQSTgQG-AogdpUdp66ra8Z0eQDuBCri7heykqLcmYS7V55kuP_8U3bJvgaM_UbL2s7OfGA&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 10:57:08 --- 127.0.0.1 - - [13/Mar/2025 10:57:08] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:57:09 --- 127.0.0.1 - - [13/Mar/2025 10:57:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:57:09 --- 127.0.0.1 - - [13/Mar/2025 10:57:09] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 10:57:36 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 10:57:36 --- Servidor desconectado

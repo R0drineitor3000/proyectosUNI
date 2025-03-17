@@ -1,0 +1,115 @@
+2025-03-14 13:00:27 --- Archivo 2025-03-14 13.00.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 13.00.log
+2025-03-14 13:00:27 ---  * Debugger is active!
+2025-03-14 13:00:27 ---  * Debugger PIN: 827-411-152
+2025-03-14 13:00:47 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-14 13:00:47 --- Servidor desconectado
+2025-03-14 13:00:49 --- Archivo 2025-03-14 13.00.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 13.00.log
+2025-03-14 13:00:49 ---  * Debugger is active!
+2025-03-14 13:00:49 ---  * Debugger PIN: 827-411-152
+2025-03-14 13:00:54 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:00:54 --- 127.0.0.1 - - [14/Mar/2025 13:00:54] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:00:54 --- 127.0.0.1 - - [14/Mar/2025 13:00:54] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:00:54 --- 127.0.0.1 - - [14/Mar/2025 13:00:54] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:00:54 --- 127.0.0.1 - - [14/Mar/2025 13:00:54] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:17 --- Producto con ID 1 comprado.
+2025-03-14 13:01:17 --- 127.0.0.1 - - [14/Mar/2025 13:01:17] "[32mPOST /purchase HTTP/1.1[0m" 302 -
+2025-03-14 13:01:17 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:01:17 --- 127.0.0.1 - - [14/Mar/2025 13:01:17] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:01:17 --- 127.0.0.1 - - [14/Mar/2025 13:01:17] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:17 --- 127.0.0.1 - - [14/Mar/2025 13:01:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:17 --- 127.0.0.1 - - [14/Mar/2025 13:01:17] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:01:18 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "GET / HTTP/1.1" 200 -
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 13:01:18 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-14 13:01:18 --- 127.0.0.1 - - [14/Mar/2025 13:01:18] "GET /contact HTTP/1.1" 200 -
+2025-03-14 13:01:19 --- 127.0.0.1 - - [14/Mar/2025 13:01:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:19 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:01:19 --- 127.0.0.1 - - [14/Mar/2025 13:01:19] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:01:20 --- 127.0.0.1 - - [14/Mar/2025 13:01:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:20 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-14 13:01:20 --- 127.0.0.1 - - [14/Mar/2025 13:01:20] "GET /contact HTTP/1.1" 200 -
+2025-03-14 13:01:20 --- 127.0.0.1 - - [14/Mar/2025 13:01:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:21 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:01:21 --- 127.0.0.1 - - [14/Mar/2025 13:01:21] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:01:22 --- 127.0.0.1 - - [14/Mar/2025 13:01:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:23 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:01:23 --- 127.0.0.1 - - [14/Mar/2025 13:01:23] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:01:24 --- 127.0.0.1 - - [14/Mar/2025 13:01:24] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:24 --- 127.0.0.1 - - [14/Mar/2025 13:01:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:01:24 --- 127.0.0.1 - - [14/Mar/2025 13:01:24] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:01:39 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:01:39 --- 127.0.0.1 - - [14/Mar/2025 13:01:39] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:01:40 --- 127.0.0.1 - - [14/Mar/2025 13:01:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:04:41 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:04:41 --- 127.0.0.1 - - [14/Mar/2025 13:04:41] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:04:41 --- 127.0.0.1 - - [14/Mar/2025 13:04:41] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:05:30 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:05:30 --- 127.0.0.1 - - [14/Mar/2025 13:05:30] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:05:31 --- 127.0.0.1 - - [14/Mar/2025 13:05:31] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:05 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:05 --- 127.0.0.1 - - [14/Mar/2025 13:06:05] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:06 --- 127.0.0.1 - - [14/Mar/2025 13:06:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:06 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:06 --- 127.0.0.1 - - [14/Mar/2025 13:06:06] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:06 --- 127.0.0.1 - - [14/Mar/2025 13:06:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:14 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:14 --- 127.0.0.1 - - [14/Mar/2025 13:06:14] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:15 --- 127.0.0.1 - - [14/Mar/2025 13:06:15] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:15 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:15 --- 127.0.0.1 - - [14/Mar/2025 13:06:15] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:16 --- 127.0.0.1 - - [14/Mar/2025 13:06:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:16 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-14 13:06:16 --- 127.0.0.1 - - [14/Mar/2025 13:06:16] "GET /contact HTTP/1.1" 200 -
+2025-03-14 13:06:17 --- 127.0.0.1 - - [14/Mar/2025 13:06:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:17 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:17 --- 127.0.0.1 - - [14/Mar/2025 13:06:17] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:17 --- 127.0.0.1 - - [14/Mar/2025 13:06:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:19 --- 127.0.0.1: Finca los Castillo ha cerrado sesión
+2025-03-14 13:06:19 --- 127.0.0.1 - - [14/Mar/2025 13:06:19] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-14 13:06:20 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 13:06:20 --- 127.0.0.1 - - [14/Mar/2025 13:06:20] "GET / HTTP/1.1" 200 -
+2025-03-14 13:06:20 --- 127.0.0.1 - - [14/Mar/2025 13:06:20] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:20 --- 127.0.0.1 - - [14/Mar/2025 13:06:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:20 --- 127.0.0.1 - - [14/Mar/2025 13:06:20] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 13:06:20 --- 127.0.0.1 - - [14/Mar/2025 13:06:20] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 13:06:20 --- 127.0.0.1 - - [14/Mar/2025 13:06:20] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 13:06:23 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-14 13:06:23 --- 127.0.0.1 - - [14/Mar/2025 13:06:23] "GET /signin HTTP/1.1" 200 -
+2025-03-14 13:06:23 --- 127.0.0.1 - - [14/Mar/2025 13:06:23] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:23 --- 127.0.0.1 - - [14/Mar/2025 13:06:23] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-14 13:06:25 --- 127.0.0.1 - - [14/Mar/2025 13:06:25] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-14 13:06:26 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-14 13:06:28 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-14 13:06:28 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-14 13:06:28 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 745
+2025-03-14 13:06:28 --- 127.0.0.1 - - [14/Mar/2025 13:06:28] "[32mGET /login/callback?state=SGxzdG23mXYRcCSEfVvRK61S0Ksj7Z&code=4/0AQSTgQHwrzS44v6465v8KKQqJpuoLtuRDV_z0ezhRt2_rnvw8eU2TA6FBx2W3lmXP0800g&scope=email+profile+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-14 13:06:28 --- 127.0.0.1 - - [14/Mar/2025 13:06:28] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-03-14 13:06:29 --- Se abrió la página del Perfil de Finca los Castillo desde: 127.0.0.1
+2025-03-14 13:06:29 --- 127.0.0.1 - - [14/Mar/2025 13:06:29] "GET /profile HTTP/1.1" 200 -
+2025-03-14 13:06:29 --- 127.0.0.1 - - [14/Mar/2025 13:06:29] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:30 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:30 --- 127.0.0.1 - - [14/Mar/2025 13:06:30] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:30 --- 127.0.0.1 - - [14/Mar/2025 13:06:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:06:42 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:06:42 --- 127.0.0.1 - - [14/Mar/2025 13:06:42] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:06:42 --- 127.0.0.1 - - [14/Mar/2025 13:06:42] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:07:20 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:07:20 --- 127.0.0.1 - - [14/Mar/2025 13:07:20] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:07:21 --- 127.0.0.1 - - [14/Mar/2025 13:07:21] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:07:21 --- 127.0.0.1 - - [14/Mar/2025 13:07:21] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-14 13:07:29 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:07:29 --- 127.0.0.1 - - [14/Mar/2025 13:07:29] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:07:30 --- 127.0.0.1 - - [14/Mar/2025 13:07:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:07:46 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:07:46 --- 127.0.0.1 - - [14/Mar/2025 13:07:46] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:07:46 --- 127.0.0.1 - - [14/Mar/2025 13:07:46] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:08:24 --- Se abrió la página del Perfil de Finca los Castillo desde: 127.0.0.1
+2025-03-14 13:08:24 --- 127.0.0.1 - - [14/Mar/2025 13:08:24] "GET /profile HTTP/1.1" 200 -
+2025-03-14 13:08:25 --- 127.0.0.1 - - [14/Mar/2025 13:08:25] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:08:51 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-14 13:08:51 --- Servidor desconectado

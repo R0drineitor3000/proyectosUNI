@@ -1,0 +1,24 @@
+2025-03-13 11:37:56 --- Archivo 2025-03-13 11.37.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 11.37.log
+2025-03-13 11:37:56 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 11:37:56 --- [33mPress CTRL+C to quit[0m
+2025-03-13 11:37:56 ---  * Restarting with stat
+2025-03-13 11:37:59 --- Archivo 2025-03-13 11.37.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 11.37.log
+2025-03-13 11:37:59 ---  * Debugger is active!
+2025-03-13 11:37:59 ---  * Debugger PIN: 827-411-152
+2025-03-13 11:38:09 --- 127.0.0.1 - - [13/Mar/2025 11:38:09] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:38:09 --- 127.0.0.1 - - [13/Mar/2025 11:38:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:38:09 --- 127.0.0.1 - - [13/Mar/2025 11:38:09] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:38:30 --- 127.0.0.1 - - [13/Mar/2025 11:38:30] "GET /login HTTP/1.1" 200 -
+2025-03-13 11:38:30 --- 127.0.0.1 - - [13/Mar/2025 11:38:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 11:38:30 --- 127.0.0.1 - - [13/Mar/2025 11:38:30] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 11:38:31 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 11:38:31 --- Servidor desconectado
+2025-03-13 11:38:31 ---  * Restarting with stat
+2025-03-13 11:39:38 ---  * Restarting with stat
+2025-03-13 11:41:49 ---  * Restarting with stat
+2025-03-13 12:20:52 ---  * Restarting with stat
+2025-03-13 12:24:32 ---  * Restarting with stat
+2025-03-13 12:26:16 ---  * Restarting with stat
+2025-03-13 12:27:03 ---  * Restarting with stat
+2025-03-13 12:32:00 ---  * Restarting with stat

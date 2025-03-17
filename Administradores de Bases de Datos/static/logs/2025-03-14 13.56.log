@@ -1,0 +1,23 @@
+2025-03-14 13:56:28 --- Archivo 2025-03-14 13.56.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 13.56.log
+2025-03-14 13:56:28 ---  * Debugger is active!
+2025-03-14 13:56:28 ---  * Debugger PIN: 827-411-152
+2025-03-14 13:56:33 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:56:33 --- 127.0.0.1 - - [14/Mar/2025 13:56:33] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:56:34 --- 127.0.0.1 - - [14/Mar/2025 13:56:34] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:56:34 --- 127.0.0.1 - - [14/Mar/2025 13:56:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:56:49 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:56:49 --- 127.0.0.1 - - [14/Mar/2025 13:56:49] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:56:50 --- 127.0.0.1 - - [14/Mar/2025 13:56:50] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:56:50 --- 127.0.0.1 - - [14/Mar/2025 13:56:50] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:56:50 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:56:50 --- 127.0.0.1 - - [14/Mar/2025 13:56:50] "GET /upload HTTP/1.1" 200 -
+2025-03-14 13:56:51 --- 127.0.0.1 - - [14/Mar/2025 13:56:51] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:57:03 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-14 13:57:04 --- 127.0.0.1 - - [14/Mar/2025 13:57:04] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-14 13:57:04 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 13:57:04 --- 127.0.0.1 - - [14/Mar/2025 13:57:04] "GET /products HTTP/1.1" 200 -
+2025-03-14 13:57:04 --- 127.0.0.1 - - [14/Mar/2025 13:57:04] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 13:57:04 --- 127.0.0.1 - - [14/Mar/2025 13:57:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 13:57:04 --- 127.0.0.1 - - [14/Mar/2025 13:57:04] "GET /static/images/products/product_8.png HTTP/1.1" 200 -
+2025-03-14 13:57:32 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-14 13:57:32 --- Servidor desconectado

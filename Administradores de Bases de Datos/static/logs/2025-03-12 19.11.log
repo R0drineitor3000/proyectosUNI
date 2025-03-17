@@ -1,0 +1,220 @@
+2025-03-12 19:11:25 --- Archivo 2025-03-12 19.11.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 19.11.log
+2025-03-12 19:11:25 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 19:11:25 --- [33mPress CTRL+C to quit[0m
+2025-03-12 19:11:25 ---  * Restarting with stat
+2025-03-12 19:11:29 --- Archivo 2025-03-12 19.11.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 19.11.log
+2025-03-12 19:11:29 ---  * Debugger is active!
+2025-03-12 19:11:29 ---  * Debugger PIN: 827-411-152
+2025-03-12 19:13:01 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:13:02 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:13:02 --- 127.0.0.1 - - [12/Mar/2025 19:13:02] "GET / HTTP/1.1" 200 -
+2025-03-12 19:13:02 --- 127.0.0.1 - - [12/Mar/2025 19:13:02] "GET / HTTP/1.1" 200 -
+2025-03-12 19:13:10 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:13:10 --- 127.0.0.1 - - [12/Mar/2025 19:13:10] "GET / HTTP/1.1" 200 -
+2025-03-12 19:13:11 --- 127.0.0.1 - - [12/Mar/2025 19:13:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-12 19:13:35 --- 127.0.0.1 - - [12/Mar/2025 19:13:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-12 19:14:15 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:14:15 --- 127.0.0.1 - - [12/Mar/2025 19:14:15] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:14:15 --- 127.0.0.1 - - [12/Mar/2025 19:14:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:15:20 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:15:20 --- 127.0.0.1 - - [12/Mar/2025 19:15:20] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:15:21 --- 127.0.0.1 - - [12/Mar/2025 19:15:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:15:21 --- 127.0.0.1 - - [12/Mar/2025 19:15:21] "GET /static/images/google-login-color.png HTTP/1.1" 200 -
+2025-03-12 19:15:23 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:15:23 --- 127.0.0.1 - - [12/Mar/2025 19:15:23] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:15:24 --- 127.0.0.1 - - [12/Mar/2025 19:15:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:15:24 --- 127.0.0.1 - - [12/Mar/2025 19:15:24] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:15:27 --- 127.0.0.1 - - [12/Mar/2025 19:15:27] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 19:15:33 --- 127.0.0.1 - - [12/Mar/2025 19:15:33] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:18:15 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:18:15 --- 127.0.0.1 - - [12/Mar/2025 19:18:15] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:18:15 --- 127.0.0.1 - - [12/Mar/2025 19:18:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:18:15 --- 127.0.0.1 - - [12/Mar/2025 19:18:15] "GET /static/images/google-login-color.png HTTP/1.1" 200 -
+2025-03-12 19:18:19 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:18:19 --- 127.0.0.1 - - [12/Mar/2025 19:18:19] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:18:20 --- 127.0.0.1 - - [12/Mar/2025 19:18:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:19:06 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:19:06 --- 127.0.0.1 - - [12/Mar/2025 19:19:06] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:19:06 --- 127.0.0.1 - - [12/Mar/2025 19:19:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:19:06 --- 127.0.0.1 - - [12/Mar/2025 19:19:06] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:05 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:21:05 --- 127.0.0.1 - - [12/Mar/2025 19:21:05] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:21:05 --- 127.0.0.1 - - [12/Mar/2025 19:21:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:05 --- 127.0.0.1 - - [12/Mar/2025 19:21:05] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:09 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:09 --- 127.0.0.1 - - [12/Mar/2025 19:21:09] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:10 --- 127.0.0.1 - - [12/Mar/2025 19:21:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:24 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:24 --- 127.0.0.1 - - [12/Mar/2025 19:21:24] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:24 --- 127.0.0.1 - - [12/Mar/2025 19:21:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:25 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:25 --- 127.0.0.1 - - [12/Mar/2025 19:21:25] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:26 --- 127.0.0.1 - - [12/Mar/2025 19:21:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:26 --- 127.0.0.1 - - [12/Mar/2025 19:21:26] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:26 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:26 --- 127.0.0.1 - - [12/Mar/2025 19:21:26] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:27 --- 127.0.0.1 - - [12/Mar/2025 19:21:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:34 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:34 --- 127.0.0.1 - - [12/Mar/2025 19:21:34] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:34 --- 127.0.0.1 - - [12/Mar/2025 19:21:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:35 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:35 --- 127.0.0.1 - - [12/Mar/2025 19:21:35] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:35 --- 127.0.0.1 - - [12/Mar/2025 19:21:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:36 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:36 --- 127.0.0.1 - - [12/Mar/2025 19:21:36] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:36 --- 127.0.0.1 - - [12/Mar/2025 19:21:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:36 --- 127.0.0.1 - - [12/Mar/2025 19:21:36] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:37 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:21:37 --- 127.0.0.1 - - [12/Mar/2025 19:21:37] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:21:37 --- 127.0.0.1 - - [12/Mar/2025 19:21:37] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:37 --- 127.0.0.1 - - [12/Mar/2025 19:21:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:38 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:21:38 --- 127.0.0.1 - - [12/Mar/2025 19:21:38] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:21:38 --- 127.0.0.1 - - [12/Mar/2025 19:21:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:38 --- 127.0.0.1 - - [12/Mar/2025 19:21:38] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:41 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:41 --- 127.0.0.1 - - [12/Mar/2025 19:21:41] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:42 --- 127.0.0.1 - - [12/Mar/2025 19:21:42] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:42 --- 127.0.0.1 - - [12/Mar/2025 19:21:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:42 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:21:42 --- 127.0.0.1 - - [12/Mar/2025 19:21:42] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:21:42 --- 127.0.0.1 - - [12/Mar/2025 19:21:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:42 --- 127.0.0.1 - - [12/Mar/2025 19:21:42] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:49 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:49 --- 127.0.0.1 - - [12/Mar/2025 19:21:49] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:49 --- 127.0.0.1 - - [12/Mar/2025 19:21:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:49 --- 127.0.0.1 - - [12/Mar/2025 19:21:49] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:50 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:50 --- 127.0.0.1 - - [12/Mar/2025 19:21:50] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:51 --- 127.0.0.1 - - [12/Mar/2025 19:21:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:51 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:21:51 --- 127.0.0.1 - - [12/Mar/2025 19:21:51] "GET / HTTP/1.1" 200 -
+2025-03-12 19:21:52 --- 127.0.0.1 - - [12/Mar/2025 19:21:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:52 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:52 --- 127.0.0.1 - - [12/Mar/2025 19:21:52] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:52 --- 127.0.0.1 - - [12/Mar/2025 19:21:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:52 --- 127.0.0.1 - - [12/Mar/2025 19:21:52] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:53 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:53 --- 127.0.0.1 - - [12/Mar/2025 19:21:53] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:53 --- 127.0.0.1 - - [12/Mar/2025 19:21:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:53 --- 127.0.0.1 - - [12/Mar/2025 19:21:53] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:54 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:54 --- 127.0.0.1 - - [12/Mar/2025 19:21:54] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:54 --- 127.0.0.1 - - [12/Mar/2025 19:21:54] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:54 --- 127.0.0.1 - - [12/Mar/2025 19:21:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:55 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:21:55 --- 127.0.0.1 - - [12/Mar/2025 19:21:55] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:21:55 --- 127.0.0.1 - - [12/Mar/2025 19:21:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:55 --- 127.0.0.1 - - [12/Mar/2025 19:21:55] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:56 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:21:56 --- 127.0.0.1 - - [12/Mar/2025 19:21:56] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:21:56 --- 127.0.0.1 - - [12/Mar/2025 19:21:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:56 --- 127.0.0.1 - - [12/Mar/2025 19:21:56] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:21:58 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:21:58 --- 127.0.0.1 - - [12/Mar/2025 19:21:58] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:21:58 --- 127.0.0.1 - - [12/Mar/2025 19:21:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:21:58 --- 127.0.0.1 - - [12/Mar/2025 19:21:58] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:22:00 --- 127.0.0.1 - - [12/Mar/2025 19:22:00] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 19:23:56 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:23:56 --- 127.0.0.1 - - [12/Mar/2025 19:23:56] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:23:56 --- 127.0.0.1 - - [12/Mar/2025 19:23:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:23:56 --- 127.0.0.1 - - [12/Mar/2025 19:23:56] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:24:43 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:24:43 --- 127.0.0.1 - - [12/Mar/2025 19:24:43] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:24:43 --- 127.0.0.1 - - [12/Mar/2025 19:24:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:24:43 --- 127.0.0.1 - - [12/Mar/2025 19:24:43] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:24:51 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:24:51 --- 127.0.0.1 - - [12/Mar/2025 19:24:51] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:24:52 --- 127.0.0.1 - - [12/Mar/2025 19:24:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:24:52 --- 127.0.0.1 - - [12/Mar/2025 19:24:52] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:24:53 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:24:53 --- 127.0.0.1 - - [12/Mar/2025 19:24:53] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:24:53 --- 127.0.0.1 - - [12/Mar/2025 19:24:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:24:53 --- 127.0.0.1 - - [12/Mar/2025 19:24:53] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:25:03 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:25:04 --- 127.0.0.1: s@s.c ha iniciado sesión
+2025-03-12 19:25:04 --- 127.0.0.1 - - [12/Mar/2025 19:25:04] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-12 19:25:05 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:25:05 --- 127.0.0.1 - - [12/Mar/2025 19:25:05] "GET / HTTP/1.1" 200 -
+2025-03-12 19:25:05 --- 127.0.0.1 - - [12/Mar/2025 19:25:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:25:15 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:25:15 --- 127.0.0.1 - - [12/Mar/2025 19:25:15] "GET / HTTP/1.1" 200 -
+2025-03-12 19:25:15 --- 127.0.0.1 - - [12/Mar/2025 19:25:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:25:16 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:25:16 --- 127.0.0.1 - - [12/Mar/2025 19:25:16] "GET / HTTP/1.1" 200 -
+2025-03-12 19:25:17 --- 127.0.0.1 - - [12/Mar/2025 19:25:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:25:18 --- 127.0.0.1: s@s.c ha cerrado sesión
+2025-03-12 19:25:18 --- 127.0.0.1 - - [12/Mar/2025 19:25:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-12 19:25:18 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:25:18 --- 127.0.0.1 - - [12/Mar/2025 19:25:18] "GET / HTTP/1.1" 200 -
+2025-03-12 19:25:18 --- 127.0.0.1 - - [12/Mar/2025 19:25:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:27:52 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:27:52 --- 127.0.0.1 - - [12/Mar/2025 19:27:52] "GET / HTTP/1.1" 200 -
+2025-03-12 19:27:52 --- 127.0.0.1 - - [12/Mar/2025 19:27:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:29:43 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:29:43 --- 127.0.0.1 - - [12/Mar/2025 19:29:43] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:29:44 --- 127.0.0.1 - - [12/Mar/2025 19:29:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:29:44 --- 127.0.0.1 - - [12/Mar/2025 19:29:44] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:29:45 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:29:45 --- 127.0.0.1 - - [12/Mar/2025 19:29:45] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:29:46 --- 127.0.0.1 - - [12/Mar/2025 19:29:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:29:46 --- 127.0.0.1 - - [12/Mar/2025 19:29:46] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:29:48 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:29:48 --- 127.0.0.1 - - [12/Mar/2025 19:29:48] "GET / HTTP/1.1" 200 -
+2025-03-12 19:29:48 --- 127.0.0.1 - - [12/Mar/2025 19:29:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:29:49 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:29:49 --- 127.0.0.1 - - [12/Mar/2025 19:29:49] "GET / HTTP/1.1" 200 -
+2025-03-12 19:29:49 --- 127.0.0.1 - - [12/Mar/2025 19:29:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:30:00 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:30:00 --- 127.0.0.1 - - [12/Mar/2025 19:30:00] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:30:01 --- 127.0.0.1 - - [12/Mar/2025 19:30:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:30:01 --- 127.0.0.1 - - [12/Mar/2025 19:30:01] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:30:02 --- 127.0.0.1 - - [12/Mar/2025 19:30:02] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 19:48:46 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:48:46 --- 127.0.0.1 - - [12/Mar/2025 19:48:46] "GET / HTTP/1.1" 200 -
+2025-03-12 19:48:46 --- 127.0.0.1 - - [12/Mar/2025 19:48:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:48:50 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:48:50 --- 127.0.0.1 - - [12/Mar/2025 19:48:50] "GET / HTTP/1.1" 200 -
+2025-03-12 19:48:50 --- 127.0.0.1 - - [12/Mar/2025 19:48:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:48:50 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 19:48:50 --- 127.0.0.1 - - [12/Mar/2025 19:48:50] "GET /login HTTP/1.1" 200 -
+2025-03-12 19:48:51 --- 127.0.0.1 - - [12/Mar/2025 19:48:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:48:51 --- 127.0.0.1 - - [12/Mar/2025 19:48:51] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:48:51 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:48:51 --- 127.0.0.1 - - [12/Mar/2025 19:48:51] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:48:52 --- 127.0.0.1 - - [12/Mar/2025 19:48:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:48:52 --- 127.0.0.1 - - [12/Mar/2025 19:48:52] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:48:53 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-12 19:48:53 --- 127.0.0.1 - - [12/Mar/2025 19:48:53] "GET /signin HTTP/1.1" 200 -
+2025-03-12 19:48:53 --- 127.0.0.1 - - [12/Mar/2025 19:48:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 19:48:53 --- 127.0.0.1 - - [12/Mar/2025 19:48:53] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 19:59:10 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 19:59:10 --- 127.0.0.1 - - [12/Mar/2025 19:59:10] "GET / HTTP/1.1" 200 -
+2025-03-12 19:59:10 --- 127.0.0.1 - - [12/Mar/2025 19:59:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:07:08 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:07:08 --- 127.0.0.1 - - [12/Mar/2025 20:07:08] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:07:09 --- 127.0.0.1 - - [12/Mar/2025 20:07:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:07:09 --- 127.0.0.1 - - [12/Mar/2025 20:07:09] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:07:11 --- 127.0.0.1 - - [12/Mar/2025 20:07:11] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:08:42 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:08:43 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-12 20:08:43 --- 127.0.0.1 - - [12/Mar/2025 20:08:43] "[35m[1mGET /login/callback?state=LIzyBvxinjBUOIuCha7PJmgUpdonCW&code=4/0AQSTgQFwm1dUVVHq91Kwn2f0pAjP0PxyWgMssQB-MHLufhp8_0dOI0HQYXcxXnD0WBpSRw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 500 -
+2025-03-12 20:08:44 --- 127.0.0.1 - - [12/Mar/2025 20:08:44] "GET /login/callback?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-12 20:08:44 --- 127.0.0.1 - - [12/Mar/2025 20:08:44] "GET /login/callback?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-12 20:08:44 --- 127.0.0.1 - - [12/Mar/2025 20:08:44] "GET /login/callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-12 20:08:45 --- 127.0.0.1 - - [12/Mar/2025 20:08:45] "[36mGET /login/callback?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-12 20:10:04 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:10:04 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:10:04 --- Servidor desconectado
+2025-03-12 20:10:04 ---  * Restarting with stat
+2025-03-12 20:11:39 ---  * Restarting with stat
+2025-03-12 20:11:53 ---  * Restarting with stat
+2025-03-12 20:12:17 ---  * Restarting with stat
+2025-03-12 20:17:01 ---  * Restarting with stat
+2025-03-12 20:20:01 ---  * Restarting with stat
+2025-03-12 20:21:27 ---  * Restarting with stat
+2025-03-12 20:21:53 ---  * Restarting with stat
+2025-03-12 20:22:14 ---  * Restarting with stat
+2025-03-12 20:23:19 ---  * Restarting with stat
+2025-03-12 20:27:45 ---  * Restarting with stat

@@ -1,0 +1,32 @@
+2025-03-12 20:45:18 --- Archivo 2025-03-12 20.45.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.45.log
+2025-03-12 20:45:18 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-12 20:45:18 --- [33mPress CTRL+C to quit[0m
+2025-03-12 20:45:18 ---  * Restarting with stat
+2025-03-12 20:45:20 --- Archivo 2025-03-12 20.45.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.45.log
+2025-03-12 20:45:20 ---  * Debugger is active!
+2025-03-12 20:45:20 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:45:25 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:45:25 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:45:25 --- 127.0.0.1 - - [12/Mar/2025 20:45:25] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:45:25 --- 127.0.0.1 - - [12/Mar/2025 20:45:25] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:45:26 --- 127.0.0.1 - - [12/Mar/2025 20:45:26] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:45:26 --- 127.0.0.1 - - [12/Mar/2025 20:45:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:45:27 --- 127.0.0.1 - - [12/Mar/2025 20:45:27] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-12 20:45:28 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:45:28 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-12 20:45:28 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-12 20:45:28 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 742
+2025-03-12 20:45:29 --- 127.0.0.1 - - [12/Mar/2025 20:45:29] "[31m[1mGET /login/callback?state=XZ0QtlPO7vslCP7jNK0TNkSgxBBrt9&code=4/0AQSTgQEdKATPLEvSgrrYLfyKBS0oCb78xtMekWT_jBsVg1VeovEHfbZtCYGD12W1nKf7Xg&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 400 -
+2025-03-12 20:47:37 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:47:37 --- 127.0.0.1 - - [12/Mar/2025 20:47:37] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:47:38 --- 127.0.0.1 - - [12/Mar/2025 20:47:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:47:38 --- 127.0.0.1 - - [12/Mar/2025 20:47:38] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:47:39 --- 127.0.0.1 - - [12/Mar/2025 20:47:39] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-12 20:47:40 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-12 20:47:40 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-12 20:47:40 --- 127.0.0.1 - - [12/Mar/2025 20:47:40] "[31m[1mGET /login/callback?state=tYiXWXjKmfdiuUvl65RRzdIeGhphoo&code=4/0AQSTgQH7Bzs6npktoTmJ4HBxHTYQIthA8knWV1zTDoHVhIlZsZ1lWyfosfXYNF0QyHFrSw&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 400 -
+2025-03-12 20:47:41 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:47:41 --- Servidor desconectado
+2025-03-12 20:47:41 ---  * Restarting with stat
+2025-03-12 20:47:44 --- Servidor desconectado

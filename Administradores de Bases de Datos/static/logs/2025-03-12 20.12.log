@@ -1,0 +1,38 @@
+2025-03-12 20:12:20 --- Archivo 2025-03-12 20.12.log creado con éxito en C:\Users\angel\OneDrive\Escritorio\Tareas\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-12 20.12.log
+2025-03-12 20:12:20 ---  * Debugger is active!
+2025-03-12 20:12:20 ---  * Debugger PIN: 827-411-152
+2025-03-12 20:12:26 --- 127.0.0.1 - - [12/Mar/2025 20:12:26] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:12:26 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:12:26 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:12:26 --- 127.0.0.1 - - [12/Mar/2025 20:12:26] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:12:26 --- 127.0.0.1 - - [12/Mar/2025 20:12:26] "GET / HTTP/1.1" 200 -
+2025-03-12 20:12:27 --- 127.0.0.1 - - [12/Mar/2025 20:12:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:12:27 --- 127.0.0.1 - - [12/Mar/2025 20:12:27] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:12:28 --- 127.0.0.1 - - [12/Mar/2025 20:12:28] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:12:36 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:12:36 --- 127.0.0.1 - - [12/Mar/2025 20:12:36] "GET / HTTP/1.1" 200 -
+2025-03-12 20:12:36 --- 127.0.0.1 - - [12/Mar/2025 20:12:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:12:37 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:12:37 --- 127.0.0.1 - - [12/Mar/2025 20:12:37] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:12:38 --- 127.0.0.1 - - [12/Mar/2025 20:12:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:12:38 --- 127.0.0.1 - - [12/Mar/2025 20:12:38] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:12:39 --- 127.0.0.1 - - [12/Mar/2025 20:12:39] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:15:17 --- 127.0.0.1 - - [12/Mar/2025 20:15:17] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:15:25 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:15:25 --- 127.0.0.1 - - [12/Mar/2025 20:15:25] "GET / HTTP/1.1" 200 -
+2025-03-12 20:15:26 --- 127.0.0.1 - - [12/Mar/2025 20:15:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:15:26 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:15:26 --- 127.0.0.1 - - [12/Mar/2025 20:15:26] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:15:27 --- 127.0.0.1 - - [12/Mar/2025 20:15:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:15:27 --- 127.0.0.1 - - [12/Mar/2025 20:15:27] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:15:28 --- 127.0.0.1 - - [12/Mar/2025 20:15:28] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:16:56 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-12 20:16:56 --- 127.0.0.1 - - [12/Mar/2025 20:16:56] "GET / HTTP/1.1" 200 -
+2025-03-12 20:16:56 --- 127.0.0.1 - - [12/Mar/2025 20:16:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:16:57 --- Se abrió la página de Inicio de Sesión desde: 127.0.0.1
+2025-03-12 20:16:57 --- 127.0.0.1 - - [12/Mar/2025 20:16:57] "GET /login HTTP/1.1" 200 -
+2025-03-12 20:16:57 --- 127.0.0.1 - - [12/Mar/2025 20:16:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-12 20:16:57 --- 127.0.0.1 - - [12/Mar/2025 20:16:57] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-12 20:16:58 --- 127.0.0.1 - - [12/Mar/2025 20:16:58] "[32mGET /login/OAuth HTTP/1.1[0m" 302 -
+2025-03-12 20:17:01 ---  * Detected change in 'C:\\Users\\angel\\OneDrive\\Escritorio\\Tareas\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-12 20:17:01 --- Servidor desconectado

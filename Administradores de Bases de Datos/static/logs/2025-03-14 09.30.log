@@ -1,0 +1,44 @@
+2025-03-14 09:30:01 --- Archivo 2025-03-14 09.30.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-14 09.30.log
+2025-03-14 09:30:01 ---  * Debugger is active!
+2025-03-14 09:30:01 ---  * Debugger PIN: 827-411-152
+2025-03-14 09:30:39 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:30:40 --- 127.0.0.1 - - [14/Mar/2025 09:30:40] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:30:40 --- 127.0.0.1 - - [14/Mar/2025 09:30:40] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:30:40 --- 127.0.0.1 - - [14/Mar/2025 09:30:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:30:40 --- 127.0.0.1 - - [14/Mar/2025 09:30:40] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:31:07 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:31:07 --- 127.0.0.1 - - [14/Mar/2025 09:31:07] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:31:08 --- 127.0.0.1 - - [14/Mar/2025 09:31:08] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:31:08 --- 127.0.0.1 - - [14/Mar/2025 09:31:08] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:31:30 --- 127.0.0.1 - - [14/Mar/2025 09:31:30] "GET /login HTTP/1.1" 200 -
+2025-03-14 09:31:30 --- 127.0.0.1 - - [14/Mar/2025 09:31:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:31:30 --- 127.0.0.1 - - [14/Mar/2025 09:31:30] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-14 09:31:32 --- 127.0.0.1 - - [14/Mar/2025 09:31:32] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-14 09:31:40 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-14 09:31:40 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-14 09:31:40 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-14 09:31:41 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 1047
+2025-03-14 09:31:41 --- 127.0.0.1 - - [14/Mar/2025 09:31:41] "[32mGET /login/callback?state=ZYxe6xTm1iSs7u3HNjwK2YycXEVLPH&code=4/0AQSTgQFoaZb2IJBvef3fd5zOA5xfS8lEfv0YEOg1FbcIHLlV-Vq-KWWVM-RxIco0bYjKAQ&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-14 09:31:41 --- 127.0.0.1 - - [14/Mar/2025 09:31:41] "GET /login/complete HTTP/1.1" 200 -
+2025-03-14 09:31:42 --- 127.0.0.1 - - [14/Mar/2025 09:31:42] "[33mGET /static/style/styles.css HTTP/1.1[0m" 404 -
+2025-03-14 09:31:54 --- Se completó el registro de {user.het('email')} desde: 127.0.0.1
+2025-03-14 09:31:54 --- 127.0.0.1 - - [14/Mar/2025 09:31:54] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-14 09:31:54 --- 127.0.0.1 - - [14/Mar/2025 09:31:54] "GET /profile HTTP/1.1" 200 -
+2025-03-14 09:31:54 --- 127.0.0.1 - - [14/Mar/2025 09:31:54] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:31:59 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:31:59 --- 127.0.0.1 - - [14/Mar/2025 09:31:59] "GET /contact HTTP/1.1" 200 -
+2025-03-14 09:31:59 --- 127.0.0.1 - - [14/Mar/2025 09:31:59] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:32:01 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-14 09:32:01 --- 127.0.0.1 - - [14/Mar/2025 09:32:01] "GET / HTTP/1.1" 200 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/images/queso.png HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/images/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "GET /products HTTP/1.1" 200 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-14 09:32:02 --- 127.0.0.1 - - [14/Mar/2025 09:32:02] "[36mGET /static/images/leche.png HTTP/1.1[0m" 304 -
+2025-03-14 09:32:45 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-14 09:32:45 --- Servidor desconectado

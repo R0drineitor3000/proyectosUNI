@@ -1,0 +1,39 @@
+2025-03-13 10:43:13 --- Archivo 2025-03-13 10.43.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 10.43.log
+2025-03-13 10:43:13 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-13 10:43:13 --- [33mPress CTRL+C to quit[0m
+2025-03-13 10:43:13 ---  * Restarting with stat
+2025-03-13 10:43:15 --- Archivo 2025-03-13 10.43.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 10.43.log
+2025-03-13 10:43:15 ---  * Debugger is active!
+2025-03-13 10:43:15 ---  * Debugger PIN: 827-411-152
+2025-03-13 10:51:28 --- 127.0.0.1 - - [13/Mar/2025 10:51:28] "GET /login HTTP/1.1" 200 -
+2025-03-13 10:51:29 --- 127.0.0.1 - - [13/Mar/2025 10:51:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:51:29 --- 127.0.0.1 - - [13/Mar/2025 10:51:29] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 10:51:30 --- 127.0.0.1 - - [13/Mar/2025 10:51:30] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-13 10:51:31 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-13 10:51:31 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-13 10:51:31 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-13 10:51:31 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 743
+2025-03-13 10:51:32 --- 127.0.0.1 - - [13/Mar/2025 10:51:32] "[32mGET /login/callback?state=UDBFpf7JWZi0mnZDkFFJBg3f0ZkPIz&code=4/0AQSTgQF0wHS-PmR2o01wY41gRUf7N4kJrVet6jEQo19LI0R-wq-02cDDPdGfDNy9sgYmZQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-13 10:51:32 --- 127.0.0.1 - - [13/Mar/2025 10:51:32] "GET /login/complete HTTP/1.1" 200 -
+2025-03-13 10:51:32 --- 127.0.0.1 - - [13/Mar/2025 10:51:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 10:55:35 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\accounts.py', reloading
+2025-03-13 10:55:35 --- Servidor desconectado
+2025-03-13 10:55:36 ---  * Restarting with stat
+2025-03-13 10:56:26 ---  * Restarting with stat
+2025-03-13 10:56:48 ---  * Restarting with stat
+2025-03-13 10:57:36 ---  * Restarting with stat
+2025-03-13 10:59:26 ---  * Restarting with stat
+2025-03-13 11:00:32 ---  * Restarting with stat
+2025-03-13 11:01:28 ---  * Restarting with stat
+2025-03-13 11:02:14 ---  * Restarting with stat
+2025-03-13 11:02:26 ---  * Restarting with stat
+2025-03-13 11:02:53 ---  * Restarting with stat
+2025-03-13 11:03:11 ---  * Restarting with stat
+2025-03-13 11:03:25 ---  * Restarting with stat
+2025-03-13 11:03:57 ---  * Restarting with stat
+2025-03-13 11:05:09 ---  * Restarting with stat
+2025-03-13 11:05:52 ---  * Restarting with stat
+2025-03-13 11:07:16 ---  * Restarting with stat
+2025-03-13 11:13:25 ---  * Restarting with stat
+2025-03-13 11:13:25 --- Servidor desconectado

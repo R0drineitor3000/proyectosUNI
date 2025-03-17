@@ -1,0 +1,19 @@
+2025-03-13 12:27:06 --- Archivo 2025-03-13 12.27.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-13 12.27.log
+2025-03-13 12:27:06 ---  * Debugger is active!
+2025-03-13 12:27:06 ---  * Debugger PIN: 827-411-152
+2025-03-13 12:30:13 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-13 12:30:13 --- 127.0.0.1 - - [13/Mar/2025 12:30:13] "GET /signin HTTP/1.1" 200 -
+2025-03-13 12:30:13 --- 127.0.0.1 - - [13/Mar/2025 12:30:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 12:30:14 --- 127.0.0.1 - - [13/Mar/2025 12:30:14] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 12:30:29 --- No se pudo crear el usuario
+2025-03-13 12:30:29 --- 127.0.0.1 - - [13/Mar/2025 12:30:29] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-13 12:30:30 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-13 12:30:30 --- 127.0.0.1 - - [13/Mar/2025 12:30:30] "GET /signin?error=Email+or+username+already+taken HTTP/1.1" 200 -
+2025-03-13 12:30:30 --- 127.0.0.1 - - [13/Mar/2025 12:30:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 12:30:30 --- 127.0.0.1 - - [13/Mar/2025 12:30:30] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 12:30:44 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-13 12:30:44 --- 127.0.0.1 - - [13/Mar/2025 12:30:44] "GET /signin?error=Email+or+username+already+taken HTTP/1.1" 200 -
+2025-03-13 12:30:44 --- 127.0.0.1 - - [13/Mar/2025 12:30:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-13 12:30:44 --- 127.0.0.1 - - [13/Mar/2025 12:30:44] "[36mGET /static/images/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-13 12:32:00 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-13 12:32:00 --- Servidor desconectado
