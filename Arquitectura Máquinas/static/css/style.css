@@ -1,0 +1,17 @@
+/* Mostrar el submenú solo cuando se pasa el mouse sobre la opción correspondiente */
+.nav-item .dropdown-menu .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+
+/* Evitar que todos los submenús se muestren cuando se pasa el mouse sobre un nav-item */
+.nav-item:hover > .dropdown-menu {
+    display: block;
+}
+
+/* Mantener la posición relativa del submenú */
+.dropdown-submenu {
+    position: relative;
+}
