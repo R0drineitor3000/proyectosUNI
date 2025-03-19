@@ -85,18 +85,18 @@
 		});
 	</script>
 	<script>
-		  
 		  {% with messages = get_flashed_messages(with_categories=true) %}
 			{% if messages %}
-			  {% for category, message in messages %}
-				{% if category == 'error' %}
-				  window.onload = function() {
-					alert("Error: {{ message }}");
-				  };
-				{% endif %}
-			  {% endfor %}
+				<div class="container mt-3">
+				{% for category, message in messages %}
+					<div class="alert alert-{{ 'danger' if category == 'error' else 'success' }} alert-dismissible fade show" role="alert">
+					<strong>{{ message }}</strong>
+					<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+					</div>
+				{% endfor %}
+				</div>
 			{% endif %}
-		  {% endwith %}
+			{% endwith %}
 	</script>
 </body>
 </html>

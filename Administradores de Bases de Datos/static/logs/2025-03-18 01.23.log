@@ -1,0 +1,41 @@
+2025-03-18 01:23:19 --- Archivo 2025-03-18 01.23.log creado con éxito en /workspaces/arquitecturaMaquinas/Administradores de Bases de Datos/static/logs/2025-03-18 01.23.log
+2025-03-18 01:23:19 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-18 01:23:19 --- [33mPress CTRL+C to quit[0m
+2025-03-18 01:23:19 ---  * Restarting with stat
+2025-03-18 01:23:20 --- Archivo 2025-03-18 01.23.log creado con éxito en /workspaces/arquitecturaMaquinas/Administradores de Bases de Datos/static/logs/2025-03-18 01.23.log
+2025-03-18 01:23:20 ---  * Debugger is active!
+2025-03-18 01:23:20 ---  * Debugger PIN: 238-360-924
+2025-03-18 01:23:36 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-18 01:23:36 --- 127.0.0.1 - - [18/Mar/2025 01:23:36] "GET / HTTP/1.1" 200 -
+2025-03-18 01:23:37 --- 127.0.0.1 - - [18/Mar/2025 01:23:37] "GET /static/images/products/queso.png HTTP/1.1" 200 -
+2025-03-18 01:23:37 --- 127.0.0.1 - - [18/Mar/2025 01:23:37] "GET /static/images/products/crema-batida.png HTTP/1.1" 200 -
+2025-03-18 01:23:37 --- 127.0.0.1 - - [18/Mar/2025 01:23:37] "GET /static/styles/style.css HTTP/1.1" 200 -
+2025-03-18 01:23:37 --- 127.0.0.1 - - [18/Mar/2025 01:23:37] "GET /static/images/products/leche.png HTTP/1.1" 200 -
+2025-03-18 01:23:37 --- 127.0.0.1 - - [18/Mar/2025 01:23:37] "GET /static/styles/cards.css HTTP/1.1" 200 -
+2025-03-18 01:23:40 --- 127.0.0.1 - - [18/Mar/2025 01:23:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-18 01:23:52 --- 127.0.0.1 - - [18/Mar/2025 01:23:52] "GET /login HTTP/1.1" 200 -
+2025-03-18 01:23:52 --- 127.0.0.1 - - [18/Mar/2025 01:23:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-18 01:23:52 --- 127.0.0.1 - - [18/Mar/2025 01:23:52] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-03-18 01:23:55 --- 127.0.0.1 - - [18/Mar/2025 01:23:55] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-18 01:24:20 --- 127.0.0.1 - - [18/Mar/2025 01:24:20] "GET /login HTTP/1.1" 200 -
+2025-03-18 01:24:20 --- 127.0.0.1 - - [18/Mar/2025 01:24:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-18 01:24:20 --- 127.0.0.1 - - [18/Mar/2025 01:24:20] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-18 01:24:46 ---  * Detected change in '/workspaces/arquitecturaMaquinas/Administradores de Bases de Datos/app.py', reloading
+2025-03-18 01:24:46 --- Servidor desconectado
+2025-03-18 01:24:46 ---  * Restarting with stat
+2025-03-18 01:24:49 ---  * Restarting with stat
+2025-03-18 01:27:43 ---  * Restarting with stat
+2025-03-18 01:29:07 ---  * Restarting with stat
+2025-03-18 01:29:26 ---  * Restarting with stat
+2025-03-18 01:29:51 ---  * Restarting with stat
+2025-03-18 01:29:56 ---  * Restarting with stat
+2025-03-18 01:30:08 ---  * Restarting with stat
+2025-03-18 01:30:27 ---  * Restarting with stat
+2025-03-18 01:30:30 ---  * Restarting with stat
+2025-03-18 01:30:51 ---  * Restarting with stat
+2025-03-18 01:30:52 ---  * Restarting with stat
+2025-03-18 01:31:05 ---  * Restarting with stat
+2025-03-18 01:31:39 ---  * Restarting with stat
+2025-03-18 01:32:45 ---  * Restarting with stat
+2025-03-18 01:45:39 --- Servidor desconectado

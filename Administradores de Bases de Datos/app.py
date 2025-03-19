@@ -4,6 +4,7 @@ import secrets
 import secret
 import os
 import database
+from time import time
 from flask import Flask, render_template, request, session, redirect, url_for, flash
 from werkzeug.security import generate_password_hash, check_password_hash
 from werkzeug.utils import secure_filename
@@ -12,6 +13,9 @@ from authlib.integrations.flask_client import OAuth
 app = Flask(__name__)
 app.secret_key = secret.decrypt("app_secret")
 oauth = OAuth(app)
+
+MAX_LOGIN_ATTEMPTS = 3
+LOCKOUT_TIME = 60  # Segundos de bloqueo (ejemplo: 1 minuto)
 
 # Configuración de OAuth para Google
 google = oauth.register(
@@ -162,7 +166,22 @@ def login():
             return redirect(url_for('home'))
         else:
             password = None
-            return "Credenciales incorrectas", 401
+            if 'attempts' not in session:
+                session['attempts'] = 0
+                session['lockout_time'] = None
+
+            # Verifica si el tiempo de bloqueo ha pasado
+            if session['lockout_time'] and time() < session['lockout_time']:
+                return "Has excedido el número de intentos, por favor espera un momento."
+
+            session['attempts'] += 1
+
+            if session['attempts'] >= MAX_LOGIN_ATTEMPTS:
+                session['lockout_time'] = time() + LOCKOUT_TIME  # Bloqueo por un minuto
+                flash("Has excedido el número máximo de intentos. Intenta más tarde.", error)
+                return redirect(url_for('home'))
+            flash("Error 401: Credenciales incorrectas", error)
+            return redirect(url_for('login'))
     return render_template('login.html')
 
 @app.route('/login/oauth')
