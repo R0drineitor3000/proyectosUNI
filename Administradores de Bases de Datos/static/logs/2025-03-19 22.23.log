@@ -1,0 +1,92 @@
+2025-03-19 22:23:57 --- Archivo 2025-03-19 22.23.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 22.23.log
+2025-03-19 22:23:57 ---  * Debugger is active!
+2025-03-19 22:23:58 ---  * Debugger PIN: 827-411-152
+2025-03-19 22:24:55 --- 127.0.0.1 - - [19/Mar/2025 22:24:55] "GET /login HTTP/1.1" 200 -
+2025-03-19 22:24:56 --- 127.0.0.1 - - [19/Mar/2025 22:24:56] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:24:56 --- 127.0.0.1 - - [19/Mar/2025 22:24:56] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 22:24:57 --- 127.0.0.1 - - [19/Mar/2025 22:24:57] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-19 22:25:13 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-19 22:25:14 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-19 22:25:14 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-19 22:25:14 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 742
+2025-03-19 22:25:14 --- 127.0.0.1 - - [19/Mar/2025 22:25:14] "[32mGET /login/callback?state=khtYytUJ82BJI6yWFLMLl4Rsj13dE2&code=4/0AQSTgQEXtXMuRRigk2Y9_4yuCPzmjW90I6L9oGntrIYpknojetq0VzcxhCuD-9Sc6Z0cUw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-19 22:25:15 --- 127.0.0.1 - - [19/Mar/2025 22:25:15] "GET /login/complete HTTP/1.1" 200 -
+2025-03-19 22:25:15 --- 127.0.0.1 - - [19/Mar/2025 22:25:15] "[33mGET /static/style/styles.css HTTP/1.1[0m" 404 -
+2025-03-19 22:25:28 --- Se completó el registro de {user.het('email')} desde: 127.0.0.1
+2025-03-19 22:25:28 --- 127.0.0.1 - - [19/Mar/2025 22:25:28] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-19 22:25:29 --- Se abrió la página del Perfil de Finca los Castillo desde: 127.0.0.1
+2025-03-19 22:25:29 --- 127.0.0.1 - - [19/Mar/2025 22:25:29] "GET /profile HTTP/1.1" 200 -
+2025-03-19 22:25:29 --- 127.0.0.1 - - [19/Mar/2025 22:25:29] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:26:18 --- 127.0.0.1: Finca los Castillo ha cerrado sesión
+2025-03-19 22:26:18 --- 127.0.0.1 - - [19/Mar/2025 22:26:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-19 22:26:18 --- 127.0.0.1 - - [19/Mar/2025 22:26:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-19 22:26:18 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 22:26:18 --- 127.0.0.1 - - [19/Mar/2025 22:26:18] "GET / HTTP/1.1" 200 -
+2025-03-19 22:26:18 --- 127.0.0.1 - - [19/Mar/2025 22:26:18] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:26:19 --- 127.0.0.1 - - [19/Mar/2025 22:26:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:26:19 --- 127.0.0.1 - - [19/Mar/2025 22:26:19] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 22:26:19 --- 127.0.0.1 - - [19/Mar/2025 22:26:19] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 22:26:19 --- 127.0.0.1 - - [19/Mar/2025 22:26:19] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 22:26:19 --- 127.0.0.1 - - [19/Mar/2025 22:26:19] "GET /login HTTP/1.1" 200 -
+2025-03-19 22:26:20 --- 127.0.0.1 - - [19/Mar/2025 22:26:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:26:20 --- 127.0.0.1 - - [19/Mar/2025 22:26:20] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 22:26:21 --- 127.0.0.1 - - [19/Mar/2025 22:26:21] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-19 22:26:21 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-19 22:26:22 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-19 22:26:22 --- 127.0.0.1 - - [19/Mar/2025 22:26:22] "[32mGET /login/callback?state=yRB0r6GFUJrVOxBlyslOgyKOr3dG1F&code=4/0AQSTgQFgBxCPhxRE7b6LroK6JTmsoyn0lGaegRUFmINJlwnw-8kUo0js1eDCDWtwvQrRXQ&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-19 22:26:22 --- 127.0.0.1 - - [19/Mar/2025 22:26:22] "GET /login/complete HTTP/1.1" 200 -
+2025-03-19 22:26:22 --- 127.0.0.1 - - [19/Mar/2025 22:26:22] "[33mGET /static/style/styles.css HTTP/1.1[0m" 404 -
+2025-03-19 22:26:35 --- 127.0.0.1 - - [19/Mar/2025 22:26:35] "GET /login HTTP/1.1" 200 -
+2025-03-19 22:26:35 --- 127.0.0.1 - - [19/Mar/2025 22:26:35] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 22:26:35 --- 127.0.0.1 - - [19/Mar/2025 22:26:35] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:26:36 --- 127.0.0.1 - - [19/Mar/2025 22:26:36] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-19 22:30:29 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-19 22:30:29 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-19 22:30:29 --- 127.0.0.1 - - [19/Mar/2025 22:30:29] "[32mGET /login/callback?state=CL40AKWZPLI4OjnCSPyFmLdlsMgxgh&code=4/0AQSTgQGgWTcgQGpq1cI93yQFB6t1IPGvEdepomsoQLRRJ_pZNJd1gBWO1QhQDoOKDhA3uw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-19 22:30:29 --- 127.0.0.1 - - [19/Mar/2025 22:30:29] "GET /login/complete HTTP/1.1" 200 -
+2025-03-19 22:30:30 --- 127.0.0.1 - - [19/Mar/2025 22:30:30] "[33mGET /static/style/styles.css HTTP/1.1[0m" 404 -
+2025-03-19 22:30:43 --- Se completó el registro de {user.het('email')} desde: 127.0.0.1
+2025-03-19 22:30:43 --- 127.0.0.1 - - [19/Mar/2025 22:30:43] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-19 22:30:44 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-19 22:30:44 --- 127.0.0.1 - - [19/Mar/2025 22:30:44] "GET /profile HTTP/1.1" 200 -
+2025-03-19 22:30:44 --- 127.0.0.1 - - [19/Mar/2025 22:30:44] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:30:48 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-19 22:30:48 --- 127.0.0.1 - - [19/Mar/2025 22:30:48] "GET /products HTTP/1.1" 200 -
+2025-03-19 22:30:49 --- 127.0.0.1 - - [19/Mar/2025 22:30:49] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:30:49 --- 127.0.0.1 - - [19/Mar/2025 22:30:49] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:30:49 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-19 22:30:49 --- 127.0.0.1 - - [19/Mar/2025 22:30:49] "GET /contact HTTP/1.1" 200 -
+2025-03-19 22:30:50 --- 127.0.0.1 - - [19/Mar/2025 22:30:50] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:30:51 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-19 22:30:51 --- 127.0.0.1 - - [19/Mar/2025 22:30:51] "GET /products HTTP/1.1" 200 -
+2025-03-19 22:30:51 --- 127.0.0.1 - - [19/Mar/2025 22:30:51] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:30:51 --- 127.0.0.1 - - [19/Mar/2025 22:30:51] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:16 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-19 22:31:16 --- 127.0.0.1 - - [19/Mar/2025 22:31:16] "GET /products HTTP/1.1" 200 -
+2025-03-19 22:31:16 --- 127.0.0.1 - - [19/Mar/2025 22:31:16] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:16 --- 127.0.0.1 - - [19/Mar/2025 22:31:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:18 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-19 22:31:18 --- 127.0.0.1 - - [19/Mar/2025 22:31:18] "GET /upload HTTP/1.1" 200 -
+2025-03-19 22:31:18 --- 127.0.0.1 - - [19/Mar/2025 22:31:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:27 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 22:31:27 --- 127.0.0.1 - - [19/Mar/2025 22:31:27] "GET / HTTP/1.1" 200 -
+2025-03-19 22:31:27 --- 127.0.0.1 - - [19/Mar/2025 22:31:27] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:27 --- 127.0.0.1 - - [19/Mar/2025 22:31:27] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:27 --- 127.0.0.1 - - [19/Mar/2025 22:31:27] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 22:31:27 --- 127.0.0.1 - - [19/Mar/2025 22:31:27] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 22:31:27 --- 127.0.0.1 - - [19/Mar/2025 22:31:27] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 22:31:51 --- 127.0.0.1: MilkManager ha cerrado sesión
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-19 22:31:51 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "GET / HTTP/1.1" 200 -
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 22:31:51 --- 127.0.0.1 - - [19/Mar/2025 22:31:51] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 22:31:52 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-19 22:31:52 --- 127.0.0.1 - - [19/Mar/2025 22:31:52] "GET /signin HTTP/1.1" 200 -
+2025-03-19 22:31:52 --- 127.0.0.1 - - [19/Mar/2025 22:31:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:31:52 --- 127.0.0.1 - - [19/Mar/2025 22:31:52] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 22:32:59 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 22:32:59 --- Servidor desconectado

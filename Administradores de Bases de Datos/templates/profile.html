@@ -1,8 +1,41 @@
 {% extends "base.html" %}
 
-{% block title %}Mi perfil{% endblock %}
+{% block title %}Perfil{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/cards_profile.css">{% endblock %} <!--Estilo para las "cajitas" de cada usuario-->
 
 {% block content %}
-Mi perfil
-Datos debug: {{user}}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h3>Perfil de {{ profile.username }}</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Imagen de perfil -->
+                        <div class="col-md-4 text-center">
+							{% if profile.picture %}
+									<img src="{{ url_for('static', filename='images' + profile.picture) }}" class="card-img-top" alt="{{ profile.username }}">
+								{% else %}
+									<img src="{{ url_for('static', filename='images/web/leche.png') }}" class="card-img-top" alt="{{ profile.username }}">
+								{% endif %}
+                        </div>
+
+                        <!-- Detalles del perfil -->
+                        <div class="col-md-8">
+                            <h4>{{ profile.username }}</h4>
+                            <p><strong>Email:</strong> {{ profile.email }}</p>
+                            <p><strong>Rol:</strong> {{ profile.role }}</p>
+                            {% if profile.biography %}
+								<p><strong>Biografía:</strong></p>
+								<p>{{ profile.biography }}</p>
+							{% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}

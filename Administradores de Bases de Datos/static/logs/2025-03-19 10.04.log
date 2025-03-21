@@ -1,0 +1,28 @@
+2025-03-19 10:04:48 --- Archivo 2025-03-19 10.04.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 10.04.log
+2025-03-19 10:04:48 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 10:04:48 --- [33mPress CTRL+C to quit[0m
+2025-03-19 10:04:48 ---  * Restarting with stat
+2025-03-19 10:04:51 --- Archivo 2025-03-19 10.04.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 10.04.log
+2025-03-19 10:04:51 ---  * Debugger is active!
+2025-03-19 10:04:51 ---  * Debugger PIN: 827-411-152
+2025-03-19 10:06:26 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 10:06:26 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 10:06:26 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 10:06:26 --- 127.0.0.1 - - [19/Mar/2025 10:06:26] "GET / HTTP/1.1" 200 -
+2025-03-19 10:06:26 --- 127.0.0.1 - - [19/Mar/2025 10:06:26] "GET / HTTP/1.1" 200 -
+2025-03-19 10:06:26 --- 127.0.0.1 - - [19/Mar/2025 10:06:26] "GET / HTTP/1.1" 200 -
+2025-03-19 10:06:27 --- 127.0.0.1 - - [19/Mar/2025 10:06:27] "GET /static/styles/style.css HTTP/1.1" 200 -
+2025-03-19 10:06:27 --- 127.0.0.1 - - [19/Mar/2025 10:06:27] "GET /static/styles/cards.css HTTP/1.1" 200 -
+2025-03-19 10:06:27 --- 127.0.0.1 - - [19/Mar/2025 10:06:27] "GET /static/images/products/leche.png HTTP/1.1" 200 -
+2025-03-19 10:06:27 --- 127.0.0.1 - - [19/Mar/2025 10:06:27] "GET /static/images/products/crema-batida.png HTTP/1.1" 200 -
+2025-03-19 10:06:27 --- 127.0.0.1 - - [19/Mar/2025 10:06:27] "GET /static/images/products/queso.png HTTP/1.1" 200 -
+2025-03-19 10:06:28 --- 127.0.0.1 - - [19/Mar/2025 10:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 10:07:30 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 10:07:30 --- Servidor desconectado
+2025-03-19 10:07:30 ---  * Restarting with stat
+2025-03-19 10:12:11 ---  * Restarting with stat
+2025-03-19 10:13:40 ---  * Restarting with stat
+2025-03-19 10:14:20 ---  * Restarting with stat
+2025-03-19 10:15:18 ---  * Restarting with stat
+2025-03-19 10:17:13 ---  * Restarting with stat

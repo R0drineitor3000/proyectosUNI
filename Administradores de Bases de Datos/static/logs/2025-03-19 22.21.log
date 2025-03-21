@@ -1,0 +1,29 @@
+2025-03-19 22:21:52 --- Archivo 2025-03-19 22.21.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 22.21.log
+2025-03-19 22:21:52 ---  * Debugger is active!
+2025-03-19 22:21:52 ---  * Debugger PIN: 827-411-152
+2025-03-19 22:21:58 --- Correo enviado a r0drigos3villa3@gmail.com con el código de autenticación
+2025-03-19 22:21:58 --- 127.0.0.1 - - [19/Mar/2025 22:21:58] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-19 22:21:59 --- 127.0.0.1 - - [19/Mar/2025 22:21:59] "GET /signin/confirm HTTP/1.1" 200 -
+2025-03-19 22:21:59 --- 127.0.0.1 - - [19/Mar/2025 22:21:59] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:15 --- 127.0.0.1 - - [19/Mar/2025 22:22:15] "POST /signin/confirm HTTP/1.1" 200 -
+2025-03-19 22:22:16 --- 127.0.0.1 - - [19/Mar/2025 22:22:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:37 --- 127.0.0.1 - - [19/Mar/2025 22:22:37] "POST /signin/confirm HTTP/1.1" 200 -
+2025-03-19 22:22:38 --- 127.0.0.1 - - [19/Mar/2025 22:22:38] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:45 --- Se creo un usuario con los siguientes datos: {'email': 'r0drigos3villa3@gmail.com', 'password': 'scrypt:32768:8:1$BttvZlAvfsg8mJID$576cad3404c3eb3d210b7eb5a4ae6fcbe5c1e424c90a11f0b630249a86ff2caddece46cc9ab0e9c19ac293ce60bd065cf873690b775ce57d8e5b4bdb34851101', 'username': 'Rodrigo'}
+2025-03-19 22:22:45 --- 127.0.0.1 - - [19/Mar/2025 22:22:45] "[32mPOST /signin/confirm HTTP/1.1[0m" 302 -
+2025-03-19 22:22:46 --- Se abrió la página del Perfil de Rodrigo desde: 127.0.0.1
+2025-03-19 22:22:46 --- 127.0.0.1 - - [19/Mar/2025 22:22:46] "GET /profile HTTP/1.1" 200 -
+2025-03-19 22:22:46 --- 127.0.0.1 - - [19/Mar/2025 22:22:46] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:50 --- 127.0.0.1 - - [19/Mar/2025 22:22:50] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-19 22:22:50 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 22:22:50 --- 127.0.0.1 - - [19/Mar/2025 22:22:50] "GET / HTTP/1.1" 200 -
+2025-03-19 22:22:51 --- 127.0.0.1 - - [19/Mar/2025 22:22:51] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:51 --- 127.0.0.1 - - [19/Mar/2025 22:22:51] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:51 --- 127.0.0.1 - - [19/Mar/2025 22:22:51] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 22:22:51 --- 127.0.0.1 - - [19/Mar/2025 22:22:51] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 22:22:51 --- 127.0.0.1 - - [19/Mar/2025 22:22:51] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 22:22:52 --- 127.0.0.1 - - [19/Mar/2025 22:22:52] "GET /login HTTP/1.1" 200 -
+2025-03-19 22:22:53 --- 127.0.0.1 - - [19/Mar/2025 22:22:53] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:22:53 --- 127.0.0.1 - - [19/Mar/2025 22:22:53] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 22:23:55 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 22:23:55 --- Servidor desconectado

@@ -1,0 +1,41 @@
+2025-03-19 23:59:09 --- Archivo 2025-03-19 23.59.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 23.59.log
+2025-03-19 23:59:09 ---  * Debugger is active!
+2025-03-19 23:59:09 ---  * Debugger PIN: 827-411-152
+2025-03-19 23:59:15 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-19 23:59:15 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-19 23:59:15 --- 127.0.0.1 - - [19/Mar/2025 23:59:15] "GET /profile HTTP/1.1" 200 -
+2025-03-19 23:59:15 --- 127.0.0.1 - - [19/Mar/2025 23:59:15] "GET /profile HTTP/1.1" 200 -
+2025-03-19 23:59:16 --- 127.0.0.1 - - [19/Mar/2025 23:59:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 23:59:44 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 23:59:44 --- Servidor desconectado
+2025-03-19 23:59:48 --- Archivo 2025-03-19 23.59.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 23.59.log
+2025-03-19 23:59:48 ---  * Debugger is active!
+2025-03-19 23:59:48 ---  * Debugger PIN: 827-411-152
+2025-03-20 00:00:10 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:00:10 --- 127.0.0.1 - - [20/Mar/2025 00:00:10] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:00:11 --- 127.0.0.1 - - [20/Mar/2025 00:00:11] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:00:22 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:00:23 --- 127.0.0.1 - - [20/Mar/2025 00:00:23] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:00:23 --- 127.0.0.1 - - [20/Mar/2025 00:00:23] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:00:24 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:00:24 --- 127.0.0.1 - - [20/Mar/2025 00:00:24] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:00:24 --- 127.0.0.1 - - [20/Mar/2025 00:00:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:00:34 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:00:34 --- 127.0.0.1 - - [20/Mar/2025 00:00:34] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:00:35 --- 127.0.0.1 - - [20/Mar/2025 00:00:35] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:00:37 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:00:37 --- 127.0.0.1 - - [20/Mar/2025 00:00:37] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:00:37 --- 127.0.0.1 - - [20/Mar/2025 00:00:37] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:00:49 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:00:49 --- 127.0.0.1 - - [20/Mar/2025 00:00:49] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:00:49 --- 127.0.0.1 - - [20/Mar/2025 00:00:49] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:01:01 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:01:01 --- 127.0.0.1 - - [20/Mar/2025 00:01:01] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:01:01 --- 127.0.0.1 - - [20/Mar/2025 00:01:01] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:01:04 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:01:04 --- 127.0.0.1 - - [20/Mar/2025 00:01:04] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2025-03-20 00:01:05 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:01:05 --- 127.0.0.1 - - [20/Mar/2025 00:01:05] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:01:05 --- 127.0.0.1 - - [20/Mar/2025 00:01:05] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:03:33 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-20 00:03:33 --- Servidor desconectado

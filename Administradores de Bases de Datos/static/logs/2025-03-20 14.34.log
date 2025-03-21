@@ -1,0 +1,57 @@
+2025-03-20 14:34:35 --- Archivo 2025-03-20 14.34.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 14.34.log
+2025-03-20 14:34:35 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 14:34:35 --- [33mPress CTRL+C to quit[0m
+2025-03-20 14:34:35 ---  * Restarting with stat
+2025-03-20 14:34:36 --- Archivo 2025-03-20 14.34.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 14.34.log
+2025-03-20 14:34:36 ---  * Debugger is active!
+2025-03-20 14:34:36 ---  * Debugger PIN: 708-852-129
+2025-03-20 14:34:38 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 14:34:38 --- 127.0.0.1 - - [20/Mar/2025 14:34:38] "GET / HTTP/1.1" 200 -
+2025-03-20 14:34:39 --- 127.0.0.1 - - [20/Mar/2025 14:34:39] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-20 14:34:39 --- 127.0.0.1 - - [20/Mar/2025 14:34:39] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-20 14:34:39 --- 127.0.0.1 - - [20/Mar/2025 14:34:39] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:34:39 --- 127.0.0.1 - - [20/Mar/2025 14:34:39] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-20 14:34:39 --- 127.0.0.1 - - [20/Mar/2025 14:34:39] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-20 14:34:40 --- 127.0.0.1 - - [20/Mar/2025 14:34:40] "GET /login HTTP/1.1" 200 -
+2025-03-20 14:34:40 --- 127.0.0.1 - - [20/Mar/2025 14:34:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:34:40 --- 127.0.0.1 - - [20/Mar/2025 14:34:40] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-03-20 14:34:41 --- 127.0.0.1 - - [20/Mar/2025 14:34:41] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-20 14:36:17 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-20 14:36:18 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-20 14:36:18 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-20 14:36:18 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 742
+2025-03-20 14:36:18 --- 127.0.0.1 - - [20/Mar/2025 14:36:18] "[32mGET /login/callback?state=kheYMVsOpmZSgHqtBL6MQtQzyW1JmQ&code=4/0AQSTgQHFVSQUNtI9CMQb1Rrky4hlW9Y2mXGvLIkEv8_lSZobyyGOvTu1sUnxWBhR8GVgmg&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-20 14:36:18 --- 127.0.0.1 - - [20/Mar/2025 14:36:18] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-03-20 14:36:19 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 14:36:19 --- 127.0.0.1 - - [20/Mar/2025 14:36:19] "GET /myprofile HTTP/1.1" 200 -
+2025-03-20 14:36:19 --- 127.0.0.1 - - [20/Mar/2025 14:36:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:36:19 --- 127.0.0.1 - - [20/Mar/2025 14:36:19] "GET /static/images/users/user_1.jpg HTTP/1.1" 200 -
+2025-03-20 14:36:28 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 14:36:28 --- 127.0.0.1 - - [20/Mar/2025 14:36:28] "GET /myprofile HTTP/1.1" 200 -
+2025-03-20 14:36:28 --- 127.0.0.1 - - [20/Mar/2025 14:36:28] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 14:36:28 --- 127.0.0.1 - - [20/Mar/2025 14:36:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:36:29 --- Se abrió la página de perfiles desde: 127.0.0.1
+2025-03-20 14:36:30 --- 127.0.0.1 - - [20/Mar/2025 14:36:30] "POST /profiles HTTP/1.1" 200 -
+2025-03-20 14:36:30 --- 127.0.0.1 - - [20/Mar/2025 14:36:30] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 14:36:30 --- 127.0.0.1 - - [20/Mar/2025 14:36:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:36:30 --- 127.0.0.1 - - [20/Mar/2025 14:36:30] "GET /static/styles/cards_profile.css HTTP/1.1" 200 -
+2025-03-20 14:36:31 --- 127.0.0.1 - - [20/Mar/2025 14:36:31] "[31m[1mPOST /profile/1 HTTP/1.1[0m" 405 -
+2025-03-20 14:36:36 --- 127.0.0.1 - - [20/Mar/2025 14:36:36] "[33mGET /profiles/1 HTTP/1.1[0m" 404 -
+2025-03-20 14:36:36 --- 127.0.0.1 - - [20/Mar/2025 14:36:36] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:36:36 --- 127.0.0.1 - - [20/Mar/2025 14:36:36] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 14:36:40 --- Se abrió la página del perfil de 1 desde: 127.0.0.1
+2025-03-20 14:36:40 --- 127.0.0.1 - - [20/Mar/2025 14:36:40] "GET /profile/1 HTTP/1.1" 200 -
+2025-03-20 14:36:40 --- 127.0.0.1 - - [20/Mar/2025 14:36:40] "[36mGET /static/styles/cards_profile.css HTTP/1.1[0m" 304 -
+2025-03-20 14:36:40 --- 127.0.0.1 - - [20/Mar/2025 14:36:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:36:40 --- 127.0.0.1 - - [20/Mar/2025 14:36:40] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 14:37:09 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-20 14:37:09 --- Servidor desconectado
+2025-03-20 14:37:09 ---  * Restarting with stat
+2025-03-20 14:38:38 ---  * Restarting with stat
+2025-03-20 14:41:40 ---  * Restarting with stat
+2025-03-20 14:42:53 ---  * Restarting with stat
+2025-03-20 14:43:04 ---  * Restarting with stat
+2025-03-20 14:47:19 ---  * Restarting with stat
+2025-03-20 14:48:36 ---  * Restarting with stat
+2025-03-20 14:48:42 ---  * Restarting with stat

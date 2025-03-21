@@ -1,0 +1,38 @@
+2025-03-19 22:37:23 --- Archivo 2025-03-19 22.37.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 22.37.log
+2025-03-19 22:37:23 ---  * Debugger is active!
+2025-03-19 22:37:23 ---  * Debugger PIN: 827-411-152
+2025-03-19 22:37:39 --- Correo enviado a r0drigos3villa@gmail.com con el código de autenticación
+2025-03-19 22:37:39 --- 127.0.0.1 - - [19/Mar/2025 22:37:39] "[32mGET /generateAuth HTTP/1.1[0m" 302 -
+2025-03-19 22:37:39 --- 127.0.0.1 - - [19/Mar/2025 22:37:39] "GET /signin/confirm HTTP/1.1" 200 -
+2025-03-19 22:37:40 --- 127.0.0.1 - - [19/Mar/2025 22:37:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:37:49 --- Se creo un usuario con los siguientes datos: {'email': 'r0drigos3villa@gmail.com', 'password': 'scrypt:32768:8:1$wy0WzXCwi5DjUOCm$a40c0f2a6d5d4e26236da15826edfed68d77b740c25b4e4b79c18363db56d745b8720507b7179f45c3926da232a4ba5af4169727758c8d174ed7072d0aee0007', 'username': 'R0drineitor3000'}
+2025-03-19 22:37:49 --- 127.0.0.1 - - [19/Mar/2025 22:37:49] "[32mPOST /signin/confirm HTTP/1.1[0m" 302 -
+2025-03-19 22:37:50 --- Se abrió la página del Perfil de R0drineitor3000 desde: 127.0.0.1
+2025-03-19 22:37:50 --- 127.0.0.1 - - [19/Mar/2025 22:37:50] "GET /profile HTTP/1.1" 200 -
+2025-03-19 22:37:50 --- 127.0.0.1 - - [19/Mar/2025 22:37:50] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-19 22:37:52 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "GET / HTTP/1.1" 200 -
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 22:37:52 --- 127.0.0.1 - - [19/Mar/2025 22:37:52] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 22:38:06 --- 127.0.0.1 - - [19/Mar/2025 22:38:06] "GET /login HTTP/1.1" 200 -
+2025-03-19 22:38:06 --- 127.0.0.1 - - [19/Mar/2025 22:38:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:38:06 --- 127.0.0.1 - - [19/Mar/2025 22:38:06] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 22:38:08 --- 127.0.0.1 - - [19/Mar/2025 22:38:08] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-19 22:38:08 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-19 22:38:09 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-19 22:38:09 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-19 22:38:09 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 742
+2025-03-19 22:38:09 --- 127.0.0.1 - - [19/Mar/2025 22:38:09] "[32mGET /login/callback?state=xV5Jc8zjNeh93lKYKYnh4LxLK1bMgY&code=4/0AQSTgQG6BHW4P8Zet59rS1ICzEHxD4LqrvDW4y083eiQkA-Op_-hCG8KYkGEa-iGU2cX_Q&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-03-19 22:38:09 --- 127.0.0.1 - - [19/Mar/2025 22:38:09] "GET /login/complete HTTP/1.1" 200 -
+2025-03-19 22:38:10 --- 127.0.0.1 - - [19/Mar/2025 22:38:10] "[33mGET /static/style/styles.css HTTP/1.1[0m" 404 -
+2025-03-19 22:38:19 --- Se completó el registro de {user.het('email')} desde: 127.0.0.1
+2025-03-19 22:38:19 --- 127.0.0.1 - - [19/Mar/2025 22:38:19] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-19 22:38:20 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-19 22:38:20 --- 127.0.0.1 - - [19/Mar/2025 22:38:20] "GET /profile HTTP/1.1" 200 -
+2025-03-19 22:38:20 --- 127.0.0.1 - - [19/Mar/2025 22:38:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:40:43 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 22:40:43 --- Servidor desconectado

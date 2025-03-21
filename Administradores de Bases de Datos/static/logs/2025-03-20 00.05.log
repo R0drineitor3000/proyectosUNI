@@ -1,0 +1,13 @@
+2025-03-20 00:05:10 --- Archivo 2025-03-20 00.05.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 00.05.log
+2025-03-20 00:05:10 ---  * Debugger is active!
+2025-03-20 00:05:10 ---  * Debugger PIN: 827-411-152
+2025-03-20 00:06:08 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:06:08 --- 127.0.0.1 - - [20/Mar/2025 00:06:08] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:06:08 --- 127.0.0.1 - - [20/Mar/2025 00:06:08] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:06:11 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:06:11 --- 127.0.0.1 - - [20/Mar/2025 00:06:11] "[32mPOST /profile HTTP/1.1[0m" 302 -
+2025-03-20 00:06:12 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 00:06:12 --- 127.0.0.1 - - [20/Mar/2025 00:06:12] "GET /profile HTTP/1.1" 200 -
+2025-03-20 00:06:12 --- 127.0.0.1 - - [20/Mar/2025 00:06:12] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 00:06:29 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-20 00:06:29 --- Servidor desconectado

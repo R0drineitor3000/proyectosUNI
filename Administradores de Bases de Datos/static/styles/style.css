@@ -30,3 +30,10 @@ footer {
     bottom: 0;
     margin-top: auto;
 }
+
+.profile-pic {
+    width: 40px;   /* O ajusta el tamaño a lo que necesites */
+    height: 40px;  /* Mantén la imagen cuadrada */
+    object-fit: cover;  /* Asegura que la imagen se ajuste correctamente */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}

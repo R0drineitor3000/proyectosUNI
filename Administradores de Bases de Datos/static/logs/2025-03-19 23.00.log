@@ -1,0 +1,30 @@
+2025-03-19 23:00:14 --- Archivo 2025-03-19 23.00.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 23.00.log
+2025-03-19 23:00:14 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 23:00:14 --- [33mPress CTRL+C to quit[0m
+2025-03-19 23:00:14 ---  * Restarting with stat
+2025-03-19 23:00:17 --- Archivo 2025-03-19 23.00.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 23.00.log
+2025-03-19 23:00:17 ---  * Debugger is active!
+2025-03-19 23:00:17 ---  * Debugger PIN: 827-411-152
+2025-03-19 23:01:46 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 23:01:46 --- Servidor desconectado
+2025-03-19 23:01:46 ---  * Restarting with stat
+2025-03-19 23:05:46 ---  * Restarting with stat
+2025-03-19 23:20:58 ---  * Restarting with stat
+2025-03-19 23:31:40 ---  * Restarting with stat
+2025-03-19 23:32:36 ---  * Restarting with stat
+2025-03-19 23:33:29 ---  * Restarting with stat
+2025-03-19 23:34:21 ---  * Restarting with stat
+2025-03-19 23:34:40 ---  * Restarting with stat
+2025-03-19 23:35:13 ---  * Restarting with stat
+2025-03-19 23:37:03 ---  * Restarting with stat
+2025-03-19 23:37:43 ---  * Restarting with stat
+2025-03-19 23:37:54 ---  * Restarting with stat
+2025-03-19 23:38:23 ---  * Restarting with stat
+2025-03-19 23:39:02 ---  * Restarting with stat
+2025-03-19 23:41:20 ---  * Restarting with stat
+2025-03-19 23:43:10 ---  * Restarting with stat
+2025-03-19 23:44:12 ---  * Restarting with stat
+2025-03-19 23:46:09 ---  * Restarting with stat
+2025-03-19 23:49:15 ---  * Restarting with stat
+2025-03-19 23:49:15 --- Servidor desconectado

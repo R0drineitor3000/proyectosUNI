@@ -5,17 +5,20 @@ from cryptography.fernet import Fernet
 SECRET_DIR = os.path.join(os.getcwd(), 'static', 'secret')
 
 # Cargar o generar la clave de cifrado Fernet
-def load_fernet_key():
-    fernet_key_path = os.path.join(SECRET_DIR, 'fernet_secret.txt')
+def load_fernet_key(f_key = None):
+    fernet_key_path = os.path.join(SECRET_DIR, 'fernet_secret.bin')
     if not os.path.exists(fernet_key_path):
         # Si no existe, genera una nueva clave Fernet y guárdala
-        fernet_key = Fernet.generate_key()
+        if not f_key:
+            fernet_key = Fernet.generate_key()
+        else:
+            fernet_key = f_key.encode() #Lógica para pasarlo a binario
         with open(fernet_key_path, 'wb') as archivo:
             archivo.write(fernet_key)
     else:
         # Si ya existe, lee la clave desde el archivo
         with open(fernet_key_path, 'rb') as archivo:
-            fernet_key = archivo.read()
+            fernet_key = archivo.read().decode()
     
     return Fernet(fernet_key)
 

@@ -1,0 +1,14 @@
+2025-03-20 21:05:54 --- Archivo 2025-03-20 21.05.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 21.05.log
+2025-03-20 21:05:54 ---  * Debugger is active!
+2025-03-20 21:05:55 ---  * Debugger PIN: 827-411-152
+2025-03-20 21:06:43 --- 127.0.0.1 - - [20/Mar/2025 21:06:43] "GET /employees HTTP/1.1" 200 -
+2025-03-20 21:06:44 --- 127.0.0.1 - - [20/Mar/2025 21:06:44] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 21:06:48 --- 127.0.0.1 - - [20/Mar/2025 21:06:48] "[32mPOST /deleteEmployee HTTP/1.1[0m" 302 -
+2025-03-20 21:06:49 --- 127.0.0.1 - - [20/Mar/2025 21:06:49] "GET /employees HTTP/1.1" 200 -
+2025-03-20 21:06:49 --- 127.0.0.1 - - [20/Mar/2025 21:06:49] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 21:08:22 --- 127.0.0.1 - - [20/Mar/2025 21:08:22] "GET /employees HTTP/1.1" 200 -
+2025-03-20 21:08:22 --- 127.0.0.1 - - [20/Mar/2025 21:08:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 21:08:24 --- 127.0.0.1 - - [20/Mar/2025 21:08:24] "GET /employees HTTP/1.1" 200 -
+2025-03-20 21:08:24 --- 127.0.0.1 - - [20/Mar/2025 21:08:24] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 21:11:28 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\employees.py', reloading
+2025-03-20 21:11:28 --- Servidor desconectado

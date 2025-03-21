@@ -34,7 +34,7 @@ def addUser(email, username=None, picture=None, password=None, role="customer"):
     return False
 
 def updateUser(email, field, data):
-    valid_fields = ['id', 'email', 'username', 'password', 'role', 'picture']
+    valid_fields = ['id', 'email', 'username', 'password', 'role', 'picture', 'biography']
     if field not in valid_fields:
         return False
     
@@ -78,13 +78,13 @@ def isFullyIdentified(email):
 
     
     for column in data.keys():  # Iteramos sobre los nombres de las columnas
-        if column != 'password' and column != 'picture' and data[column] is None: #Los usuarios de google no necesitan contrasseña, así que no se busca. La imagen no es necesaria para comprobar un registro completo.
+        if column != 'password' and column != 'picture' and column != 'biography' and data[column] is None: #Los usuarios de google no necesitan contrasseña, así que no se busca. La imagen no es necesaria para comprobar un registro completo.
             return False
 
     return True
 
 def getFromUser(email, field):
-    valid_fields = ['id', 'email', 'username', 'password', 'role', 'picture']
+    valid_fields = ['id', 'email', 'username', 'password', 'role', 'picture', 'biography']
     if field not in valid_fields:
         return False
     
@@ -134,6 +134,18 @@ def getUser(ID):
     if data is not None:
         return dict(data)
     return None
+
+def getUserLike(username):
+    connect()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM accounts WHERE username LIKE ?", ('%' + username + '%',))
+    data = cursor.fetchall()
+    users=[]
+    if data:
+        for user in data:
+            users.append(dict(user))
+    return users
+    
 
 def userExists(email):
     connect()
@@ -186,6 +198,7 @@ def createTable():
     password TEXT,
     role TEXT,
     picture TEXT,
+    biography TEXT,
     creationdate DATE DEFAULT (CURRENT_TIMESTAMP)
     );''')
     conn.commit()

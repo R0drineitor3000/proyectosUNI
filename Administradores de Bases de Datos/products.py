@@ -50,6 +50,17 @@ def getProducts():
     data = cursor.fetchall()
     return data
 
+def getProduct(ID):
+    connect()
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT * FROM products WHERE id = ?
+    ''', (ID,))
+    data = cursor.fetchone()
+    if data:
+        return dict(data)
+    return None
+
 def getAllProducts():
     products = []
     for i in getProducts():
@@ -82,8 +93,9 @@ def getLastID():
 def clearProducts():
     connect()
     cursor = conn.cursor()
-    cursor.execute('''DELETE FROM products''')
-    conn.commit()  # Cometer la transacción antes de ejecutar VACUUM
+    cursor.execute('''DELETE FROM products''')  # Eliminar los registros
+    cursor.execute('''DELETE FROM sqlite_sequence WHERE name='products' ''')  # Reiniciar contador de autoincremento
+    conn.commit()  # Cometer la transacción
     cursor.execute('''VACUUM''')  # Ejecutar VACUUM fuera de la transacción
     conn.commit()  # Cometer la transacción de VACUUM
 

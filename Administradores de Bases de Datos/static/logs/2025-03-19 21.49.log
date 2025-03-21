@@ -1,0 +1,15 @@
+2025-03-19 21:49:13 --- Archivo 2025-03-19 21.49.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 21.49.log
+2025-03-19 21:49:13 ---  * Debugger is active!
+2025-03-19 21:49:13 ---  * Debugger PIN: 827-411-152
+2025-03-19 21:49:56 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 21:49:56 --- Servidor desconectado
+2025-03-19 21:49:58 --- Archivo 2025-03-19 21.49.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 21.49.log
+2025-03-19 21:49:58 ---  * Debugger is active!
+2025-03-19 21:49:58 ---  * Debugger PIN: 827-411-152
+2025-03-19 21:50:04 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-19 21:50:04 --- 127.0.0.1 - - [19/Mar/2025 21:50:04] "GET /signin HTTP/1.1" 200 -
+2025-03-19 21:50:11 --- 127.0.0.1 - - [19/Mar/2025 21:50:11] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-19 21:50:11 --- 127.0.0.1 - - [19/Mar/2025 21:50:11] "GET /signin/confirm HTTP/1.1" 200 -
+2025-03-19 21:50:12 --- 127.0.0.1 - - [19/Mar/2025 21:50:12] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:59:12 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 21:59:12 --- Servidor desconectado

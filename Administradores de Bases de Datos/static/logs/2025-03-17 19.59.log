@@ -1,0 +1,86 @@
+2025-03-17 19:59:11 --- Archivo 2025-03-17 19.59.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-17 19.59.log
+2025-03-17 19:59:11 ---  * Debugger is active!
+2025-03-17 19:59:11 ---  * Debugger PIN: 827-411-152
+2025-03-17 19:59:15 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:15 --- 127.0.0.1 - - [17/Mar/2025 19:59:15] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:15 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:15 --- 127.0.0.1 - - [17/Mar/2025 19:59:15] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:16 --- 127.0.0.1 - - [17/Mar/2025 19:59:16] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:16 --- 127.0.0.1 - - [17/Mar/2025 19:59:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:16 --- 127.0.0.1 - - [17/Mar/2025 19:59:16] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:16 --- 127.0.0.1 - - [17/Mar/2025 19:59:16] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:16 --- 127.0.0.1 - - [17/Mar/2025 19:59:16] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-17 19:59:17 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:17 --- 127.0.0.1 - - [17/Mar/2025 19:59:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:35 --- 127.0.0.1 - - [17/Mar/2025 19:59:35] "GET /login HTTP/1.1" 200 -
+2025-03-17 19:59:35 --- 127.0.0.1 - - [17/Mar/2025 19:59:35] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:35 --- 127.0.0.1 - - [17/Mar/2025 19:59:35] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:39 --- 127.0.0.1 - - [17/Mar/2025 19:59:39] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-17 19:59:39 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:39 --- 127.0.0.1 - - [17/Mar/2025 19:59:39] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:40 --- 127.0.0.1 - - [17/Mar/2025 19:59:40] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:40 --- 127.0.0.1 - - [17/Mar/2025 19:59:40] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:40 --- 127.0.0.1 - - [17/Mar/2025 19:59:40] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:40 --- 127.0.0.1 - - [17/Mar/2025 19:59:40] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:40 --- 127.0.0.1 - - [17/Mar/2025 19:59:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-17 19:59:42 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:42 --- 127.0.0.1 - - [17/Mar/2025 19:59:42] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-17 19:59:48 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:48 --- 127.0.0.1 - - [17/Mar/2025 19:59:48] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:53 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:53 --- 127.0.0.1 - - [17/Mar/2025 19:59:53] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:53 --- 127.0.0.1 - - [17/Mar/2025 19:59:53] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:53 --- 127.0.0.1 - - [17/Mar/2025 19:59:53] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:53 --- 127.0.0.1 - - [17/Mar/2025 19:59:53] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:53 --- 127.0.0.1 - - [17/Mar/2025 19:59:53] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:53 --- 127.0.0.1 - - [17/Mar/2025 19:59:53] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:54 --- 127.0.0.1 - - [17/Mar/2025 19:59:54] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-17 19:59:54 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 19:59:54 --- 127.0.0.1 - - [17/Mar/2025 19:59:54] "GET / HTTP/1.1" 200 -
+2025-03-17 19:59:55 --- 127.0.0.1 - - [17/Mar/2025 19:59:55] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:55 --- 127.0.0.1 - - [17/Mar/2025 19:59:55] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 19:59:55 --- 127.0.0.1 - - [17/Mar/2025 19:59:55] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:55 --- 127.0.0.1 - - [17/Mar/2025 19:59:55] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 19:59:55 --- 127.0.0.1 - - [17/Mar/2025 19:59:55] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "[32mGET /login HTTP/1.1[0m" 302 -
+2025-03-17 20:01:28 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "GET / HTTP/1.1" 200 -
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 20:01:28 --- 127.0.0.1 - - [17/Mar/2025 20:01:28] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 20:04:42 --- 127.0.0.1 - - [17/Mar/2025 20:04:42] "GET /login HTTP/1.1" 200 -
+2025-03-17 20:04:42 --- 127.0.0.1 - - [17/Mar/2025 20:04:42] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 20:04:42 --- 127.0.0.1 - - [17/Mar/2025 20:04:42] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-17 22:14:53 --- 127.0.0.1 - - [17/Mar/2025 22:14:53] "GET /login HTTP/1.1" 200 -
+2025-03-17 22:14:53 --- 127.0.0.1 - - [17/Mar/2025 22:14:53] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 22:14:54 --- 127.0.0.1 - - [17/Mar/2025 22:14:54] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-17 22:14:57 --- 127.0.0.1 - - [17/Mar/2025 22:14:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-17 22:14:57 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-17 22:14:57 --- 127.0.0.1 - - [17/Mar/2025 22:14:57] "GET / HTTP/1.1" 200 -
+2025-03-17 22:14:58 --- 127.0.0.1 - - [17/Mar/2025 22:14:58] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-17 22:14:58 --- 127.0.0.1 - - [17/Mar/2025 22:14:58] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-17 22:14:58 --- 127.0.0.1 - - [17/Mar/2025 22:14:58] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-17 22:14:58 --- 127.0.0.1 - - [17/Mar/2025 22:14:58] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-17 22:14:58 --- 127.0.0.1 - - [17/Mar/2025 22:14:58] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-17 22:17:18 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-17 22:17:18 --- Servidor desconectado

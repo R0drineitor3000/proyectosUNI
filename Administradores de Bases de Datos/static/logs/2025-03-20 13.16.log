@@ -1,0 +1,18 @@
+2025-03-20 13:16:50 --- Archivo 2025-03-20 13.16.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 13.16.log
+2025-03-20 13:16:50 ---  * Debugger is active!
+2025-03-20 13:16:50 ---  * Debugger PIN: 827-411-152
+2025-03-20 13:17:16 --- Se abrió la página de perfiles desde: 127.0.0.1
+2025-03-20 13:17:16 --- 127.0.0.1 - - [20/Mar/2025 13:17:16] "POST /profiles HTTP/1.1" 200 -
+2025-03-20 13:17:17 --- 127.0.0.1 - - [20/Mar/2025 13:17:17] "[36mGET /static/styles/cards_profile.css HTTP/1.1[0m" 304 -
+2025-03-20 13:17:17 --- 127.0.0.1 - - [20/Mar/2025 13:17:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 13:17:17 --- 127.0.0.1 - - [20/Mar/2025 13:17:17] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 13:17:19 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "GET / HTTP/1.1" 200 -
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-20 13:17:19 --- 127.0.0.1 - - [20/Mar/2025 13:17:19] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-20 13:17:21 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-20 13:17:21 --- Servidor desconectado

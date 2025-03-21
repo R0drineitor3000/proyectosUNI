@@ -1,0 +1,70 @@
+2025-03-19 21:35:44 --- Archivo 2025-03-19 21.35.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 21.35.log
+2025-03-19 21:35:44 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 21:35:44 --- [33mPress CTRL+C to quit[0m
+2025-03-19 21:35:44 ---  * Restarting with stat
+2025-03-19 21:35:46 --- Archivo 2025-03-19 21.35.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 21.35.log
+2025-03-19 21:35:46 ---  * Debugger is active!
+2025-03-19 21:35:46 ---  * Debugger PIN: 827-411-152
+2025-03-19 21:35:59 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 21:35:59 --- 127.0.0.1 - - [19/Mar/2025 21:35:59] "GET / HTTP/1.1" 200 -
+2025-03-19 21:36:00 --- 127.0.0.1 - - [19/Mar/2025 21:36:00] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:00 --- 127.0.0.1 - - [19/Mar/2025 21:36:00] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:00 --- 127.0.0.1 - - [19/Mar/2025 21:36:00] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:00 --- 127.0.0.1 - - [19/Mar/2025 21:36:00] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:00 --- 127.0.0.1 - - [19/Mar/2025 21:36:00] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:03 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 21:36:03 --- 127.0.0.1 - - [19/Mar/2025 21:36:03] "GET / HTTP/1.1" 200 -
+2025-03-19 21:36:03 --- 127.0.0.1 - - [19/Mar/2025 21:36:03] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:03 --- 127.0.0.1 - - [19/Mar/2025 21:36:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:03 --- 127.0.0.1 - - [19/Mar/2025 21:36:03] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:03 --- 127.0.0.1 - - [19/Mar/2025 21:36:03] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:03 --- 127.0.0.1 - - [19/Mar/2025 21:36:03] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:04 --- 127.0.0.1 - - [19/Mar/2025 21:36:04] "GET /login HTTP/1.1" 200 -
+2025-03-19 21:36:04 --- 127.0.0.1 - - [19/Mar/2025 21:36:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:04 --- 127.0.0.1 - - [19/Mar/2025 21:36:04] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:05 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-19 21:36:05 --- 127.0.0.1 - - [19/Mar/2025 21:36:05] "GET /signin HTTP/1.1" 200 -
+2025-03-19 21:36:05 --- 127.0.0.1 - - [19/Mar/2025 21:36:05] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:05 --- 127.0.0.1 - - [19/Mar/2025 21:36:05] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:21 --- No se pudo crear el usuario
+2025-03-19 21:36:21 --- 127.0.0.1 - - [19/Mar/2025 21:36:21] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-19 21:36:21 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-19 21:36:21 --- 127.0.0.1 - - [19/Mar/2025 21:36:21] "GET /signin HTTP/1.1" 200 -
+2025-03-19 21:36:22 --- 127.0.0.1 - - [19/Mar/2025 21:36:22] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:22 --- 127.0.0.1 - - [19/Mar/2025 21:36:22] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 21:36:42 --- No se pudo crear el usuario
+2025-03-19 21:36:42 --- 127.0.0.1 - - [19/Mar/2025 21:36:42] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-19 21:36:43 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-19 21:36:43 --- 127.0.0.1 - - [19/Mar/2025 21:36:43] "GET /signin HTTP/1.1" 200 -
+2025-03-19 21:36:43 --- 127.0.0.1 - - [19/Mar/2025 21:36:43] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 21:36:43 --- 127.0.0.1 - - [19/Mar/2025 21:36:43] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 21:37:02 --- 127.0.0.1 - - [19/Mar/2025 21:37:02] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-19 21:37:03 --- 127.0.0.1 - - [19/Mar/2025 21:37:03] "[35m[1mGET /signin/confirm HTTP/1.1[0m" 500 -
+2025-03-19 21:37:03 --- 127.0.0.1 - - [19/Mar/2025 21:37:03] "GET /signin/confirm?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-19 21:37:03 --- 127.0.0.1 - - [19/Mar/2025 21:37:03] "GET /signin/confirm?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-19 21:37:03 --- 127.0.0.1 - - [19/Mar/2025 21:37:03] "GET /signin/confirm?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-19 21:37:04 --- 127.0.0.1 - - [19/Mar/2025 21:37:04] "[36mGET /signin/confirm?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-19 21:38:38 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 21:38:38 --- Servidor desconectado
+2025-03-19 21:38:38 ---  * Restarting with stat
+2025-03-19 21:40:47 ---  * Restarting with stat
+2025-03-19 21:42:09 ---  * Restarting with stat
+2025-03-19 21:43:08 ---  * Restarting with stat
+2025-03-19 21:45:28 ---  * Restarting with stat
+2025-03-19 21:46:41 ---  * Restarting with stat
+2025-03-19 21:47:51 ---  * Restarting with stat
+2025-03-19 21:48:42 ---  * Restarting with stat
+2025-03-19 21:49:11 ---  * Restarting with stat
+2025-03-19 21:49:56 ---  * Restarting with stat
+2025-03-19 21:59:13 ---  * Restarting with stat
+2025-03-19 22:20:11 ---  * Restarting with stat
+2025-03-19 22:21:49 ---  * Restarting with stat
+2025-03-19 22:23:55 ---  * Restarting with stat
+2025-03-19 22:32:59 ---  * Restarting with stat
+2025-03-19 22:37:20 ---  * Restarting with stat
+2025-03-19 22:40:43 ---  * Restarting with stat
+2025-03-19 22:41:03 ---  * Restarting with stat
+2025-03-19 22:41:53 ---  * Restarting with stat
+2025-03-19 22:42:58 ---  * Restarting with stat
+2025-03-19 22:44:32 ---  * Restarting with stat

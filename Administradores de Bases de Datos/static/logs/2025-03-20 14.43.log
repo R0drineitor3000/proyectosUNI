@@ -1,0 +1,13 @@
+2025-03-20 14:43:04 --- Archivo 2025-03-20 14.43.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 14.43.log
+2025-03-20 14:43:04 ---  * Debugger is active!
+2025-03-20 14:43:04 ---  * Debugger PIN: 708-852-129
+2025-03-20 14:45:34 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-20 14:45:34 --- 127.0.0.1 - - [20/Mar/2025 14:45:34] "GET /upload HTTP/1.1" 200 -
+2025-03-20 14:45:34 --- 127.0.0.1 - - [20/Mar/2025 14:45:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:45:34 --- 127.0.0.1 - - [20/Mar/2025 14:45:34] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 14:45:36 --- 127.0.0.1 - - [20/Mar/2025 14:45:36] "GET /employees HTTP/1.1" 200 -
+2025-03-20 14:45:37 --- 127.0.0.1 - - [20/Mar/2025 14:45:37] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 14:45:37 --- 127.0.0.1 - - [20/Mar/2025 14:45:37] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 14:46:58 --- 127.0.0.1 - - [20/Mar/2025 14:46:58] "[31m[1mPOST /employees HTTP/1.1[0m" 405 -
+2025-03-20 14:47:19 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-20 14:47:19 --- Servidor desconectado

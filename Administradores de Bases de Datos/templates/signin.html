@@ -21,20 +21,20 @@
 				<!-- Correo Electrónico -->
 				<div class="mb-3">
 				  <label for="email" class="form-label">Correo Electrónico</label>
-				  <input type="email" class="form-control" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+				  <input type="email" class="form-control" id="email" name="email" placeholder="Introduce tu correo electrónico">
 				</div>
 
 				<!-- Contraseña -->
 				<div class="mb-3">
 				  <label for="password" class="form-label">Contraseña</label>
-				  <input type="password" class="form-control" id="password" name="password" placeholder="Introduce tu contraseña" required>
+				  <input type="password" class="form-control" id="password" name="password" placeholder="Introduce tu contraseña" required oninput="validatePassword()">
 				  <small id="passwordHelp" class="form-text text-muted">La contraseña debe contener al menos 8 caracteres, incluyendo un carácter alfanumérico y uno especial.</small>
 				</div>
 
 				<!-- Repetir Contraseña -->
 				<div class="mb-3">
 				  <label for="confirmPassword" class="form-label">Repetir Contraseña</label>
-				  <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Repite tu contraseña" required>
+				  <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Repite tu contraseña" required oninput="validatePassword()">
 				</div>
 
 				<div class="d-grid gap-2">

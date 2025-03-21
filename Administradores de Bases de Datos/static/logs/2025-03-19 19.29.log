@@ -1,0 +1,52 @@
+2025-03-19 19:29:48 --- Archivo 2025-03-19 19.29.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 19.29.log
+2025-03-19 19:29:48 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 19:29:48 --- [33mPress CTRL+C to quit[0m
+2025-03-19 19:29:48 ---  * Restarting with stat
+2025-03-19 19:29:50 --- Archivo 2025-03-19 19.29.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 19.29.log
+2025-03-19 19:29:50 ---  * Debugger is active!
+2025-03-19 19:29:50 ---  * Debugger PIN: 827-411-152
+2025-03-19 19:30:03 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 19:30:03 --- 127.0.0.1 - - [19/Mar/2025 19:30:03] "GET / HTTP/1.1" 200 -
+2025-03-19 19:30:04 --- 127.0.0.1 - - [19/Mar/2025 19:30:04] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 19:30:04 --- 127.0.0.1 - - [19/Mar/2025 19:30:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 19:30:04 --- 127.0.0.1 - - [19/Mar/2025 19:30:04] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:04 --- 127.0.0.1 - - [19/Mar/2025 19:30:04] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:04 --- 127.0.0.1 - - [19/Mar/2025 19:30:04] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:05 --- 127.0.0.1 - - [19/Mar/2025 19:30:05] "[32mGET /signin/confirm HTTP/1.1[0m" 302 -
+2025-03-19 19:30:07 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 19:30:07 --- 127.0.0.1 - - [19/Mar/2025 19:30:07] "GET / HTTP/1.1" 200 -
+2025-03-19 19:30:08 --- 127.0.0.1 - - [19/Mar/2025 19:30:08] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 19:30:08 --- 127.0.0.1 - - [19/Mar/2025 19:30:08] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 19:30:08 --- 127.0.0.1 - - [19/Mar/2025 19:30:08] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:08 --- 127.0.0.1 - - [19/Mar/2025 19:30:08] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:08 --- 127.0.0.1 - - [19/Mar/2025 19:30:08] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:16 --- 127.0.0.1 - - [19/Mar/2025 19:30:16] "[32mGET /signin/confirm HTTP/1.1[0m" 302 -
+2025-03-19 19:30:17 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 19:30:17 --- 127.0.0.1 - - [19/Mar/2025 19:30:17] "GET / HTTP/1.1" 200 -
+2025-03-19 19:30:17 --- 127.0.0.1 - - [19/Mar/2025 19:30:17] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 19:30:17 --- 127.0.0.1 - - [19/Mar/2025 19:30:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 19:30:17 --- 127.0.0.1 - - [19/Mar/2025 19:30:17] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:17 --- 127.0.0.1 - - [19/Mar/2025 19:30:17] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:17 --- 127.0.0.1 - - [19/Mar/2025 19:30:17] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 19:30:40 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 19:30:40 --- Servidor desconectado
+2025-03-19 19:30:40 ---  * Restarting with stat
+2025-03-19 19:41:37 ---  * Restarting with stat
+2025-03-19 19:42:00 ---  * Restarting with stat
+2025-03-19 19:42:38 ---  * Restarting with stat
+2025-03-19 19:42:47 ---  * Restarting with stat
+2025-03-19 19:44:00 ---  * Restarting with stat
+2025-03-19 19:44:20 ---  * Restarting with stat
+2025-03-19 19:45:39 ---  * Restarting with stat
+2025-03-19 19:47:56 ---  * Restarting with stat
+2025-03-19 19:48:21 ---  * Restarting with stat
+2025-03-19 19:53:40 ---  * Restarting with stat
+2025-03-19 19:57:34 ---  * Restarting with stat
+2025-03-19 19:57:54 ---  * Restarting with stat
+2025-03-19 19:58:35 ---  * Restarting with stat
+2025-03-19 20:00:19 ---  * Restarting with stat
+2025-03-19 20:00:49 ---  * Restarting with stat
+2025-03-19 20:02:09 ---  * Restarting with stat
+2025-03-19 20:02:32 ---  * Restarting with stat
+2025-03-19 20:03:38 ---  * Restarting with stat

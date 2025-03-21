@@ -1,0 +1,21 @@
+ .card {
+    display: flex;
+    justify-content: center; /* Centra la imagen horizontalmente */
+    align-items: center;     /* Centra la imagen verticalmente */
+    height: 100%;            /* Asegura que el contenedor tenga altura suficiente */
+}
+ 
+ .card-img-top {
+	padding: 15px;
+	
+	width: 150px;
+    height: 150px;
+    object-fit: cover; /* Esto asegura que la imagen se recorte y no se deforme */
+    border-radius: 50%;
+}
+
+.card:hover {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transform: scale(1.05);
+	transition: 0.3s ease-in-out;
+}

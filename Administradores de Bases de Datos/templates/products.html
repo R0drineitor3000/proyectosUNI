@@ -22,11 +22,16 @@
                             {% if producto.picture %}
                                 <img src="{{ url_for('static', filename='images' + producto.picture) }}" class="card-img-top" alt="{{ producto.nombre }}">
                             {% else %}
-                                <img src="{{ url_for('static', filename='images/products/leche.png') }}" class="card-img-top" alt="{{ producto.nombre }}">
+                                <img src="{{ url_for('static', filename='images/web/leche.png') }}" class="card-img-top" alt="{{ producto.nombre }}">
                             {% endif %}
                             <div class="card-body text-center">
                                 <h5 class="card-title">{{ producto.name }}</h5>
                                 <p class="card-text fw-bold">C${{ producto.price }}</p>
+								{% if producto.stock %}
+									<p class="card-text fw-bold">En Stock: {{ producto.stock }}</p>
+								{% else %}
+									<p class="card-text fw-bold">Sin información del Stock</p>
+								{% endif %}
                                 <p><small class="card-text fw-bold">{{ producto.poster }}</small></p>
                                 <!-- Botón que envía el formulario -->
                                 <button type="submit" class="btn btn-success">

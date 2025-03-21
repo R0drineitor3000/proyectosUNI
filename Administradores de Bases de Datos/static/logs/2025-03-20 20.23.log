@@ -1,0 +1,94 @@
+2025-03-20 20:23:34 --- Archivo 2025-03-20 20.23.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 20.23.log
+2025-03-20 20:23:34 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-20 20:23:34 --- [33mPress CTRL+C to quit[0m
+2025-03-20 20:23:34 ---  * Restarting with stat
+2025-03-20 20:23:37 --- Archivo 2025-03-20 20.23.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 20.23.log
+2025-03-20 20:23:37 ---  * Debugger is active!
+2025-03-20 20:23:37 ---  * Debugger PIN: 827-411-152
+2025-03-20 20:23:56 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 20:23:57 --- 127.0.0.1 - - [20/Mar/2025 20:23:57] "GET / HTTP/1.1" 200 -
+2025-03-20 20:23:57 --- 127.0.0.1 - - [20/Mar/2025 20:23:57] "GET /static/styles/cards.css HTTP/1.1" 200 -
+2025-03-20 20:23:57 --- 127.0.0.1 - - [20/Mar/2025 20:23:57] "GET /static/styles/style.css HTTP/1.1" 200 -
+2025-03-20 20:23:57 --- 127.0.0.1 - - [20/Mar/2025 20:23:57] "GET /static/images/web/leche.png HTTP/1.1" 200 -
+2025-03-20 20:23:58 --- 127.0.0.1 - - [20/Mar/2025 20:23:58] "GET /static/images/web/crema-batida.png HTTP/1.1" 200 -
+2025-03-20 20:23:58 --- 127.0.0.1 - - [20/Mar/2025 20:23:58] "GET /static/images/web/queso.png HTTP/1.1" 200 -
+2025-03-20 20:24:01 --- 127.0.0.1 - - [20/Mar/2025 20:24:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-20 20:24:02 --- 127.0.0.1 - - [20/Mar/2025 20:24:02] "GET /login HTTP/1.1" 200 -
+2025-03-20 20:24:02 --- 127.0.0.1 - - [20/Mar/2025 20:24:02] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:24:02 --- 127.0.0.1 - - [20/Mar/2025 20:24:02] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-03-20 20:24:04 --- 127.0.0.1 - - [20/Mar/2025 20:24:04] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-20 20:24:55 --- 127.0.0.1 - - [20/Mar/2025 20:24:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-20 20:24:55 --- 127.0.0.1 - - [20/Mar/2025 20:24:55] "GET /login HTTP/1.1" 200 -
+2025-03-20 20:24:56 --- 127.0.0.1 - - [20/Mar/2025 20:24:56] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:24:56 --- 127.0.0.1 - - [20/Mar/2025 20:24:56] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-20 20:25:09 --- 127.0.0.1 - - [20/Mar/2025 20:25:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-20 20:25:09 --- 127.0.0.1 - - [20/Mar/2025 20:25:09] "GET /login HTTP/1.1" 200 -
+2025-03-20 20:25:10 --- 127.0.0.1 - - [20/Mar/2025 20:25:10] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:10 --- 127.0.0.1 - - [20/Mar/2025 20:25:10] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-20 20:25:25 --- Se abrió la página de perfiles desde: 127.0.0.1
+2025-03-20 20:25:25 --- 127.0.0.1 - - [20/Mar/2025 20:25:25] "POST /profiles HTTP/1.1" 200 -
+2025-03-20 20:25:26 --- 127.0.0.1 - - [20/Mar/2025 20:25:26] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:26 --- 127.0.0.1 - - [20/Mar/2025 20:25:26] "GET /static/styles/cards_profile.css HTTP/1.1" 200 -
+2025-03-20 20:25:26 --- 127.0.0.1 - - [20/Mar/2025 20:25:26] "GET /static/images/users/user_1.jpg HTTP/1.1" 200 -
+2025-03-20 20:25:27 --- Se abrió la página del perfil de 1 desde: 127.0.0.1
+2025-03-20 20:25:27 --- 127.0.0.1 - - [20/Mar/2025 20:25:27] "POST /profile/1 HTTP/1.1" 200 -
+2025-03-20 20:25:27 --- 127.0.0.1 - - [20/Mar/2025 20:25:27] "[36mGET /static/styles/cards_profile.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:27 --- 127.0.0.1 - - [20/Mar/2025 20:25:27] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:27 --- 127.0.0.1 - - [20/Mar/2025 20:25:27] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 20:25:34 --- Se abrió la página del perfil de 1 desde: 127.0.0.1
+2025-03-20 20:25:34 --- 127.0.0.1 - - [20/Mar/2025 20:25:34] "POST /profile/1 HTTP/1.1" 200 -
+2025-03-20 20:25:34 --- 127.0.0.1 - - [20/Mar/2025 20:25:34] "[36mGET /static/styles/cards_profile.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:34 --- 127.0.0.1 - - [20/Mar/2025 20:25:34] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-20 20:25:34 --- 127.0.0.1 - - [20/Mar/2025 20:25:34] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:35 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 20:25:35 --- 127.0.0.1 - - [20/Mar/2025 20:25:35] "GET / HTTP/1.1" 200 -
+2025-03-20 20:25:35 --- 127.0.0.1 - - [20/Mar/2025 20:25:35] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:35 --- 127.0.0.1 - - [20/Mar/2025 20:25:35] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-20 20:25:35 --- 127.0.0.1 - - [20/Mar/2025 20:25:35] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:25:35 --- 127.0.0.1 - - [20/Mar/2025 20:25:35] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-20 20:25:35 --- 127.0.0.1 - - [20/Mar/2025 20:25:35] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-20 20:27:03 --- 127.0.0.1 - - [20/Mar/2025 20:27:03] "GET /login HTTP/1.1" 200 -
+2025-03-20 20:27:03 --- 127.0.0.1 - - [20/Mar/2025 20:27:03] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:27:04 --- 127.0.0.1 - - [20/Mar/2025 20:27:04] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-20 20:27:04 --- 127.0.0.1 - - [20/Mar/2025 20:27:04] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-03-20 20:27:58 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-03-20 20:27:59 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-03-20 20:27:59 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-03-20 20:27:59 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 743
+2025-03-20 20:27:59 --- 127.0.0.1 - - [20/Mar/2025 20:27:59] "[32mGET /login/callback?state=iOFA1cLJJFZ6M44rpsplfYPO8u1SNy&code=4/0AQSTgQFmYq2S-24e0-wgHaLCgg_edFqQtKK3lFPmcgjLvRJc2n_FWEEeWmsZSreXGNnd6w&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-03-20 20:27:59 --- 127.0.0.1 - - [20/Mar/2025 20:27:59] "GET /login/complete HTTP/1.1" 200 -
+2025-03-20 20:28:00 --- 127.0.0.1 - - [20/Mar/2025 20:28:00] "[33mGET /static/style/styles.css HTTP/1.1[0m" 404 -
+2025-03-20 20:28:16 --- Se completó el registro de {user.het('email')} desde: 127.0.0.1
+2025-03-20 20:28:16 --- 127.0.0.1 - - [20/Mar/2025 20:28:16] "[32mPOST /login/complete HTTP/1.1[0m" 302 -
+2025-03-20 20:28:17 --- Se abrió la página del Perfil de Rodrigo Sevilla desde: 127.0.0.1
+2025-03-20 20:28:17 --- 127.0.0.1 - - [20/Mar/2025 20:28:17] "GET /myprofile HTTP/1.1" 200 -
+2025-03-20 20:28:17 --- 127.0.0.1 - - [20/Mar/2025 20:28:17] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:29:11 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 20:29:11 --- 127.0.0.1 - - [20/Mar/2025 20:29:11] "GET / HTTP/1.1" 200 -
+2025-03-20 20:29:12 --- 127.0.0.1 - - [20/Mar/2025 20:29:12] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-20 20:29:12 --- 127.0.0.1 - - [20/Mar/2025 20:29:12] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:29:12 --- 127.0.0.1 - - [20/Mar/2025 20:29:12] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-20 20:29:12 --- 127.0.0.1 - - [20/Mar/2025 20:29:12] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-20 20:29:12 --- 127.0.0.1 - - [20/Mar/2025 20:29:12] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-20 20:29:55 --- 127.0.0.1 - - [20/Mar/2025 20:29:55] "GET /employees HTTP/1.1" 200 -
+2025-03-20 20:29:56 --- 127.0.0.1 - - [20/Mar/2025 20:29:56] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:30:00 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-20 20:30:00 --- 127.0.0.1 - - [20/Mar/2025 20:30:00] "GET /upload HTTP/1.1" 200 -
+2025-03-20 20:30:00 --- 127.0.0.1 - - [20/Mar/2025 20:30:00] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:30:04 --- 127.0.0.1 - - [20/Mar/2025 20:30:04] "GET /employees HTTP/1.1" 200 -
+2025-03-20 20:30:04 --- 127.0.0.1 - - [20/Mar/2025 20:30:04] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:32:10 --- 127.0.0.1 - - [20/Mar/2025 20:32:10] "GET /employees HTTP/1.1" 200 -
+2025-03-20 20:32:10 --- 127.0.0.1 - - [20/Mar/2025 20:32:10] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:33:46 --- 127.0.0.1 - - [20/Mar/2025 20:33:46] "GET /employees HTTP/1.1" 200 -
+2025-03-20 20:33:46 --- 127.0.0.1 - - [20/Mar/2025 20:33:46] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:40:06 --- 127.0.0.1 - - [20/Mar/2025 20:40:06] "GET /employees HTTP/1.1" 200 -
+2025-03-20 20:40:06 --- 127.0.0.1 - - [20/Mar/2025 20:40:06] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:51:52 --- 127.0.0.1 - - [20/Mar/2025 20:51:52] "GET /employees HTTP/1.1" 200 -
+2025-03-20 20:51:52 --- 127.0.0.1 - - [20/Mar/2025 20:51:52] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:51:54 --- 127.0.0.1 - - [20/Mar/2025 20:51:54] "[33mPOST /deleteEmployee HTTP/1.1[0m" 404 -
+2025-03-20 20:51:54 --- 127.0.0.1 - - [20/Mar/2025 20:51:54] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 20:53:16 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-20 20:53:16 --- Servidor desconectado
+2025-03-20 20:53:16 ---  * Restarting with stat
+2025-03-20 20:53:16 --- Servidor desconectado

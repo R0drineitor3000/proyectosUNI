@@ -1,0 +1,9 @@
+2025-03-19 21:59:15 --- Archivo 2025-03-19 21.59.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 21.59.log
+2025-03-19 21:59:15 ---  * Debugger is active!
+2025-03-19 21:59:15 ---  * Debugger PIN: 827-411-152
+2025-03-19 22:18:17 --- Correo enviado a r0drigos3villa3@gmail.com con el código de autenticación
+2025-03-19 22:18:17 --- 127.0.0.1 - - [19/Mar/2025 22:18:17] "[32mPOST /signin HTTP/1.1[0m" 302 -
+2025-03-19 22:18:17 --- 127.0.0.1 - - [19/Mar/2025 22:18:17] "GET /signin/confirm HTTP/1.1" 200 -
+2025-03-19 22:18:18 --- 127.0.0.1 - - [19/Mar/2025 22:18:18] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 22:20:11 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 22:20:11 --- Servidor desconectado

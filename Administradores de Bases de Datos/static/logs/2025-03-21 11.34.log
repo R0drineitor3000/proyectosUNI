@@ -1,0 +1,26 @@
+2025-03-21 11:34:55 --- Archivo 2025-03-21 11.34.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-21 11.34.log
+2025-03-21 11:34:55 ---  * Debugger is active!
+2025-03-21 11:34:55 ---  * Debugger PIN: 827-411-152
+2025-03-21 11:35:15 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-21 11:35:15 --- 127.0.0.1 - - [21/Mar/2025 11:35:15] "GET /upload HTTP/1.1" 200 -
+2025-03-21 11:35:16 --- 127.0.0.1 - - [21/Mar/2025 11:35:16] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-21 11:35:16 --- 127.0.0.1 - - [21/Mar/2025 11:35:16] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-21 11:35:18 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-21 11:35:18 --- 127.0.0.1 - - [21/Mar/2025 11:35:18] "GET /products HTTP/1.1" 200 -
+2025-03-21 11:35:19 --- 127.0.0.1 - - [21/Mar/2025 11:35:19] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-21 11:35:19 --- 127.0.0.1 - - [21/Mar/2025 11:35:19] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-21 11:35:19 --- 127.0.0.1 - - [21/Mar/2025 11:35:19] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-21 11:35:19 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-21 11:35:19 --- 127.0.0.1 - - [21/Mar/2025 11:35:19] "GET /upload HTTP/1.1" 200 -
+2025-03-21 11:35:20 --- 127.0.0.1 - - [21/Mar/2025 11:35:20] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-21 11:35:20 --- 127.0.0.1 - - [21/Mar/2025 11:35:20] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-21 11:35:29 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-21 11:35:29 --- 127.0.0.1 - - [21/Mar/2025 11:35:29] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-03-21 11:35:29 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-21 11:35:29 --- 127.0.0.1 - - [21/Mar/2025 11:35:29] "GET /products HTTP/1.1" 200 -
+2025-03-21 11:35:29 --- 127.0.0.1 - - [21/Mar/2025 11:35:29] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-21 11:35:30 --- 127.0.0.1 - - [21/Mar/2025 11:35:30] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-21 11:35:30 --- 127.0.0.1 - - [21/Mar/2025 11:35:30] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-21 11:35:30 --- 127.0.0.1 - - [21/Mar/2025 11:35:30] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-21 11:38:22 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\Product.py', reloading
+2025-03-21 11:38:22 --- Servidor desconectado

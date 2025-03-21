@@ -1,0 +1,24 @@
+2025-03-20 11:04:26 --- Archivo 2025-03-20 11.04.log creado con éxito en F:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-20 11.04.log
+2025-03-20 11:04:26 ---  * Debugger is active!
+2025-03-20 11:04:26 ---  * Debugger PIN: 827-411-152
+2025-03-20 11:04:37 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-20 11:04:37 --- 127.0.0.1 - - [20/Mar/2025 11:04:37] "GET /myprofile HTTP/1.1" 200 -
+2025-03-20 11:04:37 --- 127.0.0.1 - - [20/Mar/2025 11:04:37] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:04:39 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 11:04:39 --- 127.0.0.1 - - [20/Mar/2025 11:04:39] "GET / HTTP/1.1" 200 -
+2025-03-20 11:04:40 --- 127.0.0.1 - - [20/Mar/2025 11:04:40] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-20 11:04:40 --- 127.0.0.1 - - [20/Mar/2025 11:04:40] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-20 11:04:40 --- 127.0.0.1 - - [20/Mar/2025 11:04:40] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:04:40 --- 127.0.0.1 - - [20/Mar/2025 11:04:40] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-20 11:04:40 --- 127.0.0.1 - - [20/Mar/2025 11:04:40] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-20 11:04:41 --- 127.0.0.1 - - [20/Mar/2025 11:04:41] "[33mPOST /profiles HTTP/1.1[0m" 404 -
+2025-03-20 11:04:41 --- 127.0.0.1 - - [20/Mar/2025 11:04:41] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:04:43 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-20 11:04:43 --- 127.0.0.1 - - [20/Mar/2025 11:04:43] "GET / HTTP/1.1" 200 -
+2025-03-20 11:04:43 --- 127.0.0.1 - - [20/Mar/2025 11:04:43] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-20 11:04:43 --- 127.0.0.1 - - [20/Mar/2025 11:04:43] "[36mGET /static/images/web/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-20 11:04:43 --- 127.0.0.1 - - [20/Mar/2025 11:04:43] "[36mGET /static/images/web/queso.png HTTP/1.1[0m" 304 -
+2025-03-20 11:04:43 --- 127.0.0.1 - - [20/Mar/2025 11:04:43] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-03-20 11:04:43 --- 127.0.0.1 - - [20/Mar/2025 11:04:43] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-20 11:12:35 ---  * Detected change in 'F:\\Python\\Proyecto Final Administradores de Bases de Datos\\accounts.py', reloading
+2025-03-20 11:12:35 --- Servidor desconectado

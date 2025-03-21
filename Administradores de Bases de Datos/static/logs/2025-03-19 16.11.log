@@ -1,0 +1,37 @@
+2025-03-19 16:11:45 --- Archivo 2025-03-19 16.11.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 16.11.log
+2025-03-19 16:11:45 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-19 16:11:45 --- [33mPress CTRL+C to quit[0m
+2025-03-19 16:11:45 ---  * Restarting with stat
+2025-03-19 16:11:46 --- Archivo 2025-03-19 16.11.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-19 16.11.log
+2025-03-19 16:11:47 ---  * Debugger is active!
+2025-03-19 16:11:47 ---  * Debugger PIN: 109-695-194
+2025-03-19 16:11:52 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 16:11:52 --- 127.0.0.1 - - [19/Mar/2025 16:11:52] "GET / HTTP/1.1" 200 -
+2025-03-19 16:11:53 --- 127.0.0.1 - - [19/Mar/2025 16:11:53] "GET /static/styles/cards.css HTTP/1.1" 200 -
+2025-03-19 16:11:53 --- 127.0.0.1 - - [19/Mar/2025 16:11:53] "GET /static/images/products/queso.png HTTP/1.1" 200 -
+2025-03-19 16:11:53 --- 127.0.0.1 - - [19/Mar/2025 16:11:53] "GET /static/images/products/crema-batida.png HTTP/1.1" 200 -
+2025-03-19 16:11:54 --- 127.0.0.1 - - [19/Mar/2025 16:11:54] "GET /static/styles/style.css HTTP/1.1" 200 -
+2025-03-19 16:11:54 --- 127.0.0.1 - - [19/Mar/2025 16:11:54] "GET /static/images/products/leche.png HTTP/1.1" 200 -
+2025-03-19 16:11:54 --- 127.0.0.1 - - [19/Mar/2025 16:11:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-19 16:11:56 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-19 16:11:56 --- 127.0.0.1 - - [19/Mar/2025 16:11:56] "GET /contact HTTP/1.1" 200 -
+2025-03-19 16:11:56 --- 127.0.0.1 - - [19/Mar/2025 16:11:56] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 16:11:57 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-19 16:11:57 --- 127.0.0.1 - - [19/Mar/2025 16:11:57] "GET / HTTP/1.1" 200 -
+2025-03-19 16:11:57 --- 127.0.0.1 - - [19/Mar/2025 16:11:57] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-19 16:11:57 --- 127.0.0.1 - - [19/Mar/2025 16:11:57] "[36mGET /static/images/products/leche.png HTTP/1.1[0m" 304 -
+2025-03-19 16:11:57 --- 127.0.0.1 - - [19/Mar/2025 16:11:57] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 16:11:57 --- 127.0.0.1 - - [19/Mar/2025 16:11:57] "[36mGET /static/images/products/crema-batida.png HTTP/1.1[0m" 304 -
+2025-03-19 16:11:57 --- 127.0.0.1 - - [19/Mar/2025 16:11:57] "[36mGET /static/images/products/queso.png HTTP/1.1[0m" 304 -
+2025-03-19 16:12:00 --- 127.0.0.1 - - [19/Mar/2025 16:12:00] "GET /login HTTP/1.1" 200 -
+2025-03-19 16:12:00 --- 127.0.0.1 - - [19/Mar/2025 16:12:00] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 16:12:00 --- 127.0.0.1 - - [19/Mar/2025 16:12:00] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-03-19 16:12:01 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-19 16:12:02 --- 127.0.0.1 - - [19/Mar/2025 16:12:02] "GET /signin HTTP/1.1" 200 -
+2025-03-19 16:12:02 --- 127.0.0.1 - - [19/Mar/2025 16:12:02] "[36mGET /static/styles/style.css HTTP/1.1[0m" 304 -
+2025-03-19 16:12:02 --- 127.0.0.1 - - [19/Mar/2025 16:12:02] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-19 16:16:17 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-19 16:16:17 --- Servidor desconectado
+2025-03-19 16:16:17 ---  * Restarting with stat
+2025-03-19 16:16:18 --- Servidor desconectado
