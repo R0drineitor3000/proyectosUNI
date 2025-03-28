@@ -1,0 +1,10 @@
+.input-small {
+    width: 200px; /* O cualquier tamaño que desees */
+    padding: 5px;
+    font-size: 0.875rem; /* Tamaño de fuente más pequeño */
+}
+
+.card {
+    border-radius: 10px; /* Este valor es el radio de los bordes redondeados, puedes ajustarlo */
+    overflow: hidden; /* Asegura que los elementos dentro de la tarjeta no se salgan de los bordes redondeados */
+}
