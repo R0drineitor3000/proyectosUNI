@@ -1,0 +1,58 @@
+2025-03-28 14:47:00 --- Archivo 2025-03-28 14.47.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 14.47.log
+2025-03-28 14:47:00 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 14:47:00 --- [33mPress CTRL+C to quit[0m
+2025-03-28 14:47:00 ---  * Restarting with stat
+2025-03-28 14:47:01 --- Archivo 2025-03-28 14.47.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 14.47.log
+2025-03-28 14:47:01 ---  * Debugger is active!
+2025-03-28 14:47:01 ---  * Debugger PIN: 532-327-938
+2025-03-28 14:47:08 --- 127.0.0.1 - - [28/Mar/2025 14:47:08] "[33mGET /revoer HTTP/1.1[0m" 404 -
+2025-03-28 14:47:09 --- 127.0.0.1 - - [28/Mar/2025 14:47:09] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:14 --- 127.0.0.1 - - [28/Mar/2025 14:47:14] "[35m[1mGET /recover HTTP/1.1[0m" 500 -
+2025-03-28 14:47:14 --- 127.0.0.1 - - [28/Mar/2025 14:47:14] "GET /recover?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-28 14:47:14 --- 127.0.0.1 - - [28/Mar/2025 14:47:14] "GET /recover?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-28 14:47:15 --- 127.0.0.1 - - [28/Mar/2025 14:47:15] "GET /recover?__debugger__=yes&cmd=resource&f=console.png&s=fh5KPFiS2C8uchvC5YMh HTTP/1.1" 200 -
+2025-03-28 14:47:15 --- 127.0.0.1 - - [28/Mar/2025 14:47:15] "GET /recover?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-28 14:47:28 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 14:47:28 --- Servidor desconectado
+2025-03-28 14:47:28 ---  * Restarting with stat
+2025-03-28 14:47:28 --- Archivo 2025-03-28 14.47.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 14.47.log
+2025-03-28 14:47:28 ---  * Debugger is active!
+2025-03-28 14:47:28 ---  * Debugger PIN: 532-327-938
+2025-03-28 14:47:31 --- 127.0.0.1 - - [28/Mar/2025 14:47:31] "[33mGET /revoer HTTP/1.1[0m" 404 -
+2025-03-28 14:47:31 --- 127.0.0.1 - - [28/Mar/2025 14:47:31] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:35 --- 127.0.0.1 - - [28/Mar/2025 14:47:35] "[33mGET /revoer HTTP/1.1[0m" 404 -
+2025-03-28 14:47:35 --- 127.0.0.1 - - [28/Mar/2025 14:47:35] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:38 --- 127.0.0.1 - - [28/Mar/2025 14:47:38] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:47:38 --- 127.0.0.1 - - [28/Mar/2025 14:47:38] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:42 --- 127.0.0.1 - - [28/Mar/2025 14:47:42] "GET /login HTTP/1.1" 200 -
+2025-03-28 14:47:42 --- 127.0.0.1 - - [28/Mar/2025 14:47:42] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:42 --- 127.0.0.1 - - [28/Mar/2025 14:47:42] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:42 --- 127.0.0.1 - - [28/Mar/2025 14:47:42] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:47:43 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 14:47:43 --- 127.0.0.1 - - [28/Mar/2025 14:47:43] "GET /contact HTTP/1.1" 200 -
+2025-03-28 14:47:43 --- 127.0.0.1 - - [28/Mar/2025 14:47:43] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:45 --- 127.0.0.1 - - [28/Mar/2025 14:47:45] "GET /login HTTP/1.1" 200 -
+2025-03-28 14:47:45 --- 127.0.0.1 - - [28/Mar/2025 14:47:45] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:45 --- 127.0.0.1 - - [28/Mar/2025 14:47:45] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:45 --- 127.0.0.1 - - [28/Mar/2025 14:47:45] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:47:46 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 14:47:46 --- 127.0.0.1 - - [28/Mar/2025 14:47:46] "GET /products HTTP/1.1" 200 -
+2025-03-28 14:47:47 --- 127.0.0.1 - - [28/Mar/2025 14:47:47] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:47 --- 127.0.0.1 - - [28/Mar/2025 14:47:47] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:47 --- 127.0.0.1 - - [28/Mar/2025 14:47:47] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 14:47:47 --- 127.0.0.1 - - [28/Mar/2025 14:47:47] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 14:47:48 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:47:48 --- 127.0.0.1 - - [28/Mar/2025 14:47:48] "GET / HTTP/1.1" 200 -
+2025-03-28 14:47:49 --- 127.0.0.1 - - [28/Mar/2025 14:47:49] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:49 --- 127.0.0.1 - - [28/Mar/2025 14:47:49] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:47:49 --- 127.0.0.1 - - [28/Mar/2025 14:47:49] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:47:49 --- 127.0.0.1 - - [28/Mar/2025 14:47:49] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:47:49 --- 127.0.0.1 - - [28/Mar/2025 14:47:49] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:06 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 14:48:06 --- Servidor desconectado
+2025-03-28 14:48:06 ---  * Restarting with stat
+2025-03-28 14:48:09 ---  * Restarting with stat
+2025-03-28 14:49:10 ---  * Restarting with stat
+2025-03-28 14:57:27 ---  * Restarting with stat
+2025-03-28 14:57:27 --- Servidor desconectado

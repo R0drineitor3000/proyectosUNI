@@ -1,0 +1,322 @@
+2025-03-28 18:16:10 --- Archivo 2025-03-28 18.16.log creado con éxito en H:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 18.16.log
+2025-03-28 18:16:10 ---  * Debugger is active!
+2025-03-28 18:16:10 ---  * Debugger PIN: 827-411-152
+2025-03-28 18:16:42 --- Archivo 2025-03-28 18.16.log creado con éxito en H:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 18.16.log
+2025-03-28 18:16:42 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 18:16:42 --- [33mPress CTRL+C to quit[0m
+2025-03-28 18:16:42 ---  * Restarting with stat
+2025-03-28 18:16:45 --- Archivo 2025-03-28 18.16.log creado con éxito en H:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 18.16.log
+2025-03-28 18:16:45 ---  * Debugger is active!
+2025-03-28 18:16:45 ---  * Debugger PIN: 827-411-152
+2025-03-28 18:17:04 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 18:17:05 --- 127.0.0.1 - - [28/Mar/2025 18:17:05] "GET / HTTP/1.1" 200 -
+2025-03-28 18:17:06 --- 127.0.0.1 - - [28/Mar/2025 18:17:06] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:17:06 --- 127.0.0.1 - - [28/Mar/2025 18:17:06] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:17:06 --- 127.0.0.1 - - [28/Mar/2025 18:17:06] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:17:06 --- 127.0.0.1 - - [28/Mar/2025 18:17:06] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:17:07 --- 127.0.0.1 - - [28/Mar/2025 18:17:07] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:17:07 --- 127.0.0.1 - - [28/Mar/2025 18:17:07] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:17 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 18:18:17 --- 127.0.0.1 - - [28/Mar/2025 18:18:17] "GET /orders HTTP/1.1" 200 -
+2025-03-28 18:18:17 --- 127.0.0.1 - - [28/Mar/2025 18:18:17] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:17 --- 127.0.0.1 - - [28/Mar/2025 18:18:17] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:17 --- 127.0.0.1 - - [28/Mar/2025 18:18:17] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:17 --- 127.0.0.1 - - [28/Mar/2025 18:18:17] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:19 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:18:19 --- 127.0.0.1 - - [28/Mar/2025 18:18:19] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:18:19 --- 127.0.0.1 - - [28/Mar/2025 18:18:19] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:19 --- 127.0.0.1 - - [28/Mar/2025 18:18:19] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:20 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 18:18:20 --- 127.0.0.1 - - [28/Mar/2025 18:18:20] "GET /contact HTTP/1.1" 200 -
+2025-03-28 18:18:20 --- 127.0.0.1 - - [28/Mar/2025 18:18:20] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:20 --- 127.0.0.1 - - [28/Mar/2025 18:18:20] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:21 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 18:18:21 --- 127.0.0.1 - - [28/Mar/2025 18:18:21] "GET /products HTTP/1.1" 200 -
+2025-03-28 18:18:21 --- 127.0.0.1 - - [28/Mar/2025 18:18:21] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:21 --- 127.0.0.1 - - [28/Mar/2025 18:18:21] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:21 --- 127.0.0.1 - - [28/Mar/2025 18:18:21] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:21 --- 127.0.0.1 - - [28/Mar/2025 18:18:21] "GET /static/images/products/product_2.png HTTP/1.1" 200 -
+2025-03-28 18:18:21 --- 127.0.0.1 - - [28/Mar/2025 18:18:21] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 18:18:22 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 18:18:22 --- 127.0.0.1 - - [28/Mar/2025 18:18:22] "GET /contact HTTP/1.1" 200 -
+2025-03-28 18:18:22 --- 127.0.0.1 - - [28/Mar/2025 18:18:22] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:22 --- 127.0.0.1 - - [28/Mar/2025 18:18:22] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:22 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:18:22 --- 127.0.0.1 - - [28/Mar/2025 18:18:22] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:18:23 --- 127.0.0.1 - - [28/Mar/2025 18:18:23] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:23 --- 127.0.0.1 - - [28/Mar/2025 18:18:23] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:54 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "GET / HTTP/1.1" 200 -
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:18:54 --- 127.0.0.1 - - [28/Mar/2025 18:18:54] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:20 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:55:20 --- 127.0.0.1 - - [28/Mar/2025 18:55:20] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:55:21 --- 127.0.0.1 - - [28/Mar/2025 18:55:21] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:21 --- 127.0.0.1 - - [28/Mar/2025 18:55:21] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:23 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 18:55:23 --- 127.0.0.1 - - [28/Mar/2025 18:55:23] "GET /contact HTTP/1.1" 200 -
+2025-03-28 18:55:23 --- 127.0.0.1 - - [28/Mar/2025 18:55:23] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:23 --- 127.0.0.1 - - [28/Mar/2025 18:55:23] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:35 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:55:35 --- 127.0.0.1 - - [28/Mar/2025 18:55:35] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:55:36 --- 127.0.0.1 - - [28/Mar/2025 18:55:36] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:36 --- 127.0.0.1 - - [28/Mar/2025 18:55:36] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:38 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 18:55:38 --- 127.0.0.1 - - [28/Mar/2025 18:55:38] "GET /contact HTTP/1.1" 200 -
+2025-03-28 18:55:39 --- 127.0.0.1 - - [28/Mar/2025 18:55:39] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:39 --- 127.0.0.1 - - [28/Mar/2025 18:55:39] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:40 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:55:40 --- 127.0.0.1 - - [28/Mar/2025 18:55:40] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:55:40 --- 127.0.0.1 - - [28/Mar/2025 18:55:40] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:40 --- 127.0.0.1 - - [28/Mar/2025 18:55:40] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:40 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 18:55:40 --- 127.0.0.1 - - [28/Mar/2025 18:55:40] "GET /products HTTP/1.1" 200 -
+2025-03-28 18:55:41 --- 127.0.0.1 - - [28/Mar/2025 18:55:41] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:41 --- 127.0.0.1 - - [28/Mar/2025 18:55:41] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:41 --- 127.0.0.1 - - [28/Mar/2025 18:55:41] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 18:55:41 --- 127.0.0.1 - - [28/Mar/2025 18:55:41] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:41 --- 127.0.0.1 - - [28/Mar/2025 18:55:41] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 18:55:42 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:55:42 --- 127.0.0.1 - - [28/Mar/2025 18:55:42] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:55:42 --- 127.0.0.1 - - [28/Mar/2025 18:55:42] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:42 --- 127.0.0.1 - - [28/Mar/2025 18:55:42] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:43 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 18:55:43 --- 127.0.0.1 - - [28/Mar/2025 18:55:43] "GET /orders HTTP/1.1" 200 -
+2025-03-28 18:55:43 --- 127.0.0.1 - - [28/Mar/2025 18:55:43] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:43 --- 127.0.0.1 - - [28/Mar/2025 18:55:43] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:43 --- 127.0.0.1 - - [28/Mar/2025 18:55:43] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:45 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 18:55:45 --- 127.0.0.1 - - [28/Mar/2025 18:55:45] "GET /orders HTTP/1.1" 200 -
+2025-03-28 18:55:45 --- 127.0.0.1 - - [28/Mar/2025 18:55:45] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:45 --- 127.0.0.1 - - [28/Mar/2025 18:55:45] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:45 --- 127.0.0.1 - - [28/Mar/2025 18:55:45] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:45 --- 127.0.0.1 - - [28/Mar/2025 18:55:45] "GET /purchase HTTP/1.1" 200 -
+2025-03-28 18:55:46 --- 127.0.0.1 - - [28/Mar/2025 18:55:46] "[36mGET /static/styles/payment.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:46 --- 127.0.0.1 - - [28/Mar/2025 18:55:46] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:46 --- 127.0.0.1 - - [28/Mar/2025 18:55:46] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:46 --- 127.0.0.1 - - [28/Mar/2025 18:55:46] "[33mGET /static/images/cards/visa.svg HTTP/1.1[0m" 404 -
+2025-03-28 18:55:48 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-03-28 18:55:48 --- 127.0.0.1 - - [28/Mar/2025 18:55:48] "GET /myprofile HTTP/1.1" 200 -
+2025-03-28 18:55:48 --- 127.0.0.1 - - [28/Mar/2025 18:55:48] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:48 --- 127.0.0.1 - - [28/Mar/2025 18:55:48] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:49 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 18:55:49 --- 127.0.0.1 - - [28/Mar/2025 18:55:49] "GET /contact HTTP/1.1" 200 -
+2025-03-28 18:55:49 --- 127.0.0.1 - - [28/Mar/2025 18:55:49] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:49 --- 127.0.0.1 - - [28/Mar/2025 18:55:49] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:55:50 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 18:55:50 --- 127.0.0.1 - - [28/Mar/2025 18:55:50] "GET /upload HTTP/1.1" 200 -
+2025-03-28 18:55:51 --- 127.0.0.1 - - [28/Mar/2025 18:55:51] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:55:51 --- 127.0.0.1 - - [28/Mar/2025 18:55:51] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:57:57 --- 127.0.0.1: MilkManager ha cerrado sesión
+2025-03-28 18:57:57 --- 127.0.0.1 - - [28/Mar/2025 18:57:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 18:57:58 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 18:57:58 --- 127.0.0.1 - - [28/Mar/2025 18:57:58] "GET / HTTP/1.1" 200 -
+2025-03-28 18:57:58 --- 127.0.0.1 - - [28/Mar/2025 18:57:58] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:57:58 --- 127.0.0.1 - - [28/Mar/2025 18:57:58] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:57:58 --- 127.0.0.1 - - [28/Mar/2025 18:57:58] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:57:58 --- 127.0.0.1 - - [28/Mar/2025 18:57:58] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:57:58 --- 127.0.0.1 - - [28/Mar/2025 18:57:58] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:57:59 --- 127.0.0.1 - - [28/Mar/2025 18:57:59] "GET /login HTTP/1.1" 200 -
+2025-03-28 18:57:59 --- 127.0.0.1 - - [28/Mar/2025 18:57:59] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:57:59 --- 127.0.0.1 - - [28/Mar/2025 18:57:59] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 18:57:59 --- 127.0.0.1 - - [28/Mar/2025 18:57:59] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 18:58:01 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-28 18:58:02 --- 127.0.0.1 - - [28/Mar/2025 18:58:02] "GET /signin HTTP/1.1" 200 -
+2025-03-28 18:58:02 --- 127.0.0.1 - - [28/Mar/2025 18:58:02] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:02 --- 127.0.0.1 - - [28/Mar/2025 18:58:02] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 18:58:02 --- 127.0.0.1 - - [28/Mar/2025 18:58:02] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:05 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 18:58:05 --- 127.0.0.1 - - [28/Mar/2025 18:58:05] "GET /products HTTP/1.1" 200 -
+2025-03-28 18:58:05 --- 127.0.0.1 - - [28/Mar/2025 18:58:05] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 18:58:05 --- 127.0.0.1 - - [28/Mar/2025 18:58:05] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:05 --- 127.0.0.1 - - [28/Mar/2025 18:58:05] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:05 --- 127.0.0.1 - - [28/Mar/2025 18:58:05] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 18:58:07 --- 127.0.0.1 - - [28/Mar/2025 18:58:07] "GET /login HTTP/1.1" 200 -
+2025-03-28 18:58:07 --- 127.0.0.1 - - [28/Mar/2025 18:58:07] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:07 --- 127.0.0.1 - - [28/Mar/2025 18:58:07] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:07 --- 127.0.0.1 - - [28/Mar/2025 18:58:07] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 18:58:09 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 18:58:09 --- 127.0.0.1 - - [28/Mar/2025 18:58:09] "GET / HTTP/1.1" 200 -
+2025-03-28 18:58:09 --- 127.0.0.1 - - [28/Mar/2025 18:58:09] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:09 --- 127.0.0.1 - - [28/Mar/2025 18:58:09] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:09 --- 127.0.0.1 - - [28/Mar/2025 18:58:09] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:58:09 --- 127.0.0.1 - - [28/Mar/2025 18:58:09] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:58:09 --- 127.0.0.1 - - [28/Mar/2025 18:58:09] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:58:16 --- 127.0.0.1 - - [28/Mar/2025 18:58:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 18:58:16 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 18:58:16 --- 127.0.0.1 - - [28/Mar/2025 18:58:16] "GET / HTTP/1.1" 200 -
+2025-03-28 18:58:17 --- 127.0.0.1 - - [28/Mar/2025 18:58:17] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:17 --- 127.0.0.1 - - [28/Mar/2025 18:58:17] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 18:58:17 --- 127.0.0.1 - - [28/Mar/2025 18:58:17] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:58:17 --- 127.0.0.1 - - [28/Mar/2025 18:58:17] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 18:58:17 --- 127.0.0.1 - - [28/Mar/2025 18:58:17] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:12 --- 127.0.0.1 - - [28/Mar/2025 19:03:12] "GET /login HTTP/1.1" 200 -
+2025-03-28 19:03:13 --- 127.0.0.1 - - [28/Mar/2025 19:03:13] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:13 --- 127.0.0.1 - - [28/Mar/2025 19:03:13] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:13 --- 127.0.0.1 - - [28/Mar/2025 19:03:13] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 19:03:13 --- 127.0.0.1 - - [28/Mar/2025 19:03:13] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:19 --- 127.0.0.1: milkmanagerbussiness@gmail.com ha iniciado sesión
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 19:03:19 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "GET / HTTP/1.1" 200 -
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:19 --- 127.0.0.1 - - [28/Mar/2025 19:03:19] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:21 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 19:03:21 --- 127.0.0.1 - - [28/Mar/2025 19:03:21] "GET /upload HTTP/1.1" 200 -
+2025-03-28 19:03:21 --- 127.0.0.1 - - [28/Mar/2025 19:03:21] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:21 --- 127.0.0.1 - - [28/Mar/2025 19:03:21] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:25 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 19:03:25 --- 127.0.0.1 - - [28/Mar/2025 19:03:25] "GET /contact HTTP/1.1" 200 -
+2025-03-28 19:03:26 --- 127.0.0.1 - - [28/Mar/2025 19:03:26] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:26 --- 127.0.0.1 - - [28/Mar/2025 19:03:26] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:03:53 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 19:03:53 --- 127.0.0.1 - - [28/Mar/2025 19:03:53] "GET /upload HTTP/1.1" 200 -
+2025-03-28 19:03:53 --- 127.0.0.1 - - [28/Mar/2025 19:03:53] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:03:53 --- 127.0.0.1 - - [28/Mar/2025 19:03:53] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:04:29 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 19:04:29 --- 127.0.0.1 - - [28/Mar/2025 19:04:29] "GET /products HTTP/1.1" 200 -
+2025-03-28 19:04:29 --- 127.0.0.1 - - [28/Mar/2025 19:04:29] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:04:29 --- 127.0.0.1 - - [28/Mar/2025 19:04:29] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:04:29 --- 127.0.0.1 - - [28/Mar/2025 19:04:29] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:04:29 --- 127.0.0.1 - - [28/Mar/2025 19:04:29] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 19:04:29 --- 127.0.0.1 - - [28/Mar/2025 19:04:29] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 19:04:31 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 19:04:31 --- 127.0.0.1 - - [28/Mar/2025 19:04:31] "GET /contact HTTP/1.1" 200 -
+2025-03-28 19:04:31 --- 127.0.0.1 - - [28/Mar/2025 19:04:31] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:04:31 --- 127.0.0.1 - - [28/Mar/2025 19:04:31] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:04:32 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 19:04:32 --- 127.0.0.1 - - [28/Mar/2025 19:04:32] "GET /products HTTP/1.1" 200 -
+2025-03-28 19:04:32 --- 127.0.0.1 - - [28/Mar/2025 19:04:32] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:04:32 --- 127.0.0.1 - - [28/Mar/2025 19:04:32] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:04:32 --- 127.0.0.1 - - [28/Mar/2025 19:04:32] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:04:32 --- 127.0.0.1 - - [28/Mar/2025 19:04:32] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 19:04:32 --- 127.0.0.1 - - [28/Mar/2025 19:04:32] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 19:08:30 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 19:08:30 --- 127.0.0.1 - - [28/Mar/2025 19:08:30] "GET /upload HTTP/1.1" 200 -
+2025-03-28 19:08:31 --- 127.0.0.1 - - [28/Mar/2025 19:08:31] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:31 --- 127.0.0.1 - - [28/Mar/2025 19:08:31] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:31 --- 127.0.0.1 - - [28/Mar/2025 19:08:31] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:33 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 19:08:33 --- 127.0.0.1 - - [28/Mar/2025 19:08:33] "GET /contact HTTP/1.1" 200 -
+2025-03-28 19:08:34 --- 127.0.0.1 - - [28/Mar/2025 19:08:34] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:34 --- 127.0.0.1 - - [28/Mar/2025 19:08:34] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:35 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 19:08:35 --- 127.0.0.1 - - [28/Mar/2025 19:08:35] "GET /products HTTP/1.1" 200 -
+2025-03-28 19:08:35 --- 127.0.0.1 - - [28/Mar/2025 19:08:35] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:35 --- 127.0.0.1 - - [28/Mar/2025 19:08:35] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:35 --- 127.0.0.1 - - [28/Mar/2025 19:08:35] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 19:08:35 --- 127.0.0.1 - - [28/Mar/2025 19:08:35] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:35 --- 127.0.0.1 - - [28/Mar/2025 19:08:35] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 19:08:37 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 19:08:37 --- 127.0.0.1 - - [28/Mar/2025 19:08:37] "GET /contact HTTP/1.1" 200 -
+2025-03-28 19:08:37 --- 127.0.0.1 - - [28/Mar/2025 19:08:37] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:37 --- 127.0.0.1 - - [28/Mar/2025 19:08:37] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:38 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 19:08:38 --- 127.0.0.1 - - [28/Mar/2025 19:08:38] "GET / HTTP/1.1" 200 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:39 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "GET /upload HTTP/1.1" 200 -
+2025-03-28 19:08:39 --- 127.0.0.1 - - [28/Mar/2025 19:08:39] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:40 --- 127.0.0.1 - - [28/Mar/2025 19:08:40] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:44 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 19:08:44 --- 127.0.0.1 - - [28/Mar/2025 19:08:44] "GET / HTTP/1.1" 200 -
+2025-03-28 19:08:45 --- 127.0.0.1 - - [28/Mar/2025 19:08:45] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:45 --- 127.0.0.1 - - [28/Mar/2025 19:08:45] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:45 --- 127.0.0.1 - - [28/Mar/2025 19:08:45] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:45 --- 127.0.0.1 - - [28/Mar/2025 19:08:45] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:08:45 --- 127.0.0.1 - - [28/Mar/2025 19:08:45] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:08:45 --- 127.0.0.1 - - [28/Mar/2025 19:08:45] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:17:35 --- Se abrió la página Productos desde: 127.0.0.1
+2025-03-28 19:17:35 --- 127.0.0.1 - - [28/Mar/2025 19:17:35] "GET /products HTTP/1.1" 200 -
+2025-03-28 19:17:35 --- 127.0.0.1 - - [28/Mar/2025 19:17:35] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-03-28 19:17:35 --- 127.0.0.1 - - [28/Mar/2025 19:17:35] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:17:35 --- 127.0.0.1 - - [28/Mar/2025 19:17:35] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-03-28 19:17:35 --- 127.0.0.1 - - [28/Mar/2025 19:17:35] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:17:35 --- 127.0.0.1 - - [28/Mar/2025 19:17:35] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-03-28 19:17:36 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-03-28 19:17:36 --- 127.0.0.1 - - [28/Mar/2025 19:17:36] "GET /contact HTTP/1.1" 200 -
+2025-03-28 19:17:37 --- 127.0.0.1 - - [28/Mar/2025 19:17:37] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:17:37 --- 127.0.0.1 - - [28/Mar/2025 19:17:37] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:17:39 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 19:17:39 --- 127.0.0.1 - - [28/Mar/2025 19:17:39] "GET /upload HTTP/1.1" 200 -
+2025-03-28 19:17:40 --- 127.0.0.1 - - [28/Mar/2025 19:17:40] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:17:40 --- 127.0.0.1 - - [28/Mar/2025 19:17:40] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:17:46 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:17:46 --- 127.0.0.1 - - [28/Mar/2025 19:17:46] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:17:46 --- 127.0.0.1 - - [28/Mar/2025 19:17:46] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:17:46 --- 127.0.0.1 - - [28/Mar/2025 19:17:46] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:17:46 --- 127.0.0.1 - - [28/Mar/2025 19:17:46] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:28:29 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:28:29 --- 127.0.0.1 - - [28/Mar/2025 19:28:29] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:28:29 --- 127.0.0.1 - - [28/Mar/2025 19:28:29] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:28:29 --- 127.0.0.1 - - [28/Mar/2025 19:28:29] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:28:29 --- 127.0.0.1 - - [28/Mar/2025 19:28:29] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:28:29 --- 127.0.0.1 - - [28/Mar/2025 19:28:29] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:02 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:02 --- 127.0.0.1 - - [28/Mar/2025 19:29:02] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:03 --- 127.0.0.1 - - [28/Mar/2025 19:29:03] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:03 --- 127.0.0.1 - - [28/Mar/2025 19:29:03] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:03 --- 127.0.0.1 - - [28/Mar/2025 19:29:03] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:03 --- 127.0.0.1 - - [28/Mar/2025 19:29:03] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:16 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:16 --- 127.0.0.1 - - [28/Mar/2025 19:29:16] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:16 --- 127.0.0.1 - - [28/Mar/2025 19:29:16] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:16 --- 127.0.0.1 - - [28/Mar/2025 19:29:16] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:16 --- 127.0.0.1 - - [28/Mar/2025 19:29:16] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:17 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:17 --- 127.0.0.1 - - [28/Mar/2025 19:29:17] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:17 --- 127.0.0.1 - - [28/Mar/2025 19:29:17] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:17 --- 127.0.0.1 - - [28/Mar/2025 19:29:17] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:17 --- 127.0.0.1 - - [28/Mar/2025 19:29:17] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:18 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:18 --- 127.0.0.1 - - [28/Mar/2025 19:29:18] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:19 --- 127.0.0.1 - - [28/Mar/2025 19:29:19] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:19 --- 127.0.0.1 - - [28/Mar/2025 19:29:19] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:19 --- 127.0.0.1 - - [28/Mar/2025 19:29:19] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:19 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:19 --- 127.0.0.1 - - [28/Mar/2025 19:29:19] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:20 --- 127.0.0.1 - - [28/Mar/2025 19:29:20] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:20 --- 127.0.0.1 - - [28/Mar/2025 19:29:20] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:20 --- 127.0.0.1 - - [28/Mar/2025 19:29:20] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:21 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:21 --- 127.0.0.1 - - [28/Mar/2025 19:29:21] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:21 --- 127.0.0.1 - - [28/Mar/2025 19:29:21] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:21 --- 127.0.0.1 - - [28/Mar/2025 19:29:21] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:21 --- 127.0.0.1 - - [28/Mar/2025 19:29:21] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:31 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:31 --- 127.0.0.1 - - [28/Mar/2025 19:29:31] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:29:32 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:29:32 --- 127.0.0.1 - - [28/Mar/2025 19:29:32] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:39:12 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 19:39:12 --- 127.0.0.1 - - [28/Mar/2025 19:39:12] "GET /orders HTTP/1.1" 200 -
+2025-03-28 19:39:12 --- 127.0.0.1 - - [28/Mar/2025 19:39:12] "[36mGET /static/styles/chow_orders.css HTTP/1.1[0m" 304 -
+2025-03-28 19:39:12 --- 127.0.0.1 - - [28/Mar/2025 19:39:12] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 19:39:12 --- 127.0.0.1 - - [28/Mar/2025 19:39:12] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:39:12 --- 127.0.0.1 - - [28/Mar/2025 19:39:12] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 19:55:20 ---  * Detected change in 'H:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 19:55:20 --- Servidor desconectado
+2025-03-28 19:55:20 ---  * Restarting with stat
+2025-03-28 19:55:28 ---  * Restarting with stat
+2025-03-28 19:55:49 ---  * Restarting with stat
+2025-03-28 19:57:30 ---  * Restarting with stat
+2025-03-28 20:05:20 ---  * Restarting with stat

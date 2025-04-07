@@ -1,0 +1,75 @@
+        .img-fija {
+            height: 250px; /* Fija la altura de todas las imágenes */
+            object-fit: cover; /* Recorta la imagen sin deformarla */
+            width: 100%; /* Asegura que ocupe todo el ancho de la tarjeta */
+        }
+
+        .card {
+            transition: transform 0.3s ease-in, box-shadow 0.3s ease-in; /* Entrada rápida */
+        }
+
+        .navbar {
+            background: linear-gradient(90deg, #15009b, #1d33fa); /* Degradado de colores */
+        }
+
+        .navbar-nav .nav-link {
+            color: white !important; /* Cambiar el color de las letras a blanco */
+        }
+
+        header{
+            background: rgba(24, 39, 255, 0.5); /* Color de fondo con transparencia al 50% * no funciona xD */
+                      
+        }
+        
+        footer {
+            background: linear-gradient(90deg, #15009b, #1d33fa); /* Degradado de colores */
+			width: 100%;
+			text-align: center;
+			padding: 20px 0;
+			position: relative;
+			bottom: 0;
+			margin-top: auto;
+            opacity: 0.50; /* Transparencia al 75% */
+        }
+
+        body {
+            background: url('/static/images/web/fincafond.jpg') no-repeat center center fixed; /* Imagen de fondo */
+            background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+            position: relative; /* Para superponer el overlay */
+        }
+
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Overlay oscuro */
+            z-index: -1; /* Coloca el overlay detrás del contenido */
+        }
+
+        .form-control {
+            font-size: 0.75rem; /* Tamaño de letra más pequeño */
+        }
+
+       .profile-pic {
+           width: 40px;   /* O ajusta el tamaño a lo que necesites */
+           height: 40px;  /* Mantén la imagen cuadrada */
+           object-fit: cover;  /* Asegura que la imagen se ajuste correctamente */
+           border-radius: 50%; /* Hace que la imagen sea circular */
+       }
+
+        .contact-form {
+            padding: 2rem;
+        }
+        
+        .form-label {
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+        
+        .form-control:focus {
+            border-color: var(--accent-color);
+            box-shadow: 0 0 0 0.25rem rgba(79, 195, 247, 0.25);
+        }

@@ -1,0 +1,23 @@
+2025-03-28 15:26:14 --- Archivo 2025-03-28 15.26.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.26.log
+2025-03-28 15:26:14 ---  * Debugger is active!
+2025-03-28 15:26:14 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:27:18 --- 127.0.0.1 - - [28/Mar/2025 15:27:18] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:27:18 --- 127.0.0.1 - - [28/Mar/2025 15:27:18] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:27:18 --- 127.0.0.1 - - [28/Mar/2025 15:27:18] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:27:18 --- 127.0.0.1 - - [28/Mar/2025 15:27:18] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 15:27:20 --- 127.0.0.1 - - [28/Mar/2025 15:27:20] "[35m[1mPOST /recover HTTP/1.1[0m" 500 -
+2025-03-28 15:27:20 --- 127.0.0.1 - - [28/Mar/2025 15:27:20] "[36mGET /recover?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-28 15:27:20 --- 127.0.0.1 - - [28/Mar/2025 15:27:20] "[36mGET /recover?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-28 15:27:20 --- 127.0.0.1 - - [28/Mar/2025 15:27:20] "GET /recover?__debugger__=yes&cmd=resource&f=console.png&s=xpo9hyIiGOKEtqsrNaWS HTTP/1.1" 200 -
+2025-03-28 15:27:21 --- 127.0.0.1 - - [28/Mar/2025 15:27:21] "[36mGET /recover?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 15:27:24 --- 127.0.0.1 - - [28/Mar/2025 15:27:24] "[36mGET /recover?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 15:27:32 --- 127.0.0.1 - - [28/Mar/2025 15:27:32] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:27:33 --- 127.0.0.1 - - [28/Mar/2025 15:27:33] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:27:33 --- 127.0.0.1 - - [28/Mar/2025 15:27:33] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:27:34 --- 127.0.0.1 - - [28/Mar/2025 15:27:34] "[35m[1mPOST /recover HTTP/1.1[0m" 500 -
+2025-03-28 15:27:35 --- 127.0.0.1 - - [28/Mar/2025 15:27:35] "[36mGET /recover?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-28 15:27:35 --- 127.0.0.1 - - [28/Mar/2025 15:27:35] "[36mGET /recover?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-28 15:27:35 --- 127.0.0.1 - - [28/Mar/2025 15:27:35] "[36mGET /recover?__debugger__=yes&cmd=resource&f=console.png&s=xpo9hyIiGOKEtqsrNaWS HTTP/1.1[0m" 304 -
+2025-03-28 15:27:35 --- 127.0.0.1 - - [28/Mar/2025 15:27:35] "[36mGET /recover?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 15:27:56 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:27:56 --- Servidor desconectado

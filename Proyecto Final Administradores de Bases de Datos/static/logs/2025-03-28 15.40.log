@@ -1,0 +1,27 @@
+2025-03-28 15:40:16 --- Archivo 2025-03-28 15.40.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.40.log
+2025-03-28 15:40:16 ---  * Debugger is active!
+2025-03-28 15:40:16 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:40:54 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:40:54 --- Servidor desconectado
+2025-03-28 15:40:55 --- Archivo 2025-03-28 15.40.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.40.log
+2025-03-28 15:40:55 ---  * Debugger is active!
+2025-03-28 15:40:55 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:41:04 --- 127.0.0.1 - - [28/Mar/2025 15:41:04] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:41:05 --- 127.0.0.1 - - [28/Mar/2025 15:41:05] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:41:05 --- 127.0.0.1 - - [28/Mar/2025 15:41:05] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:41:05 --- 127.0.0.1 - - [28/Mar/2025 15:41:05] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 15:41:05 --- 127.0.0.1 - - [28/Mar/2025 15:41:05] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 15:41:09 --- 127.0.0.1 - - [28/Mar/2025 15:41:09] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:41:10 --- 127.0.0.1 - - [28/Mar/2025 15:41:10] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:41:10 --- 127.0.0.1 - - [28/Mar/2025 15:41:10] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:41:15 --- 127.0.0.1 - - [28/Mar/2025 15:41:15] "[32mPOST /recover HTTP/1.1[0m" 302 -
+2025-03-28 15:41:18 --- Correo enviado a r0drigos3villa@gmail.com con el código de autenticación
+2025-03-28 15:41:18 --- 127.0.0.1 - - [28/Mar/2025 15:41:18] "[32mGET /generateRec HTTP/1.1[0m" 302 -
+2025-03-28 15:41:18 --- 127.0.0.1 - - [28/Mar/2025 15:41:18] "GET /recovercode HTTP/1.1" 200 -
+2025-03-28 15:41:18 --- 127.0.0.1 - - [28/Mar/2025 15:41:18] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:41:30 --- 127.0.0.1 - - [28/Mar/2025 15:41:30] "POST /recovercode HTTP/1.1" 200 -
+2025-03-28 15:41:30 --- 127.0.0.1 - - [28/Mar/2025 15:41:30] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:41:43 --- 127.0.0.1 - - [28/Mar/2025 15:41:43] "POST /recovercode HTTP/1.1" 200 -
+2025-03-28 15:41:43 --- 127.0.0.1 - - [28/Mar/2025 15:41:43] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:43:35 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:43:35 --- Servidor desconectado

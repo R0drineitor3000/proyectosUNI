@@ -1,0 +1,16 @@
+2025-03-28 15:00:25 --- Archivo 2025-03-28 15.00.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.00.log
+2025-03-28 15:00:25 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-28 15:00:25 --- [33mPress CTRL+C to quit[0m
+2025-03-28 15:00:25 ---  * Restarting with stat
+2025-03-28 15:00:26 --- Archivo 2025-03-28 15.00.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.00.log
+2025-03-28 15:00:26 ---  * Debugger is active!
+2025-03-28 15:00:26 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:02:13 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:02:13 --- Servidor desconectado
+2025-03-28 15:02:13 ---  * Restarting with stat
+2025-03-28 15:03:30 ---  * Restarting with stat
+2025-03-28 15:05:49 ---  * Restarting with stat
+2025-03-28 15:06:35 ---  * Restarting with stat
+2025-03-28 15:08:46 ---  * Restarting with stat
+2025-03-28 15:08:46 --- Servidor desconectado

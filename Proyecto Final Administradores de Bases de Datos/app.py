@@ -26,6 +26,8 @@ app.config['MAIL_USE_SSL'] = False  # No usar SSL
 app.config['MAIL_USERNAME'] = secret.decrypt("mail")  # Tu correo de Gmail
 app.config['MAIL_PASSWORD'] = secret.decrypt("mail_ps")  # Tu contraseña de Gmail
 app.config['MAIL_DEFAULT_SENDER'] = secret.decrypt("mail")  # Correo predeterminado
+app.config['SESSION_COOKIE_HTTPONLY'] = True  # Evita que la cookie sea accedida por JavaScript
+app.config['SESSION_COOKIE_SECURE'] = True  # Asegúrate de usar HTTPS
 
 mail = Mail(app)
 
@@ -172,11 +174,22 @@ def product(product_id):
     
     return render_template('product.html', user=user, product=product)
 
-@app.route('/products')
+@app.route('/orders')
+def orders():
+    client_ip = request.remote_addr
+    user = getUser()
+    log.write(f"Se abrió la página de las órdenes desde: {client_ip}")
+    return render_template('orders.html', user=user)
+
+@app.route('/products', methods=['GET', 'POST'])
 def products():
     client_ip = request.remote_addr
     log.write(f"Se abrió la página Productos desde: {client_ip}")
-    productos = database.products.getAllProducts()
+    productos = None
+    if request.method == 'POST':
+        productos = database.products.getProductLike(request.form["productsearch"])
+    else:
+        productos = database.products.getAllProducts()
     user = getUser()
     for producto in productos:
         username = database.login.getUser(producto.get("idPoster")).get("username")
@@ -185,13 +198,6 @@ def products():
         else:
             producto["poster"] ="Desconocido"
     return render_template('products.html', user = user, productos = productos)
-
-@app.route('/contact')
-def contact():
-    client_ip = request.remote_addr
-    log.write(f"Se abrió la página Contactos desde: {client_ip}")
-    user = getUser()
-    return render_template('contact.html', user = user)
 
 @app.route('/upload', methods=['GET', 'POST'])
 def upload():
@@ -256,6 +262,28 @@ def accounts():
     user = getUser()
     return render_template('accounts.html', user = user)
 
+@app.route('/contact', methods=['GET', 'POST'])
+def contact():
+    client_ip = request.remote_addr
+    if request.method == 'POST':
+        log.write(f"Se envió mensaje desde: {client_ip}")
+        name = request.form["name"]
+        email = request.form["email"]
+        message = request.form["message"]
+        final_message = f"Enviado por {name}\nEmail: {email}\nMensaje: {message}"
+        send_email(secret.decrypt("mail"), "Mensaje desde contacto", final_message)
+        return redirect(url_for('contact'))
+    else:
+        log.write(f"Se abrió la página Contactos desde: {client_ip}")
+        user = getUser()
+        return render_template('contact.html', user = user)
+
+################################################
+################################################
+################## Empleados ###################
+################################################
+################################################
+
 @app.route('/employees', methods=['GET', 'POST'])
 def employees():
     if request.method == 'GET':
@@ -282,6 +310,12 @@ def deleteEmployee():
     idelete = request.form['idelete']
     database.employees.deleteEmployee(idelete)
     return redirect(url_for('employees'))
+
+################################################
+################################################
+############# Registro de Cuenta ###############
+################################################
+################################################
 
 @app.route('/signin', methods=['GET', 'POST'])
 def signin():
@@ -370,6 +404,107 @@ def confirm():
                 flash("El código introducido no es válido", "error")
     return render_template('confirmation.html')
 
+################################################
+################################################
+############ Recuperar contraseña ##############
+################################################
+################################################
+@app.route('/recover', methods=['POST', 'GET'])
+def recover():
+    user = getUser()
+    if user:
+        return redirect(url_for('home'))
+    if request.method == 'POST':
+        if not database.login.userExists(request.form["email"]):
+            flash("Cuenta no registrada", "error")
+            return redirect(url_for('login'))
+        session["emailToConfirm"] = request.form["email"]
+        return redirect(url_for('generateRec'))
+    return render_template('recover.html', user=user)
+
+@app.route('/recovercode', methods=['GET', 'POST'])
+def recoverCode():
+    user = getUser()
+    if user or "rec_code" not in session:
+        return redirect(url_for('home'))
+
+    if 'attempts' not in session:
+        session['attempts'] = 0
+        session['lockout_time'] = None
+        
+    # Lógica para manejar bloqueo por intentos fallidos
+    if 'lockout_time' in session and session['lockout_time']:
+        if time() > session['lockout_time']:
+            session['attempts'] = 0
+            session.pop('lockout_time', None)
+        else:
+            flash("Has excedido el número máximo de intentos. Intenta más tarde.", "error")
+            return redirect(url_for('home'))
+    
+    # Verificar si el código ha caducado
+    rec_code_time = session.get('rec_code_time')
+    if rec_code_time:
+        expiration_time = session['rec_code_expiration_time']
+        if time() > expiration_time:
+            flash("El código de recuperación ha caducado", "error")
+            session.pop('emailToConfirm', None)
+            session.pop('rec_code', None)
+            session.pop('rec_code_time', None)  # Limpiar los datos
+            session.pop('rec_code_expiration_time', None)
+            
+    if "emailToConfirm" not in session:
+        return redirect(url_for('login'))
+    if request.method == 'POST':
+        rec_code = request.form["codeText"]
+        if rec_code == str(session['rec_code']):
+            session.pop('rec_code', None)
+            session.pop('rec_code_time', None)  # Limpiar los datos
+            session.pop('rec_code_expiration_time', None)
+            return redirect(url_for('restore'))
+        else:
+            session['attempts'] += 1
+            flash("El código introducido no es válido", "error")
+            if session['attempts'] >= MAX_LOGIN_ATTEMPTS:
+                session['lockout_time'] = time() + LOCKOUT_TIME  # Bloqueo por un minuto
+                flash("Has excedido el número máximo de intentos. Intenta más tarde.", "error")
+                return redirect(url_for('home'))
+            else:
+                flash("El código introducido no es válido", "error")
+    return render_template('recovercode.html')
+
+@app.route('/generateRec')
+def generateRec():
+    generateRecCode()
+    return redirect(url_for('recoverCode'))
+
+@app.route('/restore', methods=['GET', 'POST'])
+def restore():
+    user = getUser()
+    if user:
+        return redirect(url_for('home'))
+    if request.method == 'POST':
+        password = request.form['password']
+        confirm_password = request.form['confirmPassword']
+
+        if password != confirm_password:
+            flash("Las contraseñas no coinciden", "error")
+            return redirect(url_for('signin'))
+        confirm_password = None
+        password = generate_password_hash(password, salt_length=16)
+        email = session["emailToConfirm"]
+        database.login.updateUser(email, "password", password)
+        user = database.login.getUser(email)
+        session['user'] = user
+        email = None
+        return redirect(url_for('myprofile'))
+    return render_template('restore.html', user=user)
+
+################################################
+################################################
+############## Inicio de sesión ################
+################################################
+################################################
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if "user" in session:
@@ -421,7 +556,6 @@ def login():
             return redirect(url_for('login'))
 
     return render_template('login.html')
-
 
 @app.route('/login/oauth')
 def OAuth():
@@ -479,6 +613,11 @@ def complete():
         return redirect(url_for('myprofile'))
 
 
+################################################
+################################################
+################ Cerrar Sesión #################
+################################################
+################################################
 @app.route('/logout')
 def logout():
     if 'username' in session:
@@ -490,14 +629,32 @@ def logout():
     session.pop("cart", None)
     return redirect(url_for('home'))
 
+################################################
+################################################
+################## Error 404 ###################
+################################################
+################################################
+
 @app.errorhandler(404)
 def page_not_found(error):
     user = getUser()
     return render_template('404.html', user = getUser()), 404  # Renderiza la plantilla 404.html
 
+################################################
+################################################
+############# Protocolo de cierre ##############
+################################################
+################################################
+
 def log_shutdown():
     log.write("Servidor desconectado")
     database.disconnectAll()
+
+################################################
+################################################
+############# Códigos para email ###############
+################################################
+################################################
 
 def generateAuthCode():
     session['auth_code'] = random.randint(1000, 9999)
@@ -506,6 +663,20 @@ def generateAuthCode():
     if 'pre_user' in session:
         pre_user = session['pre_user']
         send_auth_code_email(pre_user['email'], session['auth_code'])
+
+def generateRecCode():
+    session['rec_code'] = random.randint(1000, 9999)
+    session['rec_code_time'] = time()  # Guardar el tiempo en que se generó el código
+    session['rec_code_expiration_time'] = session['rec_code_time'] + 300  # Caducidad del código
+    if "emailToConfirm" in session:
+        email = session["emailToConfirm"]
+        send_recover_code_email(email, session['rec_code'])
+
+################################################
+################################################
+############### Envío de email #################
+################################################
+################################################
 
 def send_auth_code_email(user_email, auth_code):
     #Función para enviar un correo con el código de autenticación
@@ -523,6 +694,46 @@ def send_auth_code_email(user_email, auth_code):
     except Exception as e:
         log.write(f'Correo enviado a {user_email} con el código de autenticación')
         print(f'Ocurrió un error al enviar el correo: {e}')
+
+def send_recover_code_email(user_email, auth_code):
+    #Función para enviar un correo con el código de autenticación
+    msg = Message(
+        'Código de restauración',  # Asunto del correo
+        recipients=[user_email],  # Destinatario
+        body=f'¿Has olvidado tu contraseña? Ingresa este código para recuperarla:\n{auth_code}'  # Cuerpo del mensaje
+    )
+    
+    try:
+        # Enviar el correo
+        mail.send(msg)
+        print(f"Correo enviado con éxito a {user_email}")
+        log.write(f'Correo enviado a {user_email} con el código de autenticación')
+    except Exception as e:
+        log.write(f'Correo enviado a {user_email} con el código de autenticación')
+        print(f'Ocurrió un error al enviar el correo: {e}')
+
+def send_email(user_email, affair, text):
+    #Función para enviar un correo con el código de autenticación
+    msg = Message(
+        affair,  # Asunto del correo
+        recipients=[user_email],  # Destinatario
+        body=text  # Cuerpo del mensaje
+    )
+    
+    try:
+        # Enviar el correo
+        mail.send(msg)
+        print(f"Correo enviado con éxito a {user_email}")
+        log.write(f'Correo enviado a {user_email} con el código de autenticación')
+    except Exception as e:
+        log.write(f'Correo enviado a {user_email} con el código de autenticación')
+        print(f'Ocurrió un error al enviar el correo: {e}')
+
+################################################
+################################################
+############# Métodos Auxiliares ###############
+################################################
+################################################
 
 def getUser():
     if "user" in session:
@@ -548,6 +759,12 @@ def obtainUser(email):
     return obtainedUser
 
 atexit.register(log_shutdown)
+
+################################################
+################################################
+#################### Main ######################
+################################################
+################################################
 
 if __name__ == '__main__':
     set_debug = True

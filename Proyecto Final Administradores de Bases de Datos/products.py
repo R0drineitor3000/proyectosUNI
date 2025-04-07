@@ -62,6 +62,17 @@ def getProduct(ID):
         return dict(data)
     return None
 
+def getProductLike(name):
+    connect()
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM products WHERE name LIKE ?", ('%' + name + '%',))
+    data = cursor.fetchall()
+    products=[]
+    if data:
+        for product in data:
+            products.append(dict(product))
+    return products
+
 def getAllProducts():
     products = []
     for i in getProducts():

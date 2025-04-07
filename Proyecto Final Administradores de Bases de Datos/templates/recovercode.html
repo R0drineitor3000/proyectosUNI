@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block title %}Recuperación{% endblock %}
+
+{% block content %}
+	<div class="container mt-5">
+	  <div class="row justify-content-center">
+		<div class="col-md-6">
+		  <div class="card">
+			<div class="card-header text-center">
+			  <h3>Recuperar tu cuenta</h3>
+			</div>
+			<div class="card-body">
+				<form method="POST" id="registrationForm">
+					<p>Para recuperar tu cuenta, deberás ingresar el código proporcionado a tu correo electrónico</p>
+					<div class="mb-3">
+					  <label for="code" class="form-label">Código</label>
+					  <input type="text" class="form-control" id="codeText" name="codeText" placeholder="Introduce el código" maxlength="4" pattern="[0-9]{4}" required>
+					</div>
+					<div class="d-grid gap-2">
+					  <button type="submit" class="btn btn-primary" id="submitBtn" disabled>Confirmar</button>
+					</div>
+					<small>Si el código no aparece, revisa tu bandeja de spam</small>
+				</form>
+				<form>
+					<a href="/generateRec">Haz click aquí para generar otro código de autenticación</a>
+				</form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<script>
+		function validateCode() {
+			const codeText = document.getElementById('codeText');
+			const submitBtn = document.getElementById('submitBtn');
+			// Solo números y máximo 4 caracteres
+			codeText.value = codeText.value.replace(/[^0-9]/g, '').slice(0, 4);
+			const isValidCode = codeText.value.length === 4;
+			submitBtn.disabled = !isValidCode;
+		}
+		
+		document.getElementById('codeText').addEventListener('input', validateCode);
+	</script>
+{% endblock %}

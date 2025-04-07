@@ -1,0 +1,16 @@
+2025-03-28 15:31:43 --- Archivo 2025-03-28 15.31.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.31.log
+2025-03-28 15:31:43 ---  * Debugger is active!
+2025-03-28 15:31:43 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:31:58 --- 127.0.0.1 - - [28/Mar/2025 15:31:58] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:31:58 --- 127.0.0.1 - - [28/Mar/2025 15:31:58] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:31:58 --- 127.0.0.1 - - [28/Mar/2025 15:31:58] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:32:07 --- Correo enviado a r0drigos3villa@gmail.com con el código de autenticación
+2025-03-28 15:32:07 --- 127.0.0.1 - - [28/Mar/2025 15:32:07] "POST /recover HTTP/1.1" 200 -
+2025-03-28 15:32:08 --- 127.0.0.1 - - [28/Mar/2025 15:32:08] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:32:08 --- 127.0.0.1 - - [28/Mar/2025 15:32:08] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:32:56 --- Correo enviado a r0drigos3villa@gmail.com con el código de autenticación
+2025-03-28 15:32:56 --- 127.0.0.1 - - [28/Mar/2025 15:32:56] "POST /recover HTTP/1.1" 200 -
+2025-03-28 15:32:56 --- 127.0.0.1 - - [28/Mar/2025 15:32:56] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:32:56 --- 127.0.0.1 - - [28/Mar/2025 15:32:56] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:33:28 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:33:28 --- Servidor desconectado

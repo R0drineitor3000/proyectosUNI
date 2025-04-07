@@ -1,0 +1,51 @@
+2025-03-28 14:49:10 --- Archivo 2025-03-28 14.49.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 14.49.log
+2025-03-28 14:49:10 ---  * Debugger is active!
+2025-03-28 14:49:10 ---  * Debugger PIN: 532-327-938
+2025-03-28 14:49:24 --- 127.0.0.1 - - [28/Mar/2025 14:49:24] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:49:24 --- 127.0.0.1 - - [28/Mar/2025 14:49:24] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:06 --- 127.0.0.1 - - [28/Mar/2025 14:50:06] "GET /restore HTTP/1.1" 200 -
+2025-03-28 14:50:06 --- 127.0.0.1 - - [28/Mar/2025 14:50:06] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:06 --- 127.0.0.1 - - [28/Mar/2025 14:50:06] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:06 --- 127.0.0.1 - - [28/Mar/2025 14:50:06] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:50:24 --- 127.0.0.1 - - [28/Mar/2025 14:50:24] "GET /restore HTTP/1.1" 200 -
+2025-03-28 14:50:24 --- 127.0.0.1 - - [28/Mar/2025 14:50:24] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:24 --- 127.0.0.1 - - [28/Mar/2025 14:50:24] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:24 --- 127.0.0.1 - - [28/Mar/2025 14:50:24] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:50:46 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:50:46 --- 127.0.0.1 - - [28/Mar/2025 14:50:46] "GET / HTTP/1.1" 200 -
+2025-03-28 14:50:47 --- 127.0.0.1 - - [28/Mar/2025 14:50:47] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:47 --- 127.0.0.1 - - [28/Mar/2025 14:50:47] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:50:47 --- 127.0.0.1 - - [28/Mar/2025 14:50:47] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:50:47 --- 127.0.0.1 - - [28/Mar/2025 14:50:47] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:50:47 --- 127.0.0.1 - - [28/Mar/2025 14:50:47] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:51:20 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:51:20 --- 127.0.0.1 - - [28/Mar/2025 14:51:20] "GET / HTTP/1.1" 200 -
+2025-03-28 14:51:20 --- 127.0.0.1 - - [28/Mar/2025 14:51:20] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:51:20 --- 127.0.0.1 - - [28/Mar/2025 14:51:20] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:51:20 --- 127.0.0.1 - - [28/Mar/2025 14:51:20] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:51:20 --- 127.0.0.1 - - [28/Mar/2025 14:51:20] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:51:20 --- 127.0.0.1 - - [28/Mar/2025 14:51:20] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:52:04 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:52:04 --- 127.0.0.1 - - [28/Mar/2025 14:52:04] "GET / HTTP/1.1" 200 -
+2025-03-28 14:52:04 --- 127.0.0.1 - - [28/Mar/2025 14:52:04] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:52:04 --- 127.0.0.1 - - [28/Mar/2025 14:52:04] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:52:04 --- 127.0.0.1 - - [28/Mar/2025 14:52:04] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:52:04 --- 127.0.0.1 - - [28/Mar/2025 14:52:04] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:52:04 --- 127.0.0.1 - - [28/Mar/2025 14:52:04] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:54:06 --- 127.0.0.1 - - [28/Mar/2025 14:54:06] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:54:06 --- 127.0.0.1 - - [28/Mar/2025 14:54:06] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:55:13 --- 127.0.0.1 - - [28/Mar/2025 14:55:13] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:55:13 --- 127.0.0.1 - - [28/Mar/2025 14:55:13] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:55:13 --- 127.0.0.1 - - [28/Mar/2025 14:55:13] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:55:29 --- 127.0.0.1 - - [28/Mar/2025 14:55:29] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:55:29 --- 127.0.0.1 - - [28/Mar/2025 14:55:29] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:55:29 --- 127.0.0.1 - - [28/Mar/2025 14:55:29] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:55:29 --- 127.0.0.1 - - [28/Mar/2025 14:55:29] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:56:45 --- 127.0.0.1 - - [28/Mar/2025 14:56:45] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:56:45 --- 127.0.0.1 - - [28/Mar/2025 14:56:45] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:56:45 --- 127.0.0.1 - - [28/Mar/2025 14:56:45] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:56:53 --- 127.0.0.1 - - [28/Mar/2025 14:56:53] "GET /recover HTTP/1.1" 200 -
+2025-03-28 14:56:54 --- 127.0.0.1 - - [28/Mar/2025 14:56:54] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:56:54 --- 127.0.0.1 - - [28/Mar/2025 14:56:54] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:57:27 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 14:57:27 --- Servidor desconectado

@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}{{product.name}}{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/cards_product.css">{% endblock %} <!--Estilo para las "cajitas" de cada usuario-->
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h3>{{ product.name }}</h3>
+                </div>
+                <div class="card-body">
+					<form action="/addtocart" method="POST">
+						<input type="hidden" name="producto_id" value="{{ product.id }}">
+						<div class="row">
+							<!-- Columna para la imagen -->
+							<div class="col-md-4 text-center">
+								{% if product.picture %}
+									<img src="{{ url_for('static', filename='images' + product.picture) }}" class="card-img-top" alt="{{ product.username }}">
+								{% else %}
+									<img src="{{ url_for('static', filename='images/web/leche.png') }}" class="card-img-top" alt="{{ product.username }}">
+								{% endif %}
+								{% if product.poster %}
+									<p><strong>Publicado por:</p></strong>
+									<p>{{ product.poster }}</P>
+								{% endif %}
+							</div>
+							<div class="col-md-8">
+								{% if product.details %}
+									<p><strong>Información de Producto:</strong></p>
+									<p>{{ product.details }}</p>
+								{% endif %}
+								{% if product.price %}
+									<p><strong>Precio de Producto:</strong></p>
+									<p>{{ product.price }}</p>
+								{% endif %}
+								{% if product.stock %}
+									<p><strong>Producto en existencias:</strong></p>
+									<p>{{ product.stock }}</p>
+								{% endif %}
+								<p><strong>Comprar producto:</strong></p>
+								<input type="number" name="ordered" id="ordered" min = 1 max={{product.stock}} step=1 required value=1>
+								<p></p>
+							</div>
+							<button class="btn btn-success" width="2px"><i class="fas fa-shopping-cart"></i>Agregar al carrito</button>
+						</div>
+					</form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

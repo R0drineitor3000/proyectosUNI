@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}Mi perfil{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card p-4">
+        <h1 class="text-center mb-4"><i class="fas fa-edit"></i> Editar Perfil</h1>
+
+        <form method="POST" enctype="multipart/form-data">
+            <div class="row mb-3 d-flex justify-content-center">
+                <!-- Imagen de perfil actual con preview dinámico -->
+                <img id="profilePreview" class="profile-pic" {% if user.picture %}src="{{ url_for('static', filename='images' + user.picture) }}"{% endif %} style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;" alt="{{ user.username }}">
+            </div>
+
+            <div class="row mb-3">
+                <label for="profilePic" class="col-sm-2 col-form-label">Foto de perfil</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" id="profilePic" name="profilePic" accept="image/*" onchange="previewImage(event)">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="name" class="col-sm-2 col-form-label">Nombre</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="username" name="username" value="{{user.username}}">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="email" class="col-sm-2 col-form-label">Correo electrónico</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" name="email" value={{user.email}} readonly>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label for="bio" class="col-sm-2 col-form-label">Biografía</label>
+                <div class="col-sm-10">
+                    <textarea class="form-control" id="bio" name="bio" rows="4"{% if user.biography %}placeholder="{{user.biography}}"{% endif %}></textarea>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="password" class="col-sm-2 col-form-label">Nueva Contraseña</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Escribe tu nueva contraseña en caso que quieras cambiarla">
+                </div>
+            </div>
+            <!-- Repetir Contraseña -->
+            <div class="row mb-3">
+                <label for="confirmPassword" class="col-sm-2 col-form-label">Repetir Nueva Contraseña</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Repite tu contraseña">
+                </div>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-success" id="submitBtn" name="submitBtn">Guardar Cambios</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    function previewImage(event) {
+        const reader = new FileReader();
+        reader.onload = function() {
+            const output = document.getElementById('profilePreview');
+            output.src = reader.result;  // Mostrar el preview de la imagen
+        };
+        reader.readAsDataURL(event.target.files[0]); // Lee la imagen seleccionada
+    }
+
+    function validatePassword() {
+        const password = document.getElementById('password').value;
+        const confirmPassword = document.getElementById('confirmPassword').value;
+        const submitBtn = document.getElementById('submitBtn');
+        const passwordRegex = /[a-zA-Z0-9]/;  // Al menos un carácter alfanumérico
+        const specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/;  // Al menos un carácter especial
+
+        // Verificar si la contraseña cumple con los requisitos
+        const isValidPassword = passwordRegex.test(password) && specialCharRegex.test(password) && password.length >= 8;
+        const isPasswordsMatch = password === confirmPassword;
+
+        // Habilitar o deshabilitar el botón de registro según la validación
+        if ((password === '' || isValidPassword) && isPasswordsMatch) {
+            submitBtn.disabled = false;
+        } else {
+            submitBtn.disabled = true;
+        }
+    }
+
+    // Agregar los event listeners para el campo de contraseña y repetir contraseña
+    document.getElementById('password').addEventListener('input', validatePassword);
+    document.getElementById('confirmPassword').addEventListener('input', validatePassword);
+</script>
+
+{% endblock %}

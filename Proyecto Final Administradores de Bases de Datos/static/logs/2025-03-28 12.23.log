@@ -1,0 +1,31 @@
+2025-03-28 12:23:54 --- Archivo 2025-03-28 12.23.log creado con éxito en H:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 12.23.log
+2025-03-28 12:23:54 ---  * Debugger is active!
+2025-03-28 12:23:54 ---  * Debugger PIN: 827-411-152
+2025-03-28 12:23:59 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 12:23:59 --- 127.0.0.1 - - [28/Mar/2025 12:23:59] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+2025-03-28 12:24:00 --- 127.0.0.1 - - [28/Mar/2025 12:24:00] "GET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-03-28 12:24:00 --- 127.0.0.1 - - [28/Mar/2025 12:24:00] "GET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-03-28 12:24:00 --- 127.0.0.1 - - [28/Mar/2025 12:24:00] "GET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-03-28 12:24:01 --- 127.0.0.1 - - [28/Mar/2025 12:24:01] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 12:24:52 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 12:24:52 --- 127.0.0.1 - - [28/Mar/2025 12:24:52] "GET /upload HTTP/1.1" 200 -
+2025-03-28 12:24:52 --- 127.0.0.1 - - [28/Mar/2025 12:24:52] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 12:24:52 --- 127.0.0.1 - - [28/Mar/2025 12:24:52] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 12:24:53 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 12:24:53 --- 127.0.0.1 - - [28/Mar/2025 12:24:53] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+2025-03-28 12:24:53 --- 127.0.0.1 - - [28/Mar/2025 12:24:53] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-28 12:24:53 --- 127.0.0.1 - - [28/Mar/2025 12:24:53] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-28 12:24:54 --- 127.0.0.1 - - [28/Mar/2025 12:24:54] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 12:24:54 --- 127.0.0.1 - - [28/Mar/2025 12:24:54] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 12:25:03 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-03-28 12:25:03 --- 127.0.0.1 - - [28/Mar/2025 12:25:03] "[35m[1mGET /orders HTTP/1.1[0m" 500 -
+2025-03-28 12:25:03 --- 127.0.0.1 - - [28/Mar/2025 12:25:03] "[36mGET /orders?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-28 12:25:03 --- 127.0.0.1 - - [28/Mar/2025 12:25:03] "[36mGET /orders?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-28 12:25:03 --- 127.0.0.1 - - [28/Mar/2025 12:25:03] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 12:25:04 --- 127.0.0.1 - - [28/Mar/2025 12:25:04] "[36mGET /orders?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 12:25:48 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-03-28 12:25:48 --- 127.0.0.1 - - [28/Mar/2025 12:25:48] "GET /upload HTTP/1.1" 200 -
+2025-03-28 12:25:48 --- 127.0.0.1 - - [28/Mar/2025 12:25:48] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 12:25:48 --- 127.0.0.1 - - [28/Mar/2025 12:25:48] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 12:25:50 ---  * Detected change in 'H:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 12:25:50 --- Servidor desconectado

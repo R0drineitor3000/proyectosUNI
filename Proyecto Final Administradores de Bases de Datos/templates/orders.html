@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Órdenes{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/chow_orders.css">{% endblock %}
+{% block content %}
+	<div class="container">
+	<h1 class="card-header">Órdenes en Curso</h1>
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Productos a Entregar</th>
+                <th>Usuario que pidió la orden</th>
+                <th>Posteador de la orden</th>
+                <th>Cantidad de Producto</th>
+                <th>Precio Unitario</th>
+                <th>Precio Total</th>
+                <th>Dirección de la Orden</th>
+                <th>Fecha Hecha</th>
+                <th>Fecha Esperada</th>
+                <th>Estado de Entrega</th>
+            </tr>
+        </thead>
+        <tbody style="background-color:black">
+            <tr>
+				<th style="color: white;"><a href="/products/1">Leche</a></th>
+				<th style="color: white;"><a href="/profiles/Rodrigo">Rodrigo</a></th>
+                <th style="color: white;"><a href="/profiles/MilkManager">MilkManager</a></th>
+                <th style="color: white;" id="quantity" name="quantity">20</th>
+                <th style="color: white;" id="unitPrice" name="unitPrice">20</th>
+                <th style="color: white;" id="totalPrice" name="totalPrice">400</th>
+                <th style="color: white;">Calle Ejemplo 123</th>
+                <th style="color: white;">31/03/2025</th>
+                <th style="color: white;">01/04/2025</th>
+                <th style="color: white;"><select><option value="pendiente">Pendiente</option><option value="entregado">Entregado</option><option value="cancelado">Cancelado</option></select></th>
+			</tr>
+        </tbody>
+    </table>
+	</div>
+	
+	<script>
+		var quantity = document.getElementById("quantity").innerText; // Obtienes el texto
+		var unitPrice = document.getElementById("unitPrice").innerText; // Obtienes el texto
+
+		// Convertir las cadenas a números y luego hacer la multiplicación
+		var resultado = parseInt(quantity) * parseInt(unitPrice); 
+
+		// Mostrar el resultado en el elemento totalPrice
+		document.getElementById("totalPrice").innerHTML = resultado;
+	</script>
+{% endblock %}

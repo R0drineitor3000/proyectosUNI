@@ -1,0 +1,57 @@
+2025-03-28 14:48:06 --- Archivo 2025-03-28 14.48.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 14.48.log
+2025-03-28 14:48:06 ---  * Debugger is active!
+2025-03-28 14:48:06 ---  * Debugger PIN: 532-327-938
+2025-03-28 14:48:09 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 14:48:09 --- Servidor desconectado
+2025-03-28 14:48:10 --- Archivo 2025-03-28 14.48.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 14.48.log
+2025-03-28 14:48:10 ---  * Debugger is active!
+2025-03-28 14:48:10 ---  * Debugger PIN: 532-327-938
+2025-03-28 14:48:17 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:48:17 --- 127.0.0.1 - - [28/Mar/2025 14:48:17] "GET / HTTP/1.1" 200 -
+2025-03-28 14:48:17 --- 127.0.0.1 - - [28/Mar/2025 14:48:17] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:17 --- 127.0.0.1 - - [28/Mar/2025 14:48:17] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:17 --- 127.0.0.1 - - [28/Mar/2025 14:48:17] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:17 --- 127.0.0.1 - - [28/Mar/2025 14:48:17] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:17 --- 127.0.0.1 - - [28/Mar/2025 14:48:17] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:26 --- 127.0.0.1 - - [28/Mar/2025 14:48:26] "GET /login HTTP/1.1" 200 -
+2025-03-28 14:48:26 --- 127.0.0.1 - - [28/Mar/2025 14:48:26] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:26 --- 127.0.0.1 - - [28/Mar/2025 14:48:26] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:26 --- 127.0.0.1 - - [28/Mar/2025 14:48:26] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:48:28 --- 127.0.0.1 - - [28/Mar/2025 14:48:28] "[32mGET /recover HTTP/1.1[0m" 302 -
+2025-03-28 14:48:29 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:48:29 --- 127.0.0.1 - - [28/Mar/2025 14:48:29] "GET / HTTP/1.1" 200 -
+2025-03-28 14:48:29 --- 127.0.0.1 - - [28/Mar/2025 14:48:29] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:29 --- 127.0.0.1 - - [28/Mar/2025 14:48:29] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:29 --- 127.0.0.1 - - [28/Mar/2025 14:48:29] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:29 --- 127.0.0.1 - - [28/Mar/2025 14:48:29] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:29 --- 127.0.0.1 - - [28/Mar/2025 14:48:29] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:38 --- 127.0.0.1 - - [28/Mar/2025 14:48:38] "GET /login HTTP/1.1" 200 -
+2025-03-28 14:48:38 --- 127.0.0.1 - - [28/Mar/2025 14:48:38] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:38 --- 127.0.0.1 - - [28/Mar/2025 14:48:38] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:38 --- 127.0.0.1 - - [28/Mar/2025 14:48:38] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:48:47 --- 127.0.0.1: milkmanagerbussiness@gmail.com ha iniciado sesión
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-03-28 14:48:47 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "GET / HTTP/1.1" 200 -
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:47 --- 127.0.0.1 - - [28/Mar/2025 14:48:47] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:57 --- 127.0.0.1: MilkManager ha cerrado sesión
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-03-28 14:48:57 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "GET / HTTP/1.1" 200 -
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:57 --- 127.0.0.1 - - [28/Mar/2025 14:48:57] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-03-28 14:48:58 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-03-28 14:48:58 --- 127.0.0.1 - - [28/Mar/2025 14:48:58] "GET /signin HTTP/1.1" 200 -
+2025-03-28 14:48:58 --- 127.0.0.1 - - [28/Mar/2025 14:48:58] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:58 --- 127.0.0.1 - - [28/Mar/2025 14:48:58] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 14:48:58 --- 127.0.0.1 - - [28/Mar/2025 14:48:58] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 14:49:09 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 14:49:09 --- Servidor desconectado

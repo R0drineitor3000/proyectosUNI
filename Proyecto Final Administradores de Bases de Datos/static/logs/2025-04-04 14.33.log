@@ -1,0 +1,350 @@
+2025-04-04 14:33:19 --- Archivo 2025-04-04 14.33.log creado con éxito en D:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-04-04 14.33.log
+2025-04-04 14:33:19 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-04 14:33:19 --- [33mPress CTRL+C to quit[0m
+2025-04-04 14:33:19 ---  * Restarting with stat
+2025-04-04 14:33:21 --- Archivo 2025-04-04 14.33.log creado con éxito en D:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-04-04 14.33.log
+2025-04-04 14:33:21 ---  * Debugger is active!
+2025-04-04 14:33:21 ---  * Debugger PIN: 131-968-769
+2025-04-04 14:33:37 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET / HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/styles/bootstrap.css HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/styles/chow_cards.css HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/styles/chow.css HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/js/popper.js HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/images/web/leche.jpg HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/images/web/ventas.jpg HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/images/web/contactanos.jpg HTTP/1.1" 200 -
+2025-04-04 14:33:37 --- 127.0.0.1 - - [04/Apr/2025 14:33:37] "GET /static/js/bootstrap.js HTTP/1.1" 200 -
+2025-04-04 14:33:43 --- 127.0.0.1 - - [04/Apr/2025 14:33:43] "GET /static/images/web/fincafond.jpg HTTP/1.1" 200 -
+2025-04-04 14:33:46 --- 127.0.0.1 - - [04/Apr/2025 14:33:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-04 14:37:40 --- 127.0.0.1 - - [04/Apr/2025 14:37:40] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "GET /static/styles/chow_login.css HTTP/1.1" 200 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:37:41 --- 127.0.0.1 - - [04/Apr/2025 14:37:41] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:37:49 --- 127.0.0.1 - - [04/Apr/2025 14:37:49] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-04-04 14:38:34 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-04-04 14:38:35 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-04-04 14:38:35 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-04-04 14:38:35 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 739
+2025-04-04 14:38:35 --- 127.0.0.1 - - [04/Apr/2025 14:38:35] "[32mGET /login/callback?state=ynE34efk9wO4ASUB5OrRRfviwdl4ZZ&code=4/0Ab_5qlnJzzYblJTqFKmzSXN3vY9VrGfGCMehpX48a0URCH1YbpWtnW75GpXzd6FojDweyQ&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.profile+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+2025-04-04 14:38:35 --- 127.0.0.1 - - [04/Apr/2025 14:38:35] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-04-04 14:38:36 --- Se abrió la página del Perfil de Rodrigo Sevilla desde: 127.0.0.1
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "GET /myprofile HTTP/1.1" 200 -
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "GET /static/images/users/user_2.jpg HTTP/1.1" 200 -
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:38:36 --- 127.0.0.1 - - [04/Apr/2025 14:38:36] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "GET / HTTP/1.1" 200 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:38:56 --- 127.0.0.1 - - [04/Apr/2025 14:38:56] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:02 --- Se abrió la página Productos desde: 127.0.0.1
+2025-04-04 14:39:02 --- 127.0.0.1 - - [04/Apr/2025 14:39:02] "GET /products HTTP/1.1" 200 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "GET /static/styles/cards.css HTTP/1.1" 200 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "GET /static/images/products/product_1.png HTTP/1.1" 200 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "GET /static/images/products/product_2.png HTTP/1.1" 200 -
+2025-04-04 14:39:03 --- 127.0.0.1 - - [04/Apr/2025 14:39:03] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:12 --- Se abrió la página del producto 1 desde: 127.0.0.1
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "POST /products/1 HTTP/1.1" 200 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[33mGET /static/styles/cards_product.css HTTP/1.1[0m" 404 -
+2025-04-04 14:39:12 --- 127.0.0.1 - - [04/Apr/2025 14:39:12] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:15 --- 127.0.0.1 - - [04/Apr/2025 14:39:15] "[32mPOST /addtocart HTTP/1.1[0m" 302 -
+2025-04-04 14:39:16 --- Se abrió la página Productos desde: 127.0.0.1
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "GET /products HTTP/1.1" 200 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-04-04 14:39:16 --- 127.0.0.1 - - [04/Apr/2025 14:39:16] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:19 --- Se abrió la página del producto 1 desde: 127.0.0.1
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "POST /products/1 HTTP/1.1" 200 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[33mGET /static/styles/cards_product.css HTTP/1.1[0m" 404 -
+2025-04-04 14:39:19 --- 127.0.0.1 - - [04/Apr/2025 14:39:19] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:22 --- 127.0.0.1 - - [04/Apr/2025 14:39:22] "GET /purchase HTTP/1.1" 200 -
+2025-04-04 14:39:22 --- 127.0.0.1 - - [04/Apr/2025 14:39:22] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:23 --- 127.0.0.1 - - [04/Apr/2025 14:39:23] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:23 --- 127.0.0.1 - - [04/Apr/2025 14:39:23] "GET /static/styles/payment.css HTTP/1.1" 200 -
+2025-04-04 14:39:23 --- 127.0.0.1 - - [04/Apr/2025 14:39:23] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:23 --- 127.0.0.1 - - [04/Apr/2025 14:39:23] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:23 --- 127.0.0.1 - - [04/Apr/2025 14:39:23] "[33mGET /static/images/cards/visa.svg HTTP/1.1[0m" 404 -
+2025-04-04 14:39:23 --- 127.0.0.1 - - [04/Apr/2025 14:39:23] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:44 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "GET / HTTP/1.1" 200 -
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:44 --- 127.0.0.1 - - [04/Apr/2025 14:39:44] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:45 --- 127.0.0.1 - - [04/Apr/2025 14:39:45] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:45 --- 127.0.0.1 - - [04/Apr/2025 14:39:45] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:45 --- 127.0.0.1 - - [04/Apr/2025 14:39:45] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:47 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-04-04 14:39:47 --- 127.0.0.1 - - [04/Apr/2025 14:39:47] "GET /contact HTTP/1.1" 200 -
+2025-04-04 14:39:47 --- 127.0.0.1 - - [04/Apr/2025 14:39:47] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:47 --- 127.0.0.1 - - [04/Apr/2025 14:39:47] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:39:47 --- 127.0.0.1 - - [04/Apr/2025 14:39:47] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:39:47 --- 127.0.0.1 - - [04/Apr/2025 14:39:47] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:39:47 --- 127.0.0.1 - - [04/Apr/2025 14:39:47] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "GET / HTTP/1.1" 200 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:20 --- 127.0.0.1 - - [04/Apr/2025 14:40:20] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:32 --- 127.0.0.1: Rodrigo Sevilla ha cerrado sesión
+2025-04-04 14:40:32 --- 127.0.0.1 - - [04/Apr/2025 14:40:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-04 14:40:33 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "GET / HTTP/1.1" 200 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:33 --- Se abrió la página de Registro desde: 127.0.0.1
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "GET /signin HTTP/1.1" 200 -
+2025-04-04 14:40:33 --- 127.0.0.1 - - [04/Apr/2025 14:40:33] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "GET /static/js/bootstrap.js HTTP/1.1" 200 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "GET /static/styles/chow_signin.css HTTP/1.1" 200 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "GET /login HTTP/1.1" 200 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-04 14:40:34 --- 127.0.0.1 - - [04/Apr/2025 14:40:34] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:43 --- 127.0.0.1: milkmanagerbussiness@gmail.com ha iniciado sesión
+2025-04-04 14:40:43 --- 127.0.0.1 - - [04/Apr/2025 14:40:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-04 14:40:43 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:40:43 --- 127.0.0.1 - - [04/Apr/2025 14:40:43] "GET / HTTP/1.1" 200 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "GET /static/images/users/user_1.jpg HTTP/1.1" 200 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:44 --- 127.0.0.1 - - [04/Apr/2025 14:40:44] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:46 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:40:46 --- 127.0.0.1 - - [04/Apr/2025 14:40:46] "GET /upload HTTP/1.1" 200 -
+2025-04-04 14:40:47 --- 127.0.0.1 - - [04/Apr/2025 14:40:47] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:47 --- 127.0.0.1 - - [04/Apr/2025 14:40:47] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:47 --- 127.0.0.1 - - [04/Apr/2025 14:40:47] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:47 --- 127.0.0.1 - - [04/Apr/2025 14:40:47] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:47 --- 127.0.0.1 - - [04/Apr/2025 14:40:47] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:48 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "GET / HTTP/1.1" 200 -
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:48 --- 127.0.0.1 - - [04/Apr/2025 14:40:48] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:49 --- 127.0.0.1 - - [04/Apr/2025 14:40:49] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:49 --- 127.0.0.1 - - [04/Apr/2025 14:40:49] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:49 --- 127.0.0.1 - - [04/Apr/2025 14:40:49] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:50 --- Se abrió la página de perfiles desde: 127.0.0.1
+2025-04-04 14:40:50 --- 127.0.0.1 - - [04/Apr/2025 14:40:50] "GET /profiles HTTP/1.1" 200 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "GET /static/styles/cards_profile.css HTTP/1.1" 200 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "GET /static/images/users/user_3.jpeg HTTP/1.1" 200 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "GET /static/images/web/leche.png HTTP/1.1" 200 -
+2025-04-04 14:40:51 --- 127.0.0.1 - - [04/Apr/2025 14:40:51] "GET /static/images/users/user_5.png HTTP/1.1" 200 -
+2025-04-04 14:40:54 --- Se abrió la página del perfil de MilkManager desde: 127.0.0.1
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "POST /profiles/MilkManager HTTP/1.1" 200 -
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:40:54 --- 127.0.0.1 - - [04/Apr/2025 14:40:54] "[33mGET /static/styles/chow_card.css HTTP/1.1[0m" 404 -
+2025-04-04 14:42:01 --- Se abrió la página de perfiles desde: 127.0.0.1
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "POST /profiles HTTP/1.1" 200 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/styles/cards_profile.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/images/users/user_5.png HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/images/users/user_3.jpeg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/images/users/user_2.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:01 --- 127.0.0.1 - - [04/Apr/2025 14:42:01] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:02 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:42:02 --- 127.0.0.1 - - [04/Apr/2025 14:42:02] "GET / HTTP/1.1" 200 -
+2025-04-04 14:42:02 --- 127.0.0.1 - - [04/Apr/2025 14:42:02] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:03 --- 127.0.0.1 - - [04/Apr/2025 14:42:03] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:04 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:42:04 --- 127.0.0.1 - - [04/Apr/2025 14:42:04] "GET /upload HTTP/1.1" 200 -
+2025-04-04 14:42:04 --- 127.0.0.1 - - [04/Apr/2025 14:42:04] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:04 --- 127.0.0.1 - - [04/Apr/2025 14:42:04] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:04 --- 127.0.0.1 - - [04/Apr/2025 14:42:04] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:04 --- 127.0.0.1 - - [04/Apr/2025 14:42:04] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:04 --- 127.0.0.1 - - [04/Apr/2025 14:42:04] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:10 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:42:10 --- 127.0.0.1 - - [04/Apr/2025 14:42:10] "GET /upload HTTP/1.1" 200 -
+2025-04-04 14:42:11 --- 127.0.0.1 - - [04/Apr/2025 14:42:11] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:11 --- 127.0.0.1 - - [04/Apr/2025 14:42:11] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:11 --- 127.0.0.1 - - [04/Apr/2025 14:42:11] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:11 --- 127.0.0.1 - - [04/Apr/2025 14:42:11] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:11 --- 127.0.0.1 - - [04/Apr/2025 14:42:11] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:25 --- Se abrió la página Productos desde: 127.0.0.1
+2025-04-04 14:42:25 --- 127.0.0.1 - - [04/Apr/2025 14:42:25] "GET /products HTTP/1.1" 200 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-04-04 14:42:26 --- 127.0.0.1 - - [04/Apr/2025 14:42:26] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "GET /purchase HTTP/1.1" 200 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[36mGET /static/styles/payment.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[33mGET /static/images/cards/visa.svg HTTP/1.1[0m" 404 -
+2025-04-04 14:42:44 --- 127.0.0.1 - - [04/Apr/2025 14:42:44] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:52 --- Se abrió la página de las órdenes desde: 127.0.0.1
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "GET /orders HTTP/1.1" 200 -
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "GET /static/styles/chow_orders.css HTTP/1.1" 200 -
+2025-04-04 14:42:52 --- 127.0.0.1 - - [04/Apr/2025 14:42:52] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:43:09 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-04 14:43:09 --- 127.0.0.1 - - [04/Apr/2025 14:43:09] "GET / HTTP/1.1" 200 -
+2025-04-04 14:43:09 --- 127.0.0.1 - - [04/Apr/2025 14:43:09] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:43:10 --- 127.0.0.1 - - [04/Apr/2025 14:43:10] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:44:24 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:44:24 --- 127.0.0.1 - - [04/Apr/2025 14:44:24] "GET /upload HTTP/1.1" 200 -
+2025-04-04 14:44:25 --- 127.0.0.1 - - [04/Apr/2025 14:44:25] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:44:25 --- 127.0.0.1 - - [04/Apr/2025 14:44:25] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:44:25 --- 127.0.0.1 - - [04/Apr/2025 14:44:25] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:44:25 --- 127.0.0.1 - - [04/Apr/2025 14:44:25] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:44:25 --- 127.0.0.1 - - [04/Apr/2025 14:44:25] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:47:49 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-04-04 14:47:50 --- Se abrió la página Productos desde: 127.0.0.1
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "GET /products HTTP/1.1" 200 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "GET /static/images/products/product_3.png HTTP/1.1" 200 -
+2025-04-04 14:47:50 --- 127.0.0.1 - - [04/Apr/2025 14:47:50] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:47:54 --- Se abrió la página Productos desde: 127.0.0.1
+2025-04-04 14:47:54 --- 127.0.0.1 - - [04/Apr/2025 14:47:54] "GET /products HTTP/1.1" 200 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:47:55 --- 127.0.0.1 - - [04/Apr/2025 14:47:55] "[36mGET /static/images/products/product_3.png HTTP/1.1[0m" 304 -
+2025-04-04 14:48:09 --- Se abrió la página del producto 1 desde: 127.0.0.1
+2025-04-04 14:48:09 --- 127.0.0.1 - - [04/Apr/2025 14:48:09] "POST /products/1 HTTP/1.1" 200 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[33mGET /static/styles/cards_product.css HTTP/1.1[0m" 404 -
+2025-04-04 14:48:10 --- 127.0.0.1 - - [04/Apr/2025 14:48:10] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:53:07 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:53:07 --- 127.0.0.1 - - [04/Apr/2025 14:53:07] "GET /upload HTTP/1.1" 200 -
+2025-04-04 14:53:08 --- 127.0.0.1 - - [04/Apr/2025 14:53:08] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:53:08 --- 127.0.0.1 - - [04/Apr/2025 14:53:08] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:53:08 --- 127.0.0.1 - - [04/Apr/2025 14:53:08] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:53:08 --- 127.0.0.1 - - [04/Apr/2025 14:53:08] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:53:08 --- 127.0.0.1 - - [04/Apr/2025 14:53:08] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:55:28 --- Se abrió la página Subir Producto desde: 127.0.0.1
+2025-04-04 14:55:28 --- 127.0.0.1 - - [04/Apr/2025 14:55:28] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2025-04-04 14:55:28 --- Se abrió la página Productos desde: 127.0.0.1
+2025-04-04 14:55:28 --- 127.0.0.1 - - [04/Apr/2025 14:55:28] "GET /products HTTP/1.1" 200 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/styles/cards.css HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/images/products/product_1.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/images/products/product_2.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/images/products/product_3.png HTTP/1.1[0m" 304 -
+2025-04-04 14:55:29 --- 127.0.0.1 - - [04/Apr/2025 14:55:29] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-04 14:57:30 --- Se abrió la página del producto 4 desde: 127.0.0.1
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "POST /products/4 HTTP/1.1" 200 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[36mGET /static/images/web/leche.png HTTP/1.1[0m" 304 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[33mGET /static/styles/cards_product.css HTTP/1.1[0m" 404 -
+2025-04-04 14:57:30 --- 127.0.0.1 - - [04/Apr/2025 14:57:30] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -

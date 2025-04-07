@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Productos{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/cards.css">{% endblock %} <!--Estilo para las "cajitas" de cada producto-->
+
+{% block content %}
+<div class="container mt-5">
+	<div style="display: flex;  justify-content: center;">
+		<form method="POST">
+			<input type="text" id="profilesearch" name="productsearch" class="form-control" style="width: 380px;" placeholder="Buscar un producto..."></input>
+		</form>
+	</div>
+	<br>
+    <h2 class="text-center">
+        <label class="text-white"><i class="fas fa-box"></i> Nuestros Productos</label>
+    </h2>
+    
+    <div class="row">
+        {% if productos %}
+            {% for producto in productos %}
+                <div class="col-md-4">
+                    <!-- Formulario para enviar el POST -->
+                    <form action="{{ url_for('product', product_id=producto.id) }}" method="POST">
+                        <input type="hidden" name="producto_id" value="{{ producto.id }}">
+                        <div class="card product-card">
+							<div class="card-header text-center">
+								<h5 class="card-title">{{ producto.name }}</h5>
+							</div>
+							<p></p>
+                            {% if producto.picture %}
+                                <img src="{{ url_for('static', filename='images' + producto.picture) }}" class="card-img-top" alt="{{ producto.nombre }}">
+                            {% else %}
+                                <img src="{{ url_for('static', filename='images/web/leche.png') }}" class="card-img-top" alt="{{ producto.nombre }}">
+                            {% endif %}
+                            <div class="card-body text-center">
+                                <p class="card-text fw-bold price">C${{ producto.price }}</p>
+                                {% if producto.stock %}
+                                    <p class="card-text fw-bold stock">En existencias: {{ producto.stock }}</p>
+                                {% else %}
+                                    <p class="card-text fw-bold stock">Sin información del Stock</p>
+                                {% endif %}
+                                <p>Por: <small class="card-text">{{ producto.poster }}</small></p>
+                                <button type="submit" class="btn btn-success buy-button">
+                                    <i class="fas fa-shopping-cart"></i> Comprar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-center">No hay productos disponibles en este momento.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

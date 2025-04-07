@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Perfil{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/chow_card.css">{% endblock %} <!--Estilo para las "cajitas" de cada usuario-->
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h3>Perfil de {{ profile.username }}</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Imagen de perfil -->
+                        <div class="col-md-4 text-center">
+							{% if profile.picture %}
+									<img src="{{ url_for('static', filename='images' + profile.picture) }}" class="card-img-top" alt="{{ profile.username }}">
+								{% else %}
+									<img src="{{ url_for('static', filename='images/web/leche.png') }}" class="card-img-top" alt="{{ profile.username }}">
+								{% endif %}
+                        </div>
+
+                        <!-- Detalles del perfil -->
+						<div class="col-md-8">
+							<h4>{{ profile.username }}</h4>
+							<p><strong>Email:</strong> {{ profile.email }}</p>
+							{% if user["role"] == 'admin' %}
+								<form action="{{ url_for('updateProfile', email=profile.email) }}" method="POST">
+									<p>
+										<div class="d-flex align-items-center">
+											<strong>Rol:</strong>
+											<select id="rol" name="rol" class="form-control mr-2">
+												<option value="admin" {% if profile.role == 'admin' %}selected{% endif %}>Administrador</option>
+												<option value="seller" {% if profile.role == 'seller' %}selected{% endif %}>Vendedor</option>
+												<option value="customer" {% if profile.role == 'customer' %}selected{% endif %}>Cliente</option>
+											</select>
+											<button class="btn btn-success">Actualizar</button>
+										</div>
+									</p>
+								</form>
+								<form action="/deleteProfile" method="POST">
+									<input type="text" value="{{profile.email}}" id="emailDelete" name="emailDelete" hidden>
+									<button class="btn btn-danger">Eliminar cuenta</button>
+								</form>
+							{% else %}
+								<p><strong>Rol:</strong>
+								{% if profile.role == "admin" %}
+									Administrador
+								{% elif profile.role == "seller" %}
+									Vendedor
+								{% elif profile.role == "customer" %}
+									Cliente
+								{% else %}
+									{{ profile.role }}
+								{% endif %}
+								</p>
+							{% endif %}
+							{% if profile.biography %}
+								<p><strong>Biografía:</strong></p>
+								<p>{{ profile.biography }}</p>
+							{% endif %}
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

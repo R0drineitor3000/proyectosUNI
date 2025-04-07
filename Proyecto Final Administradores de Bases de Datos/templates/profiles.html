@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Perfiles{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/styles/cards_profile.css"> {% endblock %} <!--Estilo para las "cajitas" de cada usuario-->
+
+{% block content %}
+<div class="container mt-5">
+	<div style="display: flex;  justify-content: center;">
+		<form method="POST">
+			<input type="text" id="profilesearch" name="profilesearch" class="form-control" style="width: 380px;" placeholder="Buscar un perfil..."></input>
+		</form>
+	</div>
+	<br>
+    <h2 class="text-center text-white">
+        <i class="fas fa-user"></i> Usuarios encontrados
+    </h2>
+
+    <div class="row row-cols-3 g-4">
+        {% if users %}
+            {% for usuario in users %}
+                <div class="col">
+                    <form action="{{ url_for('profile', username=usuario.username) }}" method="POST">
+                        <div class="card">
+                            {% if usuario.picture %}
+                                <img src="{{ url_for('static', filename='images' + usuario.picture) }}" class="card-img-top" alt="{{ usuario.username }}">
+                            {% else %}
+                                <img src="{{ url_for('static', filename='images/web/leche.png') }}" class="card-img-top" alt="{{ usuario.username }}">
+                            {% endif %}
+                            <div class="card-body text-center">
+                                <h5 class="card-title text-white">{{ usuario.username }}</h5>
+                                <p class="card-text fw-bold text-white">{{ usuario.email }}</p>
+                                <button type="submit text-white" class="btn btn-success">
+                                    Visitar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-center">No hay usuarios con la descripción proporcionada.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

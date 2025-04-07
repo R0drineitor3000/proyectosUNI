@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Recuperar cuenta{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/static/styles/chow_login.css">
+{% endblock %}
+
+{% block content %}
+	<div class="contact-container">
+        <div class="contact-header">
+            <h1><i class="fas fa-sign-in"></i> Recuperar contraseña</h1>
+            <p class="contact-description"> ¿Olvidó su contraseña?</p>
+        </div>
+        <form method="POST" id="loginForm">
+            <div class="contact-form">
+                <div class="mb-4">
+                    <label for="name" class="form-label">Ingrese su Correo electrónico</label>
+                    <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg" id="submitButton">
+                        <span id="submitButtonText">Iniciar Sesión</span>
+                        <div class="spinner-border text-light" role="status" id="loadingSpinner" style="display: none;">
+                            <span class="visually-hidden"></span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+{% endblock %}

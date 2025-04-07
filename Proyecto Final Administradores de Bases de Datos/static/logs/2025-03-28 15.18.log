@@ -1,0 +1,19 @@
+2025-03-28 15:18:13 --- Archivo 2025-03-28 15.18.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.18.log
+2025-03-28 15:18:13 ---  * Debugger is active!
+2025-03-28 15:18:13 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:18:26 --- 127.0.0.1 - - [28/Mar/2025 15:18:26] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:18:26 --- 127.0.0.1 - - [28/Mar/2025 15:18:26] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:18:26 --- 127.0.0.1 - - [28/Mar/2025 15:18:26] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:18:26 --- 127.0.0.1 - - [28/Mar/2025 15:18:26] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-03-28 15:18:52 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:18:52 --- Servidor desconectado
+2025-03-28 15:18:52 --- Archivo 2025-03-28 15.18.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.18.log
+2025-03-28 15:18:52 ---  * Debugger is active!
+2025-03-28 15:18:52 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:18:55 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:18:55 --- Servidor desconectado
+2025-03-28 15:18:56 --- Archivo 2025-03-28 15.18.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.18.log
+2025-03-28 15:18:56 ---  * Debugger is active!
+2025-03-28 15:18:56 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:19:26 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:19:26 --- Servidor desconectado

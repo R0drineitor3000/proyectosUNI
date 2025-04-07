@@ -1,0 +1,21 @@
+2025-03-28 15:27:57 --- Archivo 2025-03-28 15.27.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-03-28 15.27.log
+2025-03-28 15:27:57 ---  * Debugger is active!
+2025-03-28 15:27:57 ---  * Debugger PIN: 532-327-938
+2025-03-28 15:28:13 --- 127.0.0.1 - - [28/Mar/2025 15:28:13] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:28:14 --- 127.0.0.1 - - [28/Mar/2025 15:28:14] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:14 --- 127.0.0.1 - - [28/Mar/2025 15:28:14] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:16 --- 127.0.0.1 - - [28/Mar/2025 15:28:16] "[32mPOST /recover HTTP/1.1[0m" 302 -
+2025-03-28 15:28:16 --- 127.0.0.1 - - [28/Mar/2025 15:28:16] "GET /login HTTP/1.1" 200 -
+2025-03-28 15:28:17 --- 127.0.0.1 - - [28/Mar/2025 15:28:17] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:17 --- 127.0.0.1 - - [28/Mar/2025 15:28:17] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:17 --- 127.0.0.1 - - [28/Mar/2025 15:28:17] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-03-28 15:28:22 --- 127.0.0.1 - - [28/Mar/2025 15:28:22] "GET /recover HTTP/1.1" 200 -
+2025-03-28 15:28:22 --- 127.0.0.1 - - [28/Mar/2025 15:28:22] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:22 --- 127.0.0.1 - - [28/Mar/2025 15:28:22] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:32 --- 127.0.0.1 - - [28/Mar/2025 15:28:32] "[35m[1mPOST /recover HTTP/1.1[0m" 500 -
+2025-03-28 15:28:32 --- 127.0.0.1 - - [28/Mar/2025 15:28:32] "[36mGET /recover?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-03-28 15:28:32 --- 127.0.0.1 - - [28/Mar/2025 15:28:32] "[36mGET /recover?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-03-28 15:28:32 --- 127.0.0.1 - - [28/Mar/2025 15:28:32] "GET /recover?__debugger__=yes&cmd=resource&f=console.png&s=E96yTSzPwwdIb54SMZXD HTTP/1.1" 200 -
+2025-03-28 15:28:32 --- 127.0.0.1 - - [28/Mar/2025 15:28:32] "[36mGET /recover?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-03-28 15:30:50 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-03-28 15:30:50 --- Servidor desconectado

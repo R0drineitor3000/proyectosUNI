@@ -1,0 +1,90 @@
+2025-04-03 14:31:32 --- Archivo 2025-04-03 14.31.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-04-03 14.31.log
+2025-04-03 14:31:32 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 14:31:32 --- [33mPress CTRL+C to quit[0m
+2025-04-03 14:31:32 ---  * Restarting with stat
+2025-04-03 14:31:33 --- Archivo 2025-04-03 14.31.log creado con éxito en E:\Python\Proyecto Final Administradores de Bases de Datos\static\logs\2025-04-03 14.31.log
+2025-04-03 14:31:33 ---  * Debugger is active!
+2025-04-03 14:31:33 ---  * Debugger PIN: 532-327-938
+2025-04-03 14:31:39 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-03 14:31:39 --- 127.0.0.1 - - [03/Apr/2025 14:31:39] "GET / HTTP/1.1" 200 -
+2025-04-03 14:31:39 --- 127.0.0.1 - - [03/Apr/2025 14:31:39] "GET /static/styles/bootstrap.css HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/styles/chow_cards.css HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/styles/chow.css HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/images/web/leche.jpg HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/images/web/ventas.jpg HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/js/popper.js HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/images/web/contactanos.jpg HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/images/web/fincafond.jpg HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "GET /static/js/bootstrap.js HTTP/1.1" 200 -
+2025-04-03 14:31:40 --- 127.0.0.1 - - [03/Apr/2025 14:31:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 14:31:45 --- 127.0.0.1 - - [03/Apr/2025 14:31:45] "GET /login HTTP/1.1" 200 -
+2025-04-03 14:31:46 --- 127.0.0.1 - - [03/Apr/2025 14:31:46] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-03 14:31:46 --- 127.0.0.1 - - [03/Apr/2025 14:31:46] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-03 14:31:46 --- 127.0.0.1 - - [03/Apr/2025 14:31:46] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-03 14:31:46 --- 127.0.0.1 - - [03/Apr/2025 14:31:46] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-03 14:31:46 --- 127.0.0.1 - - [03/Apr/2025 14:31:46] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-04-03 14:31:46 --- 127.0.0.1 - - [03/Apr/2025 14:31:46] "GET /static/styles/chow_login.css HTTP/1.1" 200 -
+2025-04-03 14:32:19 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-03 14:32:19 --- 127.0.0.1 - - [03/Apr/2025 14:32:19] "GET / HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/styles/bootstrap.css HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/styles/chow_cards.css HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/styles/chow.css HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/images/web/leche.jpg HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/js/popper.js HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/js/bootstrap.js HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/images/web/ventas.jpg HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/images/web/contactanos.jpg HTTP/1.1" 200 -
+2025-04-03 14:32:20 --- 127.0.0.1 - - [03/Apr/2025 14:32:20] "GET /static/images/web/fincafond.jpg HTTP/1.1" 200 -
+2025-04-03 14:32:21 --- 127.0.0.1 - - [03/Apr/2025 14:32:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "GET /login HTTP/1.1" 200 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "GET /static/styles/chow_login.css HTTP/1.1" 200 -
+2025-04-03 14:32:26 --- 127.0.0.1 - - [03/Apr/2025 14:32:26] "GET /static/images/web/google-login-color.png HTTP/1.1" 200 -
+2025-04-03 14:32:45 --- 127.0.0.1: milkmanagerbussiness@gmail.com ha iniciado sesión
+2025-04-03 14:32:45 --- 127.0.0.1 - - [03/Apr/2025 14:32:45] "[32mPOST /login HTTP/1.1[0m" 302 -
+2025-04-03 14:32:45 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-03 14:32:45 --- 127.0.0.1 - - [03/Apr/2025 14:32:45] "GET / HTTP/1.1" 200 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "GET /static/images/users/user_1.jpg HTTP/1.1" 200 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:32:46 --- 127.0.0.1 - - [03/Apr/2025 14:32:46] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:33:04 --- Se abrió la página del Perfil de MilkManager desde: 127.0.0.1
+2025-04-03 14:33:04 --- 127.0.0.1 - - [03/Apr/2025 14:33:04] "GET /myprofile HTTP/1.1" 200 -
+2025-04-03 14:33:05 --- 127.0.0.1 - - [03/Apr/2025 14:33:05] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:05 --- 127.0.0.1 - - [03/Apr/2025 14:33:05] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-03 14:33:05 --- 127.0.0.1 - - [03/Apr/2025 14:33:05] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:05 --- 127.0.0.1 - - [03/Apr/2025 14:33:05] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-03 14:33:05 --- 127.0.0.1 - - [03/Apr/2025 14:33:05] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:33:11 --- Se abrió la página Contactos desde: 127.0.0.1
+2025-04-03 14:33:11 --- 127.0.0.1 - - [03/Apr/2025 14:33:11] "GET /contact HTTP/1.1" 200 -
+2025-04-03 14:33:11 --- 127.0.0.1 - - [03/Apr/2025 14:33:11] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:11 --- 127.0.0.1 - - [03/Apr/2025 14:33:11] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:11 --- 127.0.0.1 - - [03/Apr/2025 14:33:11] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-03 14:33:11 --- 127.0.0.1 - - [03/Apr/2025 14:33:11] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-03 14:33:11 --- 127.0.0.1 - - [03/Apr/2025 14:33:11] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:33:17 --- Se abrió la página Homepage desde: 127.0.0.1
+2025-04-03 14:33:17 --- 127.0.0.1 - - [03/Apr/2025 14:33:17] "GET / HTTP/1.1" 200 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/images/users/user_1.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:33:18 --- 127.0.0.1 - - [03/Apr/2025 14:33:18] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-03 14:42:23 ---  * Detected change in 'E:\\Python\\Proyecto Final Administradores de Bases de Datos\\app.py', reloading
+2025-04-03 14:42:23 --- Servidor desconectado
+2025-04-03 14:42:23 ---  * Restarting with stat
+2025-04-03 14:43:00 ---  * Restarting with stat
+2025-04-03 14:44:41 ---  * Restarting with stat
+2025-04-03 14:45:53 ---  * Restarting with stat

@@ -1,0 +1,277 @@
+{% extends "base.html" %}
+
+{% block title %}Pago{% endblock %}
+
+{% block styles %}<link rel="stylesheet" href="/static/styles/payment.css">{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="card col-md-6">
+            <div class="card-header text-center">
+                <h1 class="text-center mb-4"><i class="fas fa-credit-card"></i> Pago</h1>
+            </div>
+            <p>Tipo de Pago</p>
+            <select id="paymentType" name="paymentType" onchange="toggleForms()">
+                <option value="card">Tarjeta</option>
+                <option value="transaction">Transacción</option>
+            </select>
+            
+            <!-- Formulario de transacción -->
+            <form action="/transactionPayment" method="POST" name="transactionpayment" id="transactionForm" style="display: none;">
+                <p>Número de cuenta</p>
+                <input type="password" class="form-control input-small" id="accountID" name="accountID" oninput="validateCard()" required>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="showAccount" onclick="toggleVisibility('account')">
+                    <label class="form-check-label" for="showAccount">Mostrar cuenta</label>
+                </div>
+                <button type="submit" class="btn btn-success">Efectuar pago</button>
+            </form>
+
+            <!-- Formulario de tarjeta -->
+            <form action="/cardPayment" method="POST" name="cardpayment" enctype="multipart/form-data" id="cardForm" style="display: none;">
+                <div class="row mb-3">
+                    <div class="mb-3">
+                        <p>Número de tarjeta</p>
+                        <input type="password" class="form-control input-small" id="card" name="card" oninput="validateCard()" required>
+                        <img id="cardimage" name="cardimage" src="static/images/cards/visa.svg" style="display: none;" width="50" />
+                        <div id="validity-message"></div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="showCard" onclick="toggleVisibility('card')">
+                            <label class="form-check-label" for="showCard">Mostrar tarjeta</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="cvc" class="col-sm-2 col-form-label">CVC</label>
+                    <div class="mb-3">
+                        <input type="text" class="form-control input-small" id="cvc" name="cvc" maxlength="4" oninput="validateCVC()" required>
+                        <div id="cvc-message"></div>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="expiry" class="col-sm-3 col-form-label">Fecha de expiración</label>
+                    <div class="mb-3">
+                        <input type="month" class="form-control input-small" id="expiry" name="expiry" oninput="validateExpiry()" required>
+                        <div id="expiry-message"></div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-success">Efectuar pago</button>
+            </form>
+        </div>
+        <div class="card col-md-6">
+            <div class="card-header text-center">
+                <h1 class="text-center mb-4"><i class="fas fa-shopping-cart"></i> Productos a comprar</h1>
+            </div>
+            {% if products %}
+                <a class="btn btn-primary" href="/cleancart">Borrar lista de compras</a>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>Nombre</th>
+                            <th>Detalles</th>
+                            <th>Precio</th>
+                            <th>Comprando</th>
+                            <th>Restante</th>
+                            <th>Vendedor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for product in products.values() %}
+                            <tr>
+                                <td><a href="/products/{{ product['ID'] }}">{{ product['ID'] }}</a></td>
+                                <td>{{ product['name'] }}</td>
+                                <td>{{ product['details'] }}</td>
+                                <td>{{ product['price'] }}</td>
+                                <td>{{ product['ordered'] }}</td>
+                                <td>{{ product['stock'] }}</td>
+                                <td><a href="/profiles/{{ product['Poster'] }}">{{ product['Poster'] }}</a></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% else %}
+                <p class="text-center">No estás comprando ningún producto.</p>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+<script>
+	// Función para validar la tarjeta usando el algoritmo de Luhn
+    function isValidCard(card) {
+        card = card.replace(/\s/g, ''); // Eliminar espacios
+        if (!/^\d+$/.test(card) || card.length < 13 || card.length > 19) {
+            return false;
+        }
+
+        let total = 0;
+        let reversedDigits = card.split('').reverse();
+
+        for (let i = 0; i < reversedDigits.length; i++) {
+            let n = parseInt(reversedDigits[i]);
+            if (i % 2 === 1) {  // Si es una posición impar (contando desde 0)
+                n = n * 2;
+                if (n > 9) {
+                    n -= 9;
+                }
+            }
+            total += n;
+        }
+
+        return total % 10 === 0;
+    }
+
+    // Función para determinar el tipo de tarjeta
+    function typeCard(card) {
+        if (!isValidCard(card)) {
+            return null;
+        }
+        card = card.replace(/\s/g, ''); // Eliminar espacios
+        let length = card.length;
+
+        // Visa (empieza con 4, 13 o 16 dígitos)
+        if (card[0] === '4' && (length === 13 || length === 16)) {
+            return "visa";
+        }
+
+        // MasterCard (empieza con 5 o 2, 16 dígitos)
+        if ((card[0] === '5' || card[0] === '2') && length === 16) {
+            if (['51', '52', '53', '54', '55'].includes(card.slice(0, 2)) || (parseInt(card.slice(0, 4)) >= 2221 && parseInt(card.slice(0, 4)) <= 2720)) {
+                return "mastercard";
+            }
+        }
+
+        // American Express (empieza con 34 o 37, 15 dígitos)
+        if ((card.slice(0, 2) === '34' || card.slice(0, 2) === '37') && length === 15) {
+            return "americanexpress";
+        }
+
+        // Discover (empieza con 6, 16 dígitos)
+        if (card[0] === '6' && length === 16) {
+            return "discover";
+        }
+
+        // Diners Club (empieza con 30, 36, 38 o 39, 14 dígitos)
+        if (['30', '36', '38', '39'].includes(card.slice(0, 2)) && length === 14) {
+            return "dinersclub";
+        }
+
+        // Si no es ninguna de las anteriores
+        return null;
+    }
+
+    // Función que se ejecuta al ingresar un número en el campo de tarjeta
+    function validateCard() {
+        const cardInput = document.getElementById('card').value;
+        const cardImage = document.getElementById('cardimage');
+        const validityMessage = document.getElementById('validity-message');
+
+        // Si el campo está vacío, no mostrar mensaje de tarjeta no válida
+        if (cardInput === "") {
+            validityMessage.textContent = "";
+            cardImage.style.display = 'none';
+            return;
+        }
+
+        // Verificar si la tarjeta es válida
+        if (isValidCard(cardInput)) {
+            validityMessage.textContent = "La tarjeta es válida.";
+            validityMessage.style.color = "green";
+            
+            const cardType = typeCard(cardInput);
+            if (cardType) {
+                cardImage.style.display = 'inline'; // Mostrar la imagen de la tarjeta
+                cardImage.src = `static/images/cards/${cardType}.png`; // Cambiar la imagen según el tipo de tarjeta
+            } else {
+                cardImage.style.display = 'none'; // Ocultar imagen si no es válida
+            }
+        } else {
+            validityMessage.textContent = "La tarjeta no es válida.";
+            validityMessage.style.color = "red";
+            cardImage.style.display = 'none'; // Ocultar imagen si no es válida
+        }
+    }
+
+    // Función para validar CVC (3 o 4 dígitos)
+    function validateCVC() {
+        const cvcInput = document.getElementById('cvc').value;
+        const cvcMessage = document.getElementById('cvc-message');
+        const regex = /^[0-9]{3,4}$/;
+
+        if (regex.test(cvcInput)) {
+            cvcMessage.textContent = "CVC válido.";
+            cvcMessage.style.color = "green";
+        } else {
+            cvcMessage.textContent = "CVC inválido.";
+            cvcMessage.style.color = "red";
+        }
+    }
+
+    // Función para validar la fecha de expiración (MM/YY)
+	function validateExpiry() {
+		var expiryInput = document.getElementById('expiry');
+		const expiryMessage = document.getElementById('expiry-message');
+		var expiryValue = expiryInput.value; // Ejemplo: "2025-03"
+		
+		if (expiryValue) {
+			// Extraemos año y mes
+			var [year, month] = expiryValue.split('-');
+			
+			// Convertimos el mes y año a formato MM/YY
+			var expiryYear = parseInt(year);
+			var expiryMonth = parseInt(month);
+			
+			// Obtenemos la fecha actual
+			var currentDate = new Date();
+			var currentYear = currentDate.getFullYear();
+			var currentMonth = currentDate.getMonth() + 1; // Los meses en JavaScript son 0-11, por eso sumamos 1
+			
+			// Verificar si la fecha de expiración es anterior a la fecha actual
+			if (expiryYear < currentYear || (expiryYear === currentYear && expiryMonth < currentMonth)) {
+				expiryMessage.textContent = "La fecha de expiración es anterior a la actual.";
+				expiryMessage.style.color = "red";
+			} else {
+				expiryMessage.textContent = "Fecha válida.";
+				expiryMessage.style.color = "green";
+			}
+		}
+	}
+
+
+	  
+    // Función para mostrar el formulario correspondiente según el tipo de pago seleccionado
+    function toggleForms() {
+        const paymentType = document.getElementById("paymentType").value;
+        const cardForm = document.getElementById("cardForm");
+        const transactionForm = document.getElementById("transactionForm");
+
+        // Mostrar el formulario correspondiente y ocultar el otro
+        if (paymentType === "card") {
+            cardForm.style.display = "block";
+            transactionForm.style.display = "none";
+        } else if (paymentType === "transaction") {
+            cardForm.style.display = "none";
+            transactionForm.style.display = "block";
+        }
+    }
+
+    // Función para mostrar u ocultar el valor de la tarjeta o cuenta dependiendo del tipo de pago
+    function toggleVisibility(type) {
+        if (type === 'card') {
+            const cardInput = document.getElementById("card");
+            cardInput.type = cardInput.type === 'password' ? 'text' : 'password';
+        } else if (type === 'account') {
+            const accountInput = document.getElementById("accountID");
+            accountInput.type = accountInput.type === 'password' ? 'text' : 'password';
+        }
+    }
+
+    // Llamar a toggleForms al cargar la página para que se muestre el formulario correcto inicialmente
+    window.onload = toggleForms;
+</script>
+
+{% endblock %}
