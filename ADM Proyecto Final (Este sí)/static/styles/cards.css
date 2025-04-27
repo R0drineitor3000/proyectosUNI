@@ -1,0 +1,85 @@
+/* General card styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    background-color: rgba(105, 105, 105, 0.9); /* Fondo gris oscuro transparente */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    object-fit: contain; /* Mejor manejo de imágenes */
+    height: 250px;
+    border-radius: 12px 12px 0 0; /* Bordes redondeados arriba */
+}
+
+/* Diseño del texto en la tarjeta */
+.card-body {
+    padding: 15px;
+    background-color: rgba(105, 105, 105, 0.9); /* Fondo gris oscuro transparente */
+    border-radius: 0 0 12px 12px; /* Bordes redondeados abajo */
+    color: #e0e0e0; /* Gris claro, para contraste adecuado con el fondo */
+}
+
+/* Encabezado, donde estará el texto de .card-title */
+.card-header {
+    padding: 15px;
+    background-color: rgba(105, 105, 105, 0.9); /* Fondo gris oscuro transparente */
+    border-radius: 12px 12px 0 0; /* Bordes redondeados arriba */
+    color: #f0f0f0; /* Blanco suave para el texto */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fff; /* Blanco para asegurar buen contraste */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #dcdcdc; /* Gris claro para el texto, suave pero legible */
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #fff; /* Un color amarillo suave para el precio, destaca sobre el fondo gris */
+}
+
+.stock {
+    color: #fff; /* Verde para resaltar disponibilidad */
+}
+
+/* Botón "Comprar" */
+.buy-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+    background-color: #218838; /* Cambia el color del botón al pasar el mouse */
+}
+
+/* Diseño del contenedor de los productos */
+.container {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #fff; /* Títulos principales en blanco */
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}

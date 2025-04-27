@@ -1,0 +1,23 @@
+2025-04-23 22:04:31 --- Archivo 2025-04-23 22.04.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-23 22.04.log
+2025-04-23 22:04:31 ---  * Debugger is active!
+2025-04-23 22:04:31 ---  * Debugger PIN: 827-411-152
+2025-04-23 22:04:50 --- 127.0.0.1 - - [23/Apr/2025 22:04:50] "GET /login HTTP/1.1" 200 -
+2025-04-23 22:04:51 --- 127.0.0.1 - - [23/Apr/2025 22:04:51] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:51 --- 127.0.0.1 - - [23/Apr/2025 22:04:51] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-23 22:04:51 --- 127.0.0.1 - - [23/Apr/2025 22:04:51] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:51 --- 127.0.0.1 - - [23/Apr/2025 22:04:51] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:52 --- 127.0.0.1 - - [23/Apr/2025 22:04:52] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-23 22:04:52 --- 127.0.0.1 - - [23/Apr/2025 22:04:52] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-23 22:04:55 --- 127.0.0.1 - - [23/Apr/2025 22:04:55] "GET /login HTTP/1.1" 200 -
+2025-04-23 22:04:56 --- 127.0.0.1 - - [23/Apr/2025 22:04:56] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:56 --- 127.0.0.1 - - [23/Apr/2025 22:04:56] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:56 --- 127.0.0.1 - - [23/Apr/2025 22:04:56] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:56 --- 127.0.0.1 - - [23/Apr/2025 22:04:56] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-23 22:04:56 --- 127.0.0.1 - - [23/Apr/2025 22:04:56] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-23 22:04:56 --- 127.0.0.1 - - [23/Apr/2025 22:04:56] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-23 22:04:57 --- 127.0.0.1 - - [23/Apr/2025 22:04:57] "GET /signin HTTP/1.1" 200 -
+2025-04-23 22:04:57 --- 127.0.0.1 - - [23/Apr/2025 22:04:57] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:57 --- 127.0.0.1 - - [23/Apr/2025 22:04:57] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:57 --- 127.0.0.1 - - [23/Apr/2025 22:04:57] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-23 22:04:57 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\app.py', reloading
+2025-04-23 22:04:57 --- Servidor desconectado

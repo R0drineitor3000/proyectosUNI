@@ -1,0 +1,12 @@
+2025-04-24 00:08:10 --- Archivo 2025-04-24 00.08.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-24 00.08.log
+2025-04-24 00:08:10 ---  * Debugger is active!
+2025-04-24 00:08:10 ---  * Debugger PIN: 827-411-152
+2025-04-24 00:08:16 --- 127.0.0.1 - - [24/Apr/2025 00:08:16] "GET /myprofile HTTP/1.1" 200 -
+2025-04-24 00:08:16 --- 127.0.0.1 - - [24/Apr/2025 00:08:16] "[33mGET /static/images/users/default.png HTTP/1.1[0m" 404 -
+2025-04-24 00:08:16 --- 127.0.0.1 - - [24/Apr/2025 00:08:16] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:08:17 --- 127.0.0.1 - - [24/Apr/2025 00:08:17] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:08:17 --- 127.0.0.1 - - [24/Apr/2025 00:08:17] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:08:17 --- 127.0.0.1 - - [24/Apr/2025 00:08:17] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:08:25 --- 127.0.0.1 - - [24/Apr/2025 00:08:25] "GET /cookies HTTP/1.1" 200 -
+2025-04-24 00:13:06 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\routhes\\misc.py', reloading
+2025-04-24 00:13:06 --- Servidor desconectado

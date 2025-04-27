@@ -1,0 +1,38 @@
+2025-04-24 00:04:46 --- Archivo 2025-04-24 00.04.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-24 00.04.log
+2025-04-24 00:04:46 ---  * Debugger is active!
+2025-04-24 00:04:46 ---  * Debugger PIN: 827-411-152
+2025-04-24 00:04:55 --- 127.0.0.1 - - [24/Apr/2025 00:04:55] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+2025-04-24 00:04:55 --- 127.0.0.1 - - [24/Apr/2025 00:04:55] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-04-24 00:04:55 --- 127.0.0.1 - - [24/Apr/2025 00:04:55] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-24 00:04:55 --- 127.0.0.1 - - [24/Apr/2025 00:04:55] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:04:55 --- 127.0.0.1 - - [24/Apr/2025 00:04:55] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:04:55 --- 127.0.0.1 - - [24/Apr/2025 00:04:55] "[33mGET /static/styles/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-04-24 00:06:07 --- 127.0.0.1 - - [24/Apr/2025 00:06:07] "GET /login HTTP/1.1" 200 -
+2025-04-24 00:06:07 --- 127.0.0.1 - - [24/Apr/2025 00:06:07] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[33mGET /static/styles/img/fincafond.jpg HTTP/1.1[0m" 404 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[33mGET /static/styles/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-04-24 00:06:08 --- 127.0.0.1 - - [24/Apr/2025 00:06:08] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+2025-04-24 00:06:09 --- 127.0.0.1 - - [24/Apr/2025 00:06:09] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-04-24 00:06:10 --- 127.0.0.1 - - [24/Apr/2025 00:06:10] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-04-24 00:06:11 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-04-24 00:06:11 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-04-24 00:06:11 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-04-24 00:06:12 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 424
+2025-04-24 00:06:12 --- 127.0.0.1 - - [24/Apr/2025 00:06:12] "[32mGET /login/callback?state=ZMn3G74CZArvKK7aKiOS6ZwDWOpbsU&code=4/0Ab_5qlnHeub__sYlNCjfpkRitAS75eFLDIkbeJhUoSH7-_87rP6ljHVPWTmjmnW8TS1b1A&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-04-24 00:06:12 --- 127.0.0.1 - - [24/Apr/2025 00:06:12] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-04-24 00:06:12 --- 127.0.0.1 - - [24/Apr/2025 00:06:12] "GET /myprofile HTTP/1.1" 200 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[33mGET /static/images/users/default.png HTTP/1.1[0m" 404 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[33mGET /static/styles/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+2025-04-24 00:06:13 --- 127.0.0.1 - - [24/Apr/2025 00:06:13] "[33mGET /static/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 404 -
+2025-04-24 00:08:05 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\routhes\\misc.py', reloading
+2025-04-24 00:08:05 --- Servidor desconectado

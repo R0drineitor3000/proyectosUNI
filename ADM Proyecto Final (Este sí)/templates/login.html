@@ -1,0 +1,91 @@
+{% extends "layout.html" %}
+
+{% block title %}Iniciar Sesión{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" href="/static/styles/chow_login.css">
+{% endblock %}
+
+{% block body %}
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1><i class="fas fa-sign-in"></i> Iniciar sesión</h1>
+            <p class="contact-description"> Ingresa con tu cuenta asignada</p>
+        </div>
+        <form method="POST" id="loginForm" action="/login/verify">
+            <div class="contact-form">
+                <div class="mb-4">
+                    <label for="name" class="form-label">Correo electrónico</label>
+                    <input type="text" class="form-control form-control-lg" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+                
+                <div class="mb-4">
+                    <label for="email" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control form-control-lg" id="password" name="password" placeholder="Ingrese Contraseña" autocomplete="off" required>
+                </div>
+                
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg" id="submitButton">
+                        <span id="submitButtonText">Iniciar Sesión</span>
+                        <div class="spinner-border text-light" role="status" id="loadingSpinner" style="display: none;">
+                            <span class="visually-hidden"></span>
+                        </div>
+                    </button>
+                </div>
+				<p></p>
+                <div class="d-grid gap-2">
+                    <a type="button" class="btn btn-primary" href="/login/oauth">
+                        <img src="/static/images/web/google-login-color.png" alt="Google logo" style="width: 20px; margin-right: 10px;">
+                        Iniciar Sesión con Google
+                    </a>
+                </div>
+				<p><a href="/recover">¿Olvidaste tu contraseña?</a></p>
+                <div class="d-grid">
+                    <small>¿No tienes una cuenta?</small>
+                    <a href="/signin" class="btn btn-outline-secondary btn-lg">Crear cuenta</a>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript personalizado -->
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(e) {
+            e.preventDefault();  // Previene que el formulario se envíe de inmediato
+
+            const submitButton = document.getElementById('submitButton');
+            const submitButtonText = document.getElementById('submitButtonText');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+
+            // Mostrar el spinner y deshabilitar el botón
+            submitButton.disabled = true;
+            submitButtonText.style.display = 'none';  // Ocultar el texto del botón
+            loadingSpinner.style.display = 'inline-block';  // Mostrar el spinner
+
+            // Simular un retraso de carga
+            setTimeout(() => {
+                // Ocultar el spinner y habilitar el botón
+                loadingSpinner.style.display = 'none';
+                submitButtonText.style.display = 'inline';  // Mostrar el texto del botón
+                submitButton.disabled = false;
+
+                // Simular la acción de enviar el formulario o redirección
+                document.getElementById('loginForm').submit(); // Enviar el formulario después del retraso
+            }, 3000); // 3 segundos
+        });
+
+        // Detectar la tecla Enter en los campos de entrada
+        document.getElementById('email').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                document.getElementById('loginForm').submit();
+            }
+        });
+
+        document.getElementById('password').addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+                document.getElementById('loginForm').submit();
+            }
+        });
+    </script>
+
+{% endblock %}

@@ -1,0 +1,8 @@
+2025-04-22 19:17:58 --- Archivo 2025-04-22 19.17.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-22 19.17.log
+2025-04-22 19:17:58 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-22 19:17:58 --- [33mPress CTRL+C to quit[0m
+2025-04-22 19:17:58 ---  * Restarting with stat
+2025-04-22 19:19:28 ---  * Restarting with stat
+2025-04-22 19:20:02 ---  * Restarting with stat
+2025-04-22 19:20:43 ---  * Restarting with stat

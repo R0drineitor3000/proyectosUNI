@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.main-content {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.profile-pic {
+    width: 40px;   /* O ajusta el tamaño a lo que necesites */
+    height: 40px;  /* Mantén la imagen cuadrada */
+    object-fit: cover;  /* Asegura que la imagen se ajuste correctamente */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}

@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block styles %}
+	<link rel="stylesheet" href="/static/styles/chow_cards.css"> <!--Estilo para las "cajitas" de cada producto-->
+{% endblock %}
+
+{% block body %}
+	<!-- Encabezado -->
+    <header class="bg-primary text-white text-center p-5">
+        <h1><i class="fas fa-home"></i> <br>Bienvenido a nuestro <br>Sistema web de administración y ventas de productos lácteos<br>para Finca los Castillo</h1>
+		<p><small>MilkManager</small></p>
+        <p>Productos frescos y de calidad para nuestros clientes</p>
+        <a href="/products" class="btn btn-outline-light me-2">Ver Productos</a>
+    </header>
+
+    <!-- Sección de información -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="/static/images/web/leche.jpg" class="card-img-top img-fija" alt="Productos">
+                    <div class="card-body">
+                        <h5 class="card-title">Nuestros Productos</h5>
+                        <p class="card-text">Descubre nuestros productos de calidad.</p>
+                        <a href="/products" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="/static/images/web/ventas.jpg" class="card-img-top img-fija" alt="Ventas">
+                    <div class="card-body">
+                        <h5 class="card-title">Perfiles</h5>
+                        <p class="card-text">Encuentra quien tiene lo que quieres.</p>
+                        <a href="/profiles" class="btn btn-primary">Ir a perfiles</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="/static/images/web/contactanos.jpg"class="card-img-top img-fija" alt="Contacto">
+                    <div class="card-body">
+                        <h5 class="card-title">Contáctanos</h5>
+                        <p class="card-text">Estamos aquí para ayudarte.</p>
+                        <a href="/contact" class="btn btn-primary">Escríbenos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

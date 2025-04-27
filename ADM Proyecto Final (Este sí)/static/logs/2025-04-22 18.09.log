@@ -1,0 +1,5 @@
+2025-04-22 18:09:26 --- Archivo 2025-04-22 18.09.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-22 18.09.log
+2025-04-22 18:09:26 ---  * Debugger is active!
+2025-04-22 18:09:26 ---  * Debugger PIN: 827-411-152
+2025-04-22 18:09:33 --- 127.0.0.1 - - [22/Apr/2025 18:09:33] "GET / HTTP/1.1" 200 -
+2025-04-22 18:09:33 --- 127.0.0.1 - - [22/Apr/2025 18:09:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

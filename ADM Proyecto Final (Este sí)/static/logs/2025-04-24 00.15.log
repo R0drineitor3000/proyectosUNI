@@ -1,0 +1,8 @@
+2025-04-24 00:15:23 --- Archivo 2025-04-24 00.15.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-24 00.15.log
+2025-04-24 00:15:23 ---  * Debugger is active!
+2025-04-24 00:15:23 ---  * Debugger PIN: 827-411-152
+2025-04-24 00:15:33 --- 127.0.0.1 - - [24/Apr/2025 00:15:33] "[35m[1mGET /cookies HTTP/1.1[0m" 500 -
+2025-04-24 00:15:33 --- 127.0.0.1 - - [24/Apr/2025 00:15:33] "[35m[1mGET /cookies HTTP/1.1[0m" 500 -
+2025-04-24 00:15:33 --- 127.0.0.1 - - [24/Apr/2025 00:15:33] "[35m[1mGET /cookies HTTP/1.1[0m" 500 -
+2025-04-24 00:16:57 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\routhes\\misc.py', reloading
+2025-04-24 00:16:57 --- Servidor desconectado

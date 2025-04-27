@@ -1,0 +1,98 @@
+/* Asegura que la altura del body ocupe toda la pantalla */
+html, body {
+    height: 100%; /* Asegura que el body ocupe toda la pantalla */
+    margin: 0; /* Elimina márgenes por defecto */
+    display: flex; /* Usa flexbox para distribuir el contenido */
+    flex-direction: column; /* Coloca los elementos en una columna */
+}
+
+/* Cuerpo */
+body {
+    background: url('/static/images/web/fincafond.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    font-family: Arial, sans-serif; /* Ajusta la fuente a lo que desees */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido se distribuya correctamente */
+}
+
+/* Asegura que el contenido principal ocupe el espacio restante */
+main {
+    flex: 1; /* Ocupa el espacio restante disponible */
+}
+
+/* Fondo del footer y otras configuraciones del mismo */
+footer {
+    background: linear-gradient(90deg, #15009b, #1d33fa); /* Degradado de colores */
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    margin-top: auto; /* Asegura que se quede al fondo */
+    opacity: 0.50; /* Transparencia */
+}
+
+/* Asegura que el footer no se superponga a otros elementos */
+footer {
+    flex-shrink: 0; /* Evita que el footer se encoja */
+}
+
+/* Resto del estilo (sin cambios) */
+.img-fija {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card {
+    transition: transform 0.3s ease-in, box-shadow 0.3s ease-in;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #15009b, #1d33fa);
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+header {
+    background: rgba(24, 39, 255, 0.5);
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.form-control {
+    font-size: 0.75rem;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contact-form {
+    padding: 2rem;
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.form-control:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 0.25rem rgba(79, 195, 247, 0.25);
+}

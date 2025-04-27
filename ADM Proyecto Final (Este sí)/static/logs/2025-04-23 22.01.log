@@ -1,0 +1,56 @@
+2025-04-23 22:01:19 --- Archivo 2025-04-23 22.01.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-23 22.01.log
+2025-04-23 22:01:19 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-23 22:01:19 --- [33mPress CTRL+C to quit[0m
+2025-04-23 22:01:19 ---  * Restarting with stat
+2025-04-23 22:01:23 --- Archivo 2025-04-23 22.01.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-23 22.01.log
+2025-04-23 22:01:23 ---  * Debugger is active!
+2025-04-23 22:01:23 ---  * Debugger PIN: 827-411-152
+2025-04-23 22:01:30 --- 127.0.0.1 - - [23/Apr/2025 22:01:30] "GET / HTTP/1.1" 200 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-23 22:01:31 --- 127.0.0.1 - - [23/Apr/2025 22:01:31] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-04-23 22:01:39 --- 127.0.0.1 - - [23/Apr/2025 22:01:39] "GET /contact HTTP/1.1" 200 -
+2025-04-23 22:01:40 --- 127.0.0.1 - - [23/Apr/2025 22:01:40] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:40 --- 127.0.0.1 - - [23/Apr/2025 22:01:40] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:40 --- 127.0.0.1 - - [23/Apr/2025 22:01:40] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-23 22:01:40 --- 127.0.0.1 - - [23/Apr/2025 22:01:40] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "GET /login HTTP/1.1" 200 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-23 22:01:41 --- 127.0.0.1 - - [23/Apr/2025 22:01:41] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-23 22:01:42 --- 127.0.0.1 - - [23/Apr/2025 22:01:42] "[33mGET /products HTTP/1.1[0m" 404 -
+2025-04-23 22:04:23 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\routhes\\misc.py', reloading
+2025-04-23 22:04:23 --- Servidor desconectado
+2025-04-23 22:04:24 ---  * Restarting with stat
+2025-04-23 22:04:57 ---  * Restarting with stat
+2025-04-23 22:08:54 ---  * Restarting with stat
+2025-04-23 22:16:20 ---  * Restarting with stat
+2025-04-23 22:18:15 ---  * Restarting with stat
+2025-04-23 22:18:48 ---  * Restarting with stat
+2025-04-23 22:19:03 ---  * Restarting with stat
+2025-04-23 22:20:40 ---  * Restarting with stat
+2025-04-23 22:20:58 ---  * Restarting with stat
+2025-04-23 22:21:16 ---  * Restarting with stat
+2025-04-23 22:21:38 ---  * Restarting with stat
+2025-04-23 22:25:43 ---  * Restarting with stat
+2025-04-23 22:26:46 ---  * Restarting with stat
+2025-04-23 22:29:23 ---  * Restarting with stat
+2025-04-23 22:31:11 ---  * Restarting with stat
+2025-04-23 22:33:15 ---  * Restarting with stat
+2025-04-23 22:33:45 ---  * Restarting with stat
+2025-04-23 22:35:50 ---  * Restarting with stat
+2025-04-23 22:37:04 ---  * Restarting with stat
+2025-04-23 22:39:48 ---  * Restarting with stat
+2025-04-23 22:40:52 ---  * Restarting with stat
+2025-04-23 22:41:45 ---  * Restarting with stat
+2025-04-23 22:41:48 --- Servidor desconectado

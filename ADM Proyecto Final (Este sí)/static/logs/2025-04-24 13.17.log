@@ -1,0 +1,10 @@
+2025-04-24 13:17:26 --- Archivo 2025-04-24 13.17.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-24 13.17.log
+2025-04-24 13:17:26 ---  * Debugger is active!
+2025-04-24 13:17:26 ---  * Debugger PIN: 827-411-152
+2025-04-24 13:17:33 --- 127.0.0.1 - - [24/Apr/2025 13:17:33] "GET /signin HTTP/1.1" 200 -
+2025-04-24 13:17:34 --- 127.0.0.1 - - [24/Apr/2025 13:17:34] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 13:17:34 --- 127.0.0.1 - - [24/Apr/2025 13:17:34] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-04-24 13:17:34 --- 127.0.0.1 - - [24/Apr/2025 13:17:34] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 13:17:34 --- 127.0.0.1 - - [24/Apr/2025 13:17:34] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 13:17:34 --- 127.0.0.1 - - [24/Apr/2025 13:17:34] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 13:17:34 --- 127.0.0.1 - - [24/Apr/2025 13:17:34] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -

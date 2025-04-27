@@ -1,0 +1,31 @@
+2025-04-22 19:22:34 --- Archivo 2025-04-22 19.22.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-22 19.22.log
+2025-04-22 19:22:34 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-22 19:22:34 --- [33mPress CTRL+C to quit[0m
+2025-04-22 19:22:34 ---  * Restarting with stat
+2025-04-22 19:22:37 --- Archivo 2025-04-22 19.22.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-22 19.22.log
+2025-04-22 19:22:37 ---  * Debugger is active!
+2025-04-22 19:22:37 ---  * Debugger PIN: 827-411-152
+2025-04-22 19:22:42 --- 127.0.0.1 - - [22/Apr/2025 19:22:42] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-22 19:22:43 --- 127.0.0.1 - - [22/Apr/2025 19:22:43] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-22 19:22:43 --- 127.0.0.1 - - [22/Apr/2025 19:22:43] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-22 19:22:43 --- 127.0.0.1 - - [22/Apr/2025 19:22:43] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-22 19:22:44 --- 127.0.0.1 - - [22/Apr/2025 19:22:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-22 19:23:59 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\app.py', reloading
+2025-04-22 19:23:59 --- Servidor desconectado
+2025-04-22 19:23:59 ---  * Restarting with stat
+2025-04-22 19:25:11 ---  * Restarting with stat
+2025-04-22 19:27:31 ---  * Restarting with stat
+2025-04-22 19:33:43 ---  * Restarting with stat
+2025-04-22 19:34:23 ---  * Restarting with stat
+2025-04-22 19:34:57 ---  * Restarting with stat
+2025-04-22 19:40:53 ---  * Restarting with stat
+2025-04-22 19:42:29 ---  * Restarting with stat
+2025-04-22 19:42:50 ---  * Restarting with stat
+2025-04-22 19:44:05 ---  * Restarting with stat
+2025-04-22 19:58:13 ---  * Restarting with stat
+2025-04-22 19:58:35 ---  * Restarting with stat
+2025-04-22 20:01:18 ---  * Restarting with stat
+2025-04-22 20:04:39 ---  * Restarting with stat
+2025-04-22 20:35:18 ---  * Restarting with stat
+2025-04-22 22:28:39 --- Servidor desconectado

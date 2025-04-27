@@ -1,0 +1,103 @@
+2025-04-24 00:00:41 --- Archivo 2025-04-24 00.00.log creado con éxito en H:\Python\Administradores de Bases de Datos P. Final\static\logs\2025-04-24 00.00.log
+2025-04-24 00:00:41 ---  * Debugger is active!
+2025-04-24 00:00:42 ---  * Debugger PIN: 827-411-152
+2025-04-24 00:00:56 --- 127.0.0.1 - - [24/Apr/2025 00:00:56] "GET /login HTTP/1.1" 200 -
+2025-04-24 00:00:56 --- 127.0.0.1 - - [24/Apr/2025 00:00:56] "[33mGET /static/images/users/default.png HTTP/1.1[0m" 404 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 00:00:57 --- 127.0.0.1 - - [24/Apr/2025 00:00:57] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[32mPOST /login/verify HTTP/1.1[0m" 302 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "GET / HTTP/1.1" 200 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[33mGET /static/images/users/default.png HTTP/1.1[0m" 404 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:06 --- 127.0.0.1 - - [24/Apr/2025 00:01:06] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:07 --- 127.0.0.1 - - [24/Apr/2025 00:01:07] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:14 --- 127.0.0.1 - - [24/Apr/2025 00:01:14] "GET /myprofile HTTP/1.1" 200 -
+2025-04-24 00:01:15 --- 127.0.0.1 - - [24/Apr/2025 00:01:15] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:15 --- 127.0.0.1 - - [24/Apr/2025 00:01:15] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:15 --- 127.0.0.1 - - [24/Apr/2025 00:01:15] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:15 --- 127.0.0.1 - - [24/Apr/2025 00:01:15] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:15 --- 127.0.0.1 - - [24/Apr/2025 00:01:15] "[33mGET /static/images/users/default.png HTTP/1.1[0m" 404 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "GET / HTTP/1.1" 200 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:18 --- 127.0.0.1 - - [24/Apr/2025 00:01:18] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:19 --- 127.0.0.1 - - [24/Apr/2025 00:01:19] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:19 --- 127.0.0.1 - - [24/Apr/2025 00:01:19] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "GET /login HTTP/1.1" 200 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 00:01:20 --- 127.0.0.1 - - [24/Apr/2025 00:01:20] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:22 --- 127.0.0.1 - - [24/Apr/2025 00:01:22] "[32mGET /login/oauth HTTP/1.1[0m" 302 -
+2025-04-24 00:01:23 --- Starting new HTTPS connection (1): accounts.google.com:443
+2025-04-24 00:01:23 --- https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+2025-04-24 00:01:23 --- Starting new HTTPS connection (1): www.googleapis.com:443
+2025-04-24 00:01:24 --- https://www.googleapis.com:443 "GET /oauth2/v3/certs HTTP/1.1" 200 425
+2025-04-24 00:01:24 --- 127.0.0.1 - - [24/Apr/2025 00:01:24] "[32mGET /login/callback?state=Gn3kqbeHyDXRjrlcUmPf7kX0JJ4iwQ&code=4/0Ab_5qllgEHdQQCbqLXkYcna4JXd0h7IsEELfnyqx8Zi8TP18SsR9y7ee4kwRdzpyZ8Gdfw&scope=email+profile+openid+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile&authuser=0&prompt=none HTTP/1.1[0m" 302 -
+2025-04-24 00:01:24 --- 127.0.0.1 - - [24/Apr/2025 00:01:24] "[32mGET /login/complete HTTP/1.1[0m" 302 -
+2025-04-24 00:01:24 --- 127.0.0.1 - - [24/Apr/2025 00:01:24] "GET /myprofile HTTP/1.1" 200 -
+2025-04-24 00:01:24 --- 127.0.0.1 - - [24/Apr/2025 00:01:24] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:25 --- 127.0.0.1 - - [24/Apr/2025 00:01:25] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:25 --- 127.0.0.1 - - [24/Apr/2025 00:01:25] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:25 --- 127.0.0.1 - - [24/Apr/2025 00:01:25] "[33mGET /static/images/users/default.png HTTP/1.1[0m" 404 -
+2025-04-24 00:01:25 --- 127.0.0.1 - - [24/Apr/2025 00:01:25] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "GET / HTTP/1.1" 200 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:28 --- 127.0.0.1 - - [24/Apr/2025 00:01:28] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:29 --- 127.0.0.1 - - [24/Apr/2025 00:01:29] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "GET /login HTTP/1.1" 200 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:36 --- 127.0.0.1 - - [24/Apr/2025 00:01:36] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "GET /signin HTTP/1.1" 200 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "[36mGET /static/styles/chow_signin.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:38 --- 127.0.0.1 - - [24/Apr/2025 00:01:38] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "GET / HTTP/1.1" 200 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/styles/chow_cards.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/images/web/leche.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/images/web/ventas.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/images/web/contactanos.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:01:40 --- 127.0.0.1 - - [24/Apr/2025 00:01:40] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:45 --- 127.0.0.1 - - [24/Apr/2025 00:01:45] "[32mGET /myprofile HTTP/1.1[0m" 302 -
+2025-04-24 00:01:45 --- 127.0.0.1 - - [24/Apr/2025 00:01:45] "GET /login?next=/myprofile HTTP/1.1" 200 -
+2025-04-24 00:01:45 --- 127.0.0.1 - - [24/Apr/2025 00:01:45] "[36mGET /static/styles/bootstrap.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:46 --- 127.0.0.1 - - [24/Apr/2025 00:01:46] "[36mGET /static/styles/chow_login.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:46 --- 127.0.0.1 - - [24/Apr/2025 00:01:46] "[36mGET /static/styles/chow.css HTTP/1.1[0m" 304 -
+2025-04-24 00:01:46 --- 127.0.0.1 - - [24/Apr/2025 00:01:46] "[36mGET /static/images/web/google-login-color.png HTTP/1.1[0m" 304 -
+2025-04-24 00:01:46 --- 127.0.0.1 - - [24/Apr/2025 00:01:46] "[36mGET /static/js/popper.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:46 --- 127.0.0.1 - - [24/Apr/2025 00:01:46] "[36mGET /static/js/bootstrap.js HTTP/1.1[0m" 304 -
+2025-04-24 00:01:46 --- 127.0.0.1 - - [24/Apr/2025 00:01:46] "[36mGET /static/images/web/fincafond.jpg HTTP/1.1[0m" 304 -
+2025-04-24 00:04:42 ---  * Detected change in 'H:\\Python\\Administradores de Bases de Datos P. Final\\routhes\\auth.py', reloading
+2025-04-24 00:04:42 --- Servidor desconectado
