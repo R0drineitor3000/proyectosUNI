@@ -1,0 +1,7 @@
+2025-05-07 14:30:59 --- Archivo 2025-05-07 14.30.log creado con éxito en H:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-05-07 14.30.log
+2025-05-07 14:31:00 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-07 14:31:00 --- [33mPress CTRL+C to quit[0m
+2025-05-07 14:31:00 ---  * Restarting with stat
+2025-05-07 14:50:30 ---  * Restarting with stat
+2025-05-07 14:51:27 ---  * Restarting with stat

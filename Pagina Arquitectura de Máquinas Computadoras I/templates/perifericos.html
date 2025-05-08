@@ -1,0 +1,225 @@
+{% extends "base.html" %}
+{% block title %}Periféricos{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/css/computadoras.css">{% endblock %}
+
+{% block body %}
+<br>
+<div class="container no-bg">
+    <div class="accordion" id="accordionExample"> <!-- Acordeón de Bootstrap -->
+        
+        <!-- Primer panel -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Principales componentes de la Computadora
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Haz clic en las diferentes partes de la computadora para aprender más sobre ellas.</p>
+                    <div class="computer-view" id="computerView">
+                        <div class="computer-image" id="computerImage">
+                            <img src="/static/img/computadora.png" usemap="#pcmap" alt="Computadora" class="imagen-pc img-fluid" id="image" />
+                            <map name="pcmap">
+                                <area shape="rect" coords="1,32,340,229" href="#monitor" alt="Monitor" />
+                                <area shape="rect" coords="468,296,342,3" href="#case" alt="Case" />
+                                <area shape="rect" coords="380,359,418,312" href="#teclado" alt="Teclado" />
+                                <area shape="rect" coords="358,377,50,311" href="#mouse" alt="Mouse" />
+                            </map>
+                        </div>
+
+                        <div id="monitor" class="info-panel">
+                            <h2>Monitor</h2>
+                            <p>Dispositivo de salida que muestra imágenes y texto.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Monitor_de_computadora">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="case" class="info-panel">
+                            <h2>Case (Gabinete)</h2>
+                            <p>Contiene y protege todos los componentes internos.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Caja_de_computadora">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="teclado" class="info-panel">
+                            <h2>Teclado</h2>
+                            <p>Permite al usuario introducir datos mediante pulsaciones.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Teclado_(inform%C3%A1tica)">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="mouse" class="info-panel">
+                            <h2>Mouse</h2>
+                            <p>Dispositivo apuntador para interactuar con la interfaz gráfica.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Rat%C3%B3n_(inform%C3%A1tica)">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segundo panel -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Periféricos de entrada
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Son los dispositivos que permiten al usuario enviar información al ordenador. Su función principal es capturar datos del entorno o del usuario y transmitirlos al sistema para que pueda procesarlos.</p>
+                    <div class="computer-view" id="computerView">
+                        <div class="computer-image" id="computerImage">
+                            <img src="/static/img/entrada.png" usemap="#pcmap-input" alt="Computadora" class="imagen-pc img-fluid" id="image-input" />
+                            <map name="pcmap-input">
+                                <area shape="rect" coords="1,1,184,233" href="#escaner" alt="Escaner" />
+                                <area shape="rect" coords="177,28,340,123" href="#camara" alt="Cámara" />
+                                <area shape="rect" coords="359,109,474,246" href="#microfono" alt="Micrófono" />
+                                <area shape="rect" coords="96,297,371,391" href="#teclado-input" alt="Teclado" />
+                                <area shape="rect" coords="380,306,474,474" href="#mouse-input" alt="Mouse" />
+                            </map>
+                        </div>
+
+                        <div id="teclado-input" class="info-panel">
+                            <h2>Teclado</h2>
+                            <p>Permite ingresar texto y comandos.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Teclado_(inform%C3%A1tica)">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="mouse-input" class="info-panel">
+                            <h2>Mouse</h2>
+                            <p>Controla el puntero en la pantalla.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Rat%C3%B3n_(inform%C3%A1tica)">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="microfono" class="info-panel">
+                            <h2>Micrófono</h2>
+                            <p>Captura sonido para procesarlo.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Micr%C3%B3fono">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="escaner" class="info-panel">
+                            <h2>Escáner</h2>
+                            <p>Digitaliza documentos físicos.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Esc%C3%A1ner_inform%C3%A1tico">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="camara" class="info-panel">
+                            <h2>Cámara Web</h2>
+                            <p>Transmite imágenes o video en tiempo real.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/C%C3%A1mara_web">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tercer panel -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Periféricos de salida
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Son los dispositivos que permiten al ordenador comunicar o mostrar información al usuario. Transforman los datos procesados en señales visuales, sonoras o físicas.</p>
+                    <div class="computer-view" id="computerView">
+                        <div class="computer-image" id="computerImage">
+                            <img src="/static/img/salida.png" usemap="#pcmap-output" alt="Computadora" class="imagen-pc img-fluid" id="image-pos" />
+                            <map name="pcmap-output">
+                                <area shape="rect" coords="49,16,272,187" href="#monitor-output" alt="Monitor" />
+                                <area shape="rect" coords="288,31,474,148" href="#altavoces" alt="Altavoces" />
+                                <area shape="rect" coords="150,214,326,294" href="#proyector" alt="Proyector" />
+                                <area shape="rect" coords="1,306,205,417" href="#impresora" alt="Impresora" />
+                                <area shape="rect" coords="340,474,474,283" href="#auriculares" alt="Auriculares" />
+                            </map>
+                        </div>
+
+                        <div id="monitor-output" class="info-panel">
+                            <h2>Monitor</h2>
+                            <p>Muestra imágenes y texto en pantalla.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Monitor_de_computadora">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="impresora" class="info-panel">
+                            <h2>Impresora</h2>
+                            <p>Reproduce documentos en papel.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Impresora">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="altavoces" class="info-panel">
+                            <h2>Altavoces</h2>
+                            <p>Emiten sonidos y música.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Altavoz">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="proyector" class="info-panel">
+                            <h2>proyector</h2>
+                            <p>Proyecta imágenes en una superficie amplia.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Proyector_de_video">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                        <div id="auriculares" class="info-panel">
+                            <h2>Auriculares</h2>
+                            <p>Permiten escuchar audio de forma privada.</p>
+                            <div>
+                                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Auricular">Aprender más</a>
+                                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/info-panel.js"></script>
+<script>
+    window.addEventListener('load', function() {
+        imageMapResize();
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+{% endblock %}

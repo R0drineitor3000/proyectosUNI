@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Procesamiento{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/css/computadoras.css">{% endblock %}
+
+{% block body %}
+<br>
+<div class="container">
+	<div class="container-header"><h1>Procesamiento</h1></div>
+    <div class="computer-view" id="computerView">
+		<div class="computer-image" id="computerImage">
+			<img src="/static/img/procesamiento.png" usemap="#pcmap" alt="procesamiento" class="imagen-pc img-fluid" id="image" />
+			<map name="pcmap">
+				<area shape="rect" coords="1,1,190,140" href="#cpu" alt="CPU" />
+                <area shape="rect" coords="246,1,474,172" href="#gpu" alt="GPU" />
+                <area shape="rect" coords="76,199,286,330" href="#tpu" alt="TPU" />
+			</map>
+		</div>
+        <div id="cpu" class="info-panel">
+			<h2>CPU</h2>
+			<p>La CPU es el cerebro del ordenador, responsable de ejecutar instrucciones de programas mediante operaciones aritméticas, lógicas y de control. Es fundamental para tareas generales de procesamiento y controla el flujo de información en el sistema.</p>
+			<div>
+				<a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Unidad_central_de_procesamiento">Aprender más</a>
+				<button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+			</div>
+		</div>
+        <div id="gpu" class="info-panel">
+			<h2>GPU</h2>
+			<p>La GPU está especializada en la ejecución de operaciones matemáticas complejas, especialmente las relacionadas con gráficos y visualización. Su diseño paralelo permite realizar muchas operaciones al mismo tiempo, lo que la hace ideal para el procesamiento de imágenes, vídeos y, más recientemente, para tareas de inteligencia artificial.</p>
+			<div>
+				<a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Unidad_de_procesamiento_gráfico">Aprender más</a>
+				<button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+			</div>
+		</div>
+        <div id="tpu" class="info-panel">
+			<h2>TPU</h2>
+			<p>La TPU es una unidad de procesamiento diseñada específicamente para acelerar las cargas de trabajo de aprendizaje automático, especialmente en redes neuronales profundas. Su arquitectura está optimizada para manejar grandes volúmenes de datos de forma eficiente, mejorando el rendimiento en aplicaciones de inteligencia artificial.</p>
+			<div>
+				<a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Unidad_de_procesamiento_tensorial">Aprender más</a>
+				<button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+			</div>
+		</div>
+    </div>
+	<br>
+</div>
+
+<script>
+	// Esperamos a que la página cargue completamente
+	window.addEventListener('load', function() {
+		imageMapResize();
+	});
+	
+</script>
+
+<script src="/static/js/info-panel.js"></script>
+{% endblock %}

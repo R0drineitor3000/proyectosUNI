@@ -1,0 +1,60 @@
+2025-03-17 10:57:24 --- Archivo 2025-03-17 10.57.log creado con éxito en F:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-03-17 10.57.log
+2025-03-17 10:57:24 ---  * Debugger is active!
+2025-03-17 10:57:24 ---  * Debugger PIN: 827-411-152
+2025-03-17 10:57:38 --- Se abrió la página about desde: 127.0.0.1
+2025-03-17 10:57:38 --- 127.0.0.1 - - [17/Mar/2025 10:57:38] "GET /about HTTP/1.1" 200 -
+2025-03-17 10:57:38 --- 127.0.0.1 - - [17/Mar/2025 10:57:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 10:57:39 --- Se abrió la página diagramas desde: 127.0.0.1
+2025-03-17 10:57:39 --- 127.0.0.1 - - [17/Mar/2025 10:57:39] "GET /diagramas HTTP/1.1" 200 -
+2025-03-17 10:57:40 --- 127.0.0.1 - - [17/Mar/2025 10:57:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 10:57:40 --- Se abrió la página estructura desde: 127.0.0.1
+2025-03-17 10:57:40 --- 127.0.0.1 - - [17/Mar/2025 10:57:40] "GET /estructura HTTP/1.1" 200 -
+2025-03-17 10:57:41 --- 127.0.0.1 - - [17/Mar/2025 10:57:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 10:57:41 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 10:57:41 --- 127.0.0.1 - - [17/Mar/2025 10:57:41] "GET / HTTP/1.1" 200 -
+2025-03-17 10:57:41 --- 127.0.0.1 - - [17/Mar/2025 10:57:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 10:57:56 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 10:57:56 --- 127.0.0.1 - - [17/Mar/2025 10:57:56] "GET / HTTP/1.1" 200 -
+2025-03-17 10:57:56 --- 127.0.0.1 - - [17/Mar/2025 10:57:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 10:57:56 --- Se abrió la página estructura desde: 127.0.0.1
+2025-03-17 10:57:56 --- 127.0.0.1 - - [17/Mar/2025 10:57:56] "GET /estructura HTTP/1.1" 200 -
+2025-03-17 10:57:56 --- 127.0.0.1 - - [17/Mar/2025 10:57:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 10:57:59 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 10:57:59 --- 127.0.0.1 - - [17/Mar/2025 10:57:59] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 10:57:59 --- 127.0.0.1 - - [17/Mar/2025 10:57:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:31 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 11:00:31 --- 127.0.0.1 - - [17/Mar/2025 11:00:31] "GET / HTTP/1.1" 200 -
+2025-03-17 11:00:32 --- 127.0.0.1 - - [17/Mar/2025 11:00:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:34 --- Se abrió la página estructura desde: 127.0.0.1
+2025-03-17 11:00:34 --- 127.0.0.1 - - [17/Mar/2025 11:00:34] "GET /estructura HTTP/1.1" 200 -
+2025-03-17 11:00:34 --- 127.0.0.1 - - [17/Mar/2025 11:00:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:35 --- Se abrió la página diagramas desde: 127.0.0.1
+2025-03-17 11:00:35 --- 127.0.0.1 - - [17/Mar/2025 11:00:35] "GET /diagramas HTTP/1.1" 200 -
+2025-03-17 11:00:35 --- 127.0.0.1 - - [17/Mar/2025 11:00:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:35 --- Se abrió la página about desde: 127.0.0.1
+2025-03-17 11:00:35 --- 127.0.0.1 - - [17/Mar/2025 11:00:35] "GET /about HTTP/1.1" 200 -
+2025-03-17 11:00:35 --- 127.0.0.1 - - [17/Mar/2025 11:00:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:37 --- Se abrió la página calculo desde: 127.0.0.1
+2025-03-17 11:00:37 --- 127.0.0.1 - - [17/Mar/2025 11:00:37] "GET /estructura/memoria/calculo HTTP/1.1" 200 -
+2025-03-17 11:00:37 --- 127.0.0.1 - - [17/Mar/2025 11:00:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:38 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 11:00:38 --- 127.0.0.1 - - [17/Mar/2025 11:00:38] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 11:00:39 --- 127.0.0.1 - - [17/Mar/2025 11:00:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:41 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 11:00:41 --- 127.0.0.1 - - [17/Mar/2025 11:00:41] "GET / HTTP/1.1" 200 -
+2025-03-17 11:00:41 --- 127.0.0.1 - - [17/Mar/2025 11:00:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:41 --- Se abrió la página diagramas desde: 127.0.0.1
+2025-03-17 11:00:41 --- 127.0.0.1 - - [17/Mar/2025 11:00:41] "GET /diagramas HTTP/1.1" 200 -
+2025-03-17 11:00:41 --- 127.0.0.1 - - [17/Mar/2025 11:00:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:42 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 11:00:42 --- 127.0.0.1 - - [17/Mar/2025 11:00:42] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 11:00:42 --- 127.0.0.1 - - [17/Mar/2025 11:00:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:00:44 --- 127.0.0.1 - - [17/Mar/2025 11:00:44] "[33mGET /estructura/perifericos/salida HTTP/1.1[0m" 404 -
+2025-03-17 11:00:44 --- 127.0.0.1 - - [17/Mar/2025 11:00:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:01:06 --- 127.0.0.1 - - [17/Mar/2025 11:01:06] "[33mGET /estructura/perifericos/salida HTTP/1.1[0m" 404 -
+2025-03-17 11:01:06 --- 127.0.0.1 - - [17/Mar/2025 11:01:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:01:10 --- 127.0.0.1 - - [17/Mar/2025 11:01:10] "[33mGET /estructura/perifericos/salida HTTP/1.1[0m" 404 -
+2025-03-17 11:01:10 --- 127.0.0.1 - - [17/Mar/2025 11:01:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:01:25 --- 127.0.0.1 - - [17/Mar/2025 11:01:25] "[33mGET /estructura/perifericos/salida HTTP/1.1[0m" 404 -
+2025-03-17 11:01:25 --- 127.0.0.1 - - [17/Mar/2025 11:01:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 11:01:26 ---  * Detected change in 'F:\\Python\\Pagina Arquitectura de Máquinas Computadoras I\\app.py', reloading

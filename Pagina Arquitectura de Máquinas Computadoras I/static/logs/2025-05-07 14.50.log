@@ -1,0 +1,12 @@
+2025-05-07 14:50:44 --- Archivo 2025-05-07 14.50.log creado con éxito en H:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-05-07 14.50.log
+2025-05-07 14:50:44 ---  * Debugger is active!
+2025-05-07 14:50:44 ---  * Debugger PIN: 827-411-152
+2025-05-07 14:50:58 --- Se abrió la página procesamiento desde: 127.0.0.1
+2025-05-07 14:50:58 --- Se abrió la página procesamiento desde: 127.0.0.1
+2025-05-07 14:50:58 --- 127.0.0.1 - - [07/May/2025 14:50:58] "GET /estructura/procesamiento HTTP/1.1" 200 -
+2025-05-07 14:50:58 --- 127.0.0.1 - - [07/May/2025 14:50:58] "GET /estructura/procesamiento HTTP/1.1" 200 -
+2025-05-07 14:50:58 --- 127.0.0.1 - - [07/May/2025 14:50:58] "[33mGET /estructura HTTP/1.1[0m" 404 -
+2025-05-07 14:50:59 --- 127.0.0.1 - - [07/May/2025 14:50:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:50:59 --- 127.0.0.1 - - [07/May/2025 14:50:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 14:51:00 --- 127.0.0.1 - - [07/May/2025 14:51:00] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 14:51:27 ---  * Detected change in 'H:\\Python\\Pagina Arquitectura de Máquinas Computadoras I\\app.py', reloading

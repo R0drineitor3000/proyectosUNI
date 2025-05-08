@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}Computadora{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/css/computadoras.css">{% endblock %}
+
+{% block body %}
+<br>
+<div class="container">
+    <div>
+        <div class="container-header"><h1>Componentes de una Computadora</h1></div>
+        <p>Haz clic en las diferentes partes de la computadora para aprender más sobre ellas.</p>
+        <div class="computer-view" id="computerView">
+            <div class="computer-image" id="computerImage">
+                <img src="/static/img/computadora.png" usemap="#pcmap" alt="Computadora" class="imagen-pc img-fluid" id="image" />
+                <map name="pcmap">
+                    <area shape="rect" coords="1,32,340,229" href="#monitor" alt="Monitor" />
+                    <area shape="rect" coords="468,296,342,3" href="#case" alt="Case" />
+                    <area shape="rect" coords="380,359,418,312" href="#teclado" alt="Teclado" />
+                    <area shape="rect" coords="358,377,50,311" href="#mouse" alt="Mouse" />
+                </map>
+            </div>
+
+            <div id="monitor" class="info-panel">
+                <h2>Monitor</h2>
+                <p>Dispositivo de salida que muestra imágenes y texto.</p>
+                <div>
+                    <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Monitor_de_computadora">Aprender más</a>
+                    <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                </div>
+            </div>
+
+            <div id="case" class="info-panel">
+                <h2>Case (Gabinete)</h2>
+                <p>Contiene y protege todos los componentes internos.</p>
+                <div>
+                    <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Caja_de_computadora">Aprender más</a>
+                    <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                </div>
+            </div>
+
+            <div id="teclado" class="info-panel">
+                <h2>Teclado</h2>
+                <p>Permite al usuario introducir datos mediante pulsaciones.</p>
+                <div>
+                    <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Teclado_(inform%C3%A1tica)">Aprender más</a>
+                    <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+                </div>
+            </div>
+    </div>
+
+        <div id="mouse" class="info-panel">
+            <h2>Mouse</h2>
+            <p>Dispositivo apuntador para interactuar con la interfaz gráfica.</p>
+            <div>
+                <a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Rat%C3%B3n_(inform%C3%A1tica)">Aprender más</a>
+                <button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/static/js/info-panel.js"></script>
+<script>
+    window.addEventListener('load', function() {
+        imageMapResize();
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+
+{% endblock %}

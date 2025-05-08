@@ -1,0 +1,242 @@
+2025-05-07 10:20:10 --- Archivo 2025-05-07 10.20.log creado con éxito en H:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-05-07 10.20.log
+2025-05-07 10:20:10 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-07 10:20:10 --- [33mPress CTRL+C to quit[0m
+2025-05-07 10:20:10 ---  * Restarting with stat
+2025-05-07 10:20:12 --- Archivo 2025-05-07 10.20.log creado con éxito en H:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-05-07 10.20.log
+2025-05-07 10:20:12 ---  * Debugger is active!
+2025-05-07 10:20:12 ---  * Debugger PIN: 827-411-152
+2025-05-07 10:22:39 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:22:39 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:22:39 --- 127.0.0.1 - - [07/May/2025 10:22:39] "GET / HTTP/1.1" 200 -
+2025-05-07 10:22:39 --- 127.0.0.1 - - [07/May/2025 10:22:39] "GET / HTTP/1.1" 200 -
+2025-05-07 10:22:40 --- 127.0.0.1 - - [07/May/2025 10:22:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 10:22:40 --- 127.0.0.1 - - [07/May/2025 10:22:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-07 10:22:51 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:22:51 --- 127.0.0.1 - - [07/May/2025 10:22:51] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:22:51 --- 127.0.0.1 - - [07/May/2025 10:22:51] "GET /static/css/computadoras.css HTTP/1.1" 200 -
+2025-05-07 10:22:51 --- 127.0.0.1 - - [07/May/2025 10:22:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:22:51 --- 127.0.0.1 - - [07/May/2025 10:22:51] "[33mGET /images/lerolero.jpg HTTP/1.1[0m" 404 -
+2025-05-07 10:23:36 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:23:36 --- 127.0.0.1 - - [07/May/2025 10:23:36] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:23:37 --- 127.0.0.1 - - [07/May/2025 10:23:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:23:37 --- 127.0.0.1 - - [07/May/2025 10:23:37] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:23:37 --- 127.0.0.1 - - [07/May/2025 10:23:37] "GET /static/img/computadora.jpg HTTP/1.1" 200 -
+2025-05-07 10:24:18 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:24:18 --- 127.0.0.1 - - [07/May/2025 10:24:18] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:24:18 --- 127.0.0.1 - - [07/May/2025 10:24:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:24:18 --- 127.0.0.1 - - [07/May/2025 10:24:18] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:24:18 --- 127.0.0.1 - - [07/May/2025 10:24:18] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:30:35 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:30:36 --- 127.0.0.1 - - [07/May/2025 10:30:36] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:30:36 --- 127.0.0.1 - - [07/May/2025 10:30:36] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:30:36 --- 127.0.0.1 - - [07/May/2025 10:30:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:30:36 --- 127.0.0.1 - - [07/May/2025 10:30:36] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:32:42 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:32:43 --- 127.0.0.1 - - [07/May/2025 10:32:43] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:32:43 --- 127.0.0.1 - - [07/May/2025 10:32:43] "GET /static/css/computadoras.css HTTP/1.1" 200 -
+2025-05-07 10:32:43 --- 127.0.0.1 - - [07/May/2025 10:32:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:32:43 --- 127.0.0.1 - - [07/May/2025 10:32:43] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:33:26 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:33:26 --- 127.0.0.1 - - [07/May/2025 10:33:26] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:33:26 --- 127.0.0.1 - - [07/May/2025 10:33:26] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:33:26 --- 127.0.0.1 - - [07/May/2025 10:33:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:33:26 --- 127.0.0.1 - - [07/May/2025 10:33:26] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:33:47 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:33:47 --- 127.0.0.1 - - [07/May/2025 10:33:47] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:33:47 --- 127.0.0.1 - - [07/May/2025 10:33:47] "GET /static/css/computadoras.css HTTP/1.1" 200 -
+2025-05-07 10:33:47 --- 127.0.0.1 - - [07/May/2025 10:33:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:33:47 --- 127.0.0.1 - - [07/May/2025 10:33:47] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:37:37 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:37:37 --- 127.0.0.1 - - [07/May/2025 10:37:37] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:37:37 --- 127.0.0.1 - - [07/May/2025 10:37:37] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:37:37 --- 127.0.0.1 - - [07/May/2025 10:37:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:37:37 --- 127.0.0.1 - - [07/May/2025 10:37:37] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:38:03 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:38:03 --- 127.0.0.1 - - [07/May/2025 10:38:03] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:38:03 --- 127.0.0.1 - - [07/May/2025 10:38:03] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:38:03 --- 127.0.0.1 - - [07/May/2025 10:38:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:38:03 --- 127.0.0.1 - - [07/May/2025 10:38:03] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:40:21 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:40:21 --- 127.0.0.1 - - [07/May/2025 10:40:21] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:40:21 --- 127.0.0.1 - - [07/May/2025 10:40:21] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:40:22 --- 127.0.0.1 - - [07/May/2025 10:40:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:40:22 --- 127.0.0.1 - - [07/May/2025 10:40:22] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:42:00 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:42:00 --- 127.0.0.1 - - [07/May/2025 10:42:00] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:42:00 --- 127.0.0.1 - - [07/May/2025 10:42:00] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:42:01 --- 127.0.0.1 - - [07/May/2025 10:42:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:42:01 --- 127.0.0.1 - - [07/May/2025 10:42:01] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:43:22 --- Se abrió la página procesamiento desde: 127.0.0.1
+2025-05-07 10:43:22 --- 127.0.0.1 - - [07/May/2025 10:43:22] "GET /estructura/procesamiento HTTP/1.1" 200 -
+2025-05-07 10:43:23 --- 127.0.0.1 - - [07/May/2025 10:43:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:25 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:43:25 --- 127.0.0.1 - - [07/May/2025 10:43:25] "GET / HTTP/1.1" 200 -
+2025-05-07 10:43:25 --- 127.0.0.1 - - [07/May/2025 10:43:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:26 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-05-07 10:43:26 --- 127.0.0.1 - - [07/May/2025 10:43:26] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-05-07 10:43:27 --- 127.0.0.1 - - [07/May/2025 10:43:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:27 --- 127.0.0.1 - - [07/May/2025 10:43:27] "GET /static/img/hard_drive.png HTTP/1.1" 200 -
+2025-05-07 10:43:27 --- 127.0.0.1 - - [07/May/2025 10:43:27] "GET /static/img/SATA2.5.jpg HTTP/1.1" 200 -
+2025-05-07 10:43:27 --- 127.0.0.1 - - [07/May/2025 10:43:27] "GET /static/img/USB.jpg HTTP/1.1" 200 -
+2025-05-07 10:43:27 --- 127.0.0.1 - - [07/May/2025 10:43:27] "GET /static/img/SSD2280.jpg HTTP/1.1" 200 -
+2025-05-07 10:43:28 --- Se abrió la página calculo desde: 127.0.0.1
+2025-05-07 10:43:28 --- 127.0.0.1 - - [07/May/2025 10:43:28] "GET /estructura/memoria/calculo HTTP/1.1" 200 -
+2025-05-07 10:43:28 --- 127.0.0.1 - - [07/May/2025 10:43:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:31 --- Se abrió la página entrada desde: 127.0.0.1
+2025-05-07 10:43:31 --- 127.0.0.1 - - [07/May/2025 10:43:31] "GET /estructura/perifericos/entrada HTTP/1.1" 200 -
+2025-05-07 10:43:31 --- 127.0.0.1 - - [07/May/2025 10:43:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:34 --- Se abrió la página salida desde: 127.0.0.1
+2025-05-07 10:43:34 --- 127.0.0.1 - - [07/May/2025 10:43:34] "GET /estructura/perifericos/salida HTTP/1.1" 200 -
+2025-05-07 10:43:34 --- 127.0.0.1 - - [07/May/2025 10:43:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:44 --- Se abrió la página procesamiento desde: 127.0.0.1
+2025-05-07 10:43:44 --- 127.0.0.1 - - [07/May/2025 10:43:44] "GET /estructura/procesamiento HTTP/1.1" 200 -
+2025-05-07 10:43:44 --- 127.0.0.1 - - [07/May/2025 10:43:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:45 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:43:45 --- 127.0.0.1 - - [07/May/2025 10:43:45] "GET / HTTP/1.1" 200 -
+2025-05-07 10:43:46 --- 127.0.0.1 - - [07/May/2025 10:43:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:54 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:43:54 --- 127.0.0.1 - - [07/May/2025 10:43:54] "GET / HTTP/1.1" 200 -
+2025-05-07 10:43:54 --- 127.0.0.1 - - [07/May/2025 10:43:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:56 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:43:56 --- 127.0.0.1 - - [07/May/2025 10:43:56] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:43:57 --- 127.0.0.1 - - [07/May/2025 10:43:57] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:57 --- 127.0.0.1 - - [07/May/2025 10:43:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:43:57 --- 127.0.0.1 - - [07/May/2025 10:43:57] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:43:58 --- Se abrió la página diagramas desde: 127.0.0.1
+2025-05-07 10:43:58 --- 127.0.0.1 - - [07/May/2025 10:43:58] "GET /diagramas HTTP/1.1" 200 -
+2025-05-07 10:43:59 --- 127.0.0.1 - - [07/May/2025 10:43:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:08 --- Se abrió la página about desde: 127.0.0.1
+2025-05-07 10:44:08 --- 127.0.0.1 - - [07/May/2025 10:44:08] "GET /about HTTP/1.1" 200 -
+2025-05-07 10:44:08 --- 127.0.0.1 - - [07/May/2025 10:44:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:13 --- Se abrió la página diagramas desde: 127.0.0.1
+2025-05-07 10:44:13 --- 127.0.0.1 - - [07/May/2025 10:44:13] "GET /diagramas HTTP/1.1" 200 -
+2025-05-07 10:44:13 --- 127.0.0.1 - - [07/May/2025 10:44:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:17 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:44:17 --- 127.0.0.1 - - [07/May/2025 10:44:17] "GET / HTTP/1.1" 200 -
+2025-05-07 10:44:17 --- 127.0.0.1 - - [07/May/2025 10:44:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:21 --- Se abrió la página procesamiento desde: 127.0.0.1
+2025-05-07 10:44:21 --- 127.0.0.1 - - [07/May/2025 10:44:21] "GET /estructura/procesamiento HTTP/1.1" 200 -
+2025-05-07 10:44:22 --- 127.0.0.1 - - [07/May/2025 10:44:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:24 --- Se abrió la página home desde: 127.0.0.1
+2025-05-07 10:44:24 --- 127.0.0.1 - - [07/May/2025 10:44:24] "GET / HTTP/1.1" 200 -
+2025-05-07 10:44:24 --- 127.0.0.1 - - [07/May/2025 10:44:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:29 --- Se abrió la página procesamiento desde: 127.0.0.1
+2025-05-07 10:44:29 --- 127.0.0.1 - - [07/May/2025 10:44:29] "GET /estructura/procesamiento HTTP/1.1" 200 -
+2025-05-07 10:44:30 --- 127.0.0.1 - - [07/May/2025 10:44:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:33 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:44:33 --- 127.0.0.1 - - [07/May/2025 10:44:33] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:44:33 --- 127.0.0.1 - - [07/May/2025 10:44:33] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:33 --- 127.0.0.1 - - [07/May/2025 10:44:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:44:33 --- 127.0.0.1 - - [07/May/2025 10:44:33] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 10:52:12 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 10:52:12 --- 127.0.0.1 - - [07/May/2025 10:52:12] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 10:52:12 --- 127.0.0.1 - - [07/May/2025 10:52:12] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 10:52:12 --- 127.0.0.1 - - [07/May/2025 10:52:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 10:52:12 --- 127.0.0.1 - - [07/May/2025 10:52:12] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:06:43 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:06:43 --- 127.0.0.1 - - [07/May/2025 11:06:43] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:06:43 --- 127.0.0.1 - - [07/May/2025 11:06:43] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:06:44 --- 127.0.0.1 - - [07/May/2025 11:06:44] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:06:44 --- 127.0.0.1 - - [07/May/2025 11:06:44] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:06:44 --- 127.0.0.1 - - [07/May/2025 11:06:44] "GET /static/img/background.jpg HTTP/1.1" 200 -
+2025-05-07 11:06:55 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:06:55 --- 127.0.0.1 - - [07/May/2025 11:06:55] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:06:55 --- 127.0.0.1 - - [07/May/2025 11:06:55] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:06:55 --- 127.0.0.1 - - [07/May/2025 11:06:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:06:55 --- 127.0.0.1 - - [07/May/2025 11:06:55] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:07:11 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:07:11 --- 127.0.0.1 - - [07/May/2025 11:07:11] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:07:12 --- 127.0.0.1 - - [07/May/2025 11:07:12] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:07:12 --- 127.0.0.1 - - [07/May/2025 11:07:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:07:12 --- 127.0.0.1 - - [07/May/2025 11:07:12] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:09:02 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:09:02 --- 127.0.0.1 - - [07/May/2025 11:09:02] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:09:02 --- 127.0.0.1 - - [07/May/2025 11:09:02] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:09:02 --- 127.0.0.1 - - [07/May/2025 11:09:02] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:09:03 --- 127.0.0.1 - - [07/May/2025 11:09:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:09:03 --- 127.0.0.1 - - [07/May/2025 11:09:03] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:09:39 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:09:39 --- 127.0.0.1 - - [07/May/2025 11:09:39] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:09:42 --- 127.0.0.1 - - [07/May/2025 11:09:42] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:09:42 --- 127.0.0.1 - - [07/May/2025 11:09:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:09:43 --- 127.0.0.1 - - [07/May/2025 11:09:43] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:09:43 --- 127.0.0.1 - - [07/May/2025 11:09:43] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:13:35 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:13:35 --- 127.0.0.1 - - [07/May/2025 11:13:35] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:13:36 --- 127.0.0.1 - - [07/May/2025 11:13:36] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:13:36 --- 127.0.0.1 - - [07/May/2025 11:13:36] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:13:36 --- 127.0.0.1 - - [07/May/2025 11:13:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:13:36 --- 127.0.0.1 - - [07/May/2025 11:13:36] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:14:12 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:14:12 --- 127.0.0.1 - - [07/May/2025 11:14:12] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:14:13 --- 127.0.0.1 - - [07/May/2025 11:14:13] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:14:14 --- 127.0.0.1 - - [07/May/2025 11:14:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:14:14 --- 127.0.0.1 - - [07/May/2025 11:14:14] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:14:14 --- 127.0.0.1 - - [07/May/2025 11:14:14] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:16:06 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:16:06 --- 127.0.0.1 - - [07/May/2025 11:16:06] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:16:08 --- 127.0.0.1 - - [07/May/2025 11:16:08] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:08 --- 127.0.0.1 - - [07/May/2025 11:16:08] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:16:08 --- 127.0.0.1 - - [07/May/2025 11:16:08] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:16:09 --- 127.0.0.1 - - [07/May/2025 11:16:09] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:16:15 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:16:15 --- 127.0.0.1 - - [07/May/2025 11:16:15] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:16:16 --- 127.0.0.1 - - [07/May/2025 11:16:16] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:16 --- 127.0.0.1 - - [07/May/2025 11:16:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:16 --- 127.0.0.1 - - [07/May/2025 11:16:16] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:16:46 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:16:46 --- 127.0.0.1 - - [07/May/2025 11:16:46] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:16:46 --- 127.0.0.1 - - [07/May/2025 11:16:46] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:46 --- 127.0.0.1 - - [07/May/2025 11:16:46] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:16:46 --- 127.0.0.1 - - [07/May/2025 11:16:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:48 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:16:48 --- 127.0.0.1 - - [07/May/2025 11:16:48] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:16:48 --- 127.0.0.1 - - [07/May/2025 11:16:48] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:48 --- 127.0.0.1 - - [07/May/2025 11:16:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:16:48 --- 127.0.0.1 - - [07/May/2025 11:16:48] "[36mGET /static/img/computadora.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:19:44 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:19:45 --- 127.0.0.1 - - [07/May/2025 11:19:45] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:19:46 --- 127.0.0.1 - - [07/May/2025 11:19:46] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:19:46 --- 127.0.0.1 - - [07/May/2025 11:19:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:19:46 --- 127.0.0.1 - - [07/May/2025 11:19:46] "GET /static/img/computadora.png HTTP/1.1" 200 -
+2025-05-07 11:19:48 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:19:48 --- 127.0.0.1 - - [07/May/2025 11:19:48] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:19:49 --- 127.0.0.1 - - [07/May/2025 11:19:49] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:19:49 --- 127.0.0.1 - - [07/May/2025 11:19:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:19:49 --- 127.0.0.1 - - [07/May/2025 11:19:49] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:24:55 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:24:55 --- 127.0.0.1 - - [07/May/2025 11:24:55] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:24:55 --- 127.0.0.1 - - [07/May/2025 11:24:55] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:24:55 --- 127.0.0.1 - - [07/May/2025 11:24:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:24:55 --- 127.0.0.1 - - [07/May/2025 11:24:55] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:24:56 --- 127.0.0.1 - - [07/May/2025 11:24:56] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:30:01 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "GET /static/css/computadoras.css HTTP/1.1" 200 -
+2025-05-07 11:30:01 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:30:01 --- 127.0.0.1 - - [07/May/2025 11:30:01] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:30:52 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:30:53 --- 127.0.0.1 - - [07/May/2025 11:30:53] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:30:53 --- 127.0.0.1 - - [07/May/2025 11:30:53] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:30:53 --- 127.0.0.1 - - [07/May/2025 11:30:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:30:53 --- 127.0.0.1 - - [07/May/2025 11:30:53] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:30:54 --- 127.0.0.1 - - [07/May/2025 11:30:54] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:33:23 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:33:24 --- 127.0.0.1 - - [07/May/2025 11:33:24] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:33:24 --- 127.0.0.1 - - [07/May/2025 11:33:24] "GET /static/css/computadoras.css HTTP/1.1" 200 -
+2025-05-07 11:33:24 --- 127.0.0.1 - - [07/May/2025 11:33:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-07 11:33:24 --- 127.0.0.1 - - [07/May/2025 11:33:24] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:33:24 --- 127.0.0.1 - - [07/May/2025 11:33:24] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -
+2025-05-07 11:34:03 --- Se abrió la página estructura desde: 127.0.0.1
+2025-05-07 11:34:03 --- 127.0.0.1 - - [07/May/2025 11:34:03] "GET /estructura HTTP/1.1" 200 -
+2025-05-07 11:34:03 --- 127.0.0.1 - - [07/May/2025 11:34:03] "[36mGET /static/css/computadoras.css HTTP/1.1[0m" 304 -
+2025-05-07 11:34:03 --- 127.0.0.1 - - [07/May/2025 11:34:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-07 11:34:03 --- 127.0.0.1 - - [07/May/2025 11:34:03] "[36mGET /static/img/computadora.png HTTP/1.1[0m" 304 -
+2025-05-07 11:34:04 --- 127.0.0.1 - - [07/May/2025 11:34:04] "[36mGET /static/img/background.jpg HTTP/1.1[0m" 304 -

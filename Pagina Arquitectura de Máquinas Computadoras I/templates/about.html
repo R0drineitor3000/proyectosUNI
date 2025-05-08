@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% block title %}Acerca de{% endblock %}
+{% block styles %}
+<style>
+    /* Estilos generales */
+    html, body {
+        color: #333;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0;
+        padding: 0;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .portada-container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 30px;
+        background: white;
+        color: #333;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .portada-header h1 {
+        color: #2c3e50;
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+
+    .autores-section {
+        margin: 30px 0;
+    }
+
+    .autores-list {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .autores-list li {
+        margin: 10px 0;
+        padding: 8px 15px;
+        background-color: #f8f9fa;
+        border-left: 4px solid #3498db;
+        border-radius: 3px;
+    }
+
+    .docente-footer h3 {
+        color: #7f8c8d;
+        font-style: italic;
+        margin-top: 40px;
+        border-top: 1px solid #eee;
+        padding-top: 20px;
+    }
+
+    .bienvenida {
+        font-weight: bold;
+        font-size: 1.1rem;
+        color: #555;
+    }
+
+    .enlace-destacado {
+        color: #3498db;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .enlace-destacado:hover {
+        text-decoration: underline;
+    }
+</style>
+{% endblock %}
+
+{% block body %}
+<div class="portada-container">
+    <header class="portada-header">
+        <h1>Arquitectura de Máquinas Computadoras</h1>
+        <p class="bienvenida">¡Bienvenido(a) a nuestro proyecto educativo!</p>
+    </header>
+
+    <section class="descripcion-section">
+        <div class="descripcion-content">
+            <h2>Sobre este proyecto académico</h2>
+            <p>Este portal educativo surge como iniciativa estudiantil en el marco de la asignatura de Arquitectura de Computadoras, con el objetivo de:</p>
+            <ul>
+                <li>Documentar y socializar los conocimientos teórico-prácticos adquiridos durante el curso</li>
+                <li>Construir un repositorio interactivo de componentes arquitectónicos</li>
+                <li>Implementar modelos didácticos para el análisis de sistemas computacionales</li>
+                <li>Servir como material de referencia para la comunidad universitaria</li>
+            </ul>
+            <p>Te invitamos a explorar nuestro <a href="/perifericos" class="enlace-destacado">módulo interactivo</a> donde podrás examinar los componentes fundamentales mediante un enfoque pedagógico innovador.</p>
+        </div>
+    </section>
+
+    <section class="autores-section">
+        <h2>Equipo de Desarrollo:</h2>
+        <ul class="autores-list">
+            <li>Elwin Rodrigo Sevilla Sánchez</li>
+            <li>Josué Andrés Jirón Zambrana</li>
+            <li>Elisa Sougey Aguirre González</li>
+            <li>Chris Larenz Chow Narváez</li>
+        </ul>
+    </section>
+
+    <footer class="docente-footer">
+        <h3>Docente: Juan Carlos Aguirre Flores</h3>
+        <p class="materia">Curso: Arquitectura de Máquinas Computadoras I - 2025</p>
+    </footer>
+</div>
+{% endblock %}

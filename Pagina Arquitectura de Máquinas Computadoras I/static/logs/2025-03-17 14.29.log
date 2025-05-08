@@ -1,0 +1,61 @@
+2025-03-17 14:29:43 --- Archivo 2025-03-17 14.29.log creado con éxito en E:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-03-17 14.29.log
+2025-03-17 14:29:44 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-17 14:29:44 --- [33mPress CTRL+C to quit[0m
+2025-03-17 14:29:44 ---  * Restarting with stat
+2025-03-17 14:29:44 --- Archivo 2025-03-17 14.29.log creado con éxito en E:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-03-17 14.29.log
+2025-03-17 14:29:44 ---  * Debugger is active!
+2025-03-17 14:29:44 ---  * Debugger PIN: 134-295-756
+2025-03-17 14:29:48 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 14:29:48 --- 127.0.0.1 - - [17/Mar/2025 14:29:48] "GET / HTTP/1.1" 200 -
+2025-03-17 14:29:49 --- 127.0.0.1 - - [17/Mar/2025 14:29:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-17 14:30:01 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 14:30:01 --- 127.0.0.1 - - [17/Mar/2025 14:30:01] "GET / HTTP/1.1" 200 -
+2025-03-17 14:30:01 --- 127.0.0.1 - - [17/Mar/2025 14:30:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:17 --- 127.0.0.1 - - [17/Mar/2025 14:30:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-17 14:30:35 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 14:30:35 --- 127.0.0.1 - - [17/Mar/2025 14:30:35] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 14:30:36 --- 127.0.0.1 - - [17/Mar/2025 14:30:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:36 --- 127.0.0.1 - - [17/Mar/2025 14:30:36] "GET /static/img/hard_drive.png HTTP/1.1" 200 -
+2025-03-17 14:30:36 --- 127.0.0.1 - - [17/Mar/2025 14:30:36] "GET /static/img/SATA2.5.jpg HTTP/1.1" 200 -
+2025-03-17 14:30:36 --- 127.0.0.1 - - [17/Mar/2025 14:30:36] "GET /static/img/SSD2280.jpg HTTP/1.1" 200 -
+2025-03-17 14:30:36 --- 127.0.0.1 - - [17/Mar/2025 14:30:36] "GET /static/img/USB.jpg HTTP/1.1" 200 -
+2025-03-17 14:30:41 --- Se abrió la página salida desde: 127.0.0.1
+2025-03-17 14:30:41 --- 127.0.0.1 - - [17/Mar/2025 14:30:41] "GET /estructura/perifericos/salida HTTP/1.1" 200 -
+2025-03-17 14:30:41 --- 127.0.0.1 - - [17/Mar/2025 14:30:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:42 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 14:30:42 --- 127.0.0.1 - - [17/Mar/2025 14:30:42] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 14:30:43 --- 127.0.0.1 - - [17/Mar/2025 14:30:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:43 --- 127.0.0.1 - - [17/Mar/2025 14:30:43] "[36mGET /static/img/hard_drive.png HTTP/1.1[0m" 304 -
+2025-03-17 14:30:43 --- 127.0.0.1 - - [17/Mar/2025 14:30:43] "[36mGET /static/img/SATA2.5.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:30:43 --- 127.0.0.1 - - [17/Mar/2025 14:30:43] "[36mGET /static/img/SSD2280.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:30:43 --- 127.0.0.1 - - [17/Mar/2025 14:30:43] "[36mGET /static/img/USB.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:30:48 --- Se abrió la página diagramas desde: 127.0.0.1
+2025-03-17 14:30:48 --- 127.0.0.1 - - [17/Mar/2025 14:30:48] "GET /diagramas HTTP/1.1" 200 -
+2025-03-17 14:30:49 --- 127.0.0.1 - - [17/Mar/2025 14:30:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:49 --- Se abrió la página bloque desde: 127.0.0.1
+2025-03-17 14:30:49 --- 127.0.0.1 - - [17/Mar/2025 14:30:49] "GET /diagramas/bloque HTTP/1.1" 200 -
+2025-03-17 14:30:50 --- 127.0.0.1 - - [17/Mar/2025 14:30:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:50 --- Se abrió la página about desde: 127.0.0.1
+2025-03-17 14:30:50 --- 127.0.0.1 - - [17/Mar/2025 14:30:50] "GET /about HTTP/1.1" 200 -
+2025-03-17 14:30:50 --- 127.0.0.1 - - [17/Mar/2025 14:30:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:52 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 14:30:52 --- 127.0.0.1 - - [17/Mar/2025 14:30:52] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 14:30:52 --- 127.0.0.1 - - [17/Mar/2025 14:30:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:30:52 --- 127.0.0.1 - - [17/Mar/2025 14:30:52] "[36mGET /static/img/hard_drive.png HTTP/1.1[0m" 304 -
+2025-03-17 14:30:52 --- 127.0.0.1 - - [17/Mar/2025 14:30:52] "[36mGET /static/img/SATA2.5.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:30:52 --- 127.0.0.1 - - [17/Mar/2025 14:30:52] "[36mGET /static/img/SSD2280.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:30:52 --- 127.0.0.1 - - [17/Mar/2025 14:30:52] "[36mGET /static/img/USB.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:32:32 --- Se abrió la página home desde: 127.0.0.1
+2025-03-17 14:32:32 --- 127.0.0.1 - - [17/Mar/2025 14:32:32] "GET / HTTP/1.1" 200 -
+2025-03-17 14:32:33 --- 127.0.0.1 - - [17/Mar/2025 14:32:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:32:37 --- Se abrió la página memoria desde: 127.0.0.1
+2025-03-17 14:32:37 --- 127.0.0.1 - - [17/Mar/2025 14:32:37] "GET /estructura/memoria HTTP/1.1" 200 -
+2025-03-17 14:32:37 --- 127.0.0.1 - - [17/Mar/2025 14:32:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:32:38 --- Se abrió la página almacenamiento desde: 127.0.0.1
+2025-03-17 14:32:38 --- 127.0.0.1 - - [17/Mar/2025 14:32:38] "GET /estructura/memoria/almacenamiento HTTP/1.1" 200 -
+2025-03-17 14:32:39 --- 127.0.0.1 - - [17/Mar/2025 14:32:39] "[36mGET /static/img/hard_drive.png HTTP/1.1[0m" 304 -
+2025-03-17 14:32:39 --- 127.0.0.1 - - [17/Mar/2025 14:32:39] "[36mGET /static/img/SSD2280.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:32:39 --- 127.0.0.1 - - [17/Mar/2025 14:32:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-03-17 14:32:39 --- 127.0.0.1 - - [17/Mar/2025 14:32:39] "[36mGET /static/img/SATA2.5.jpg HTTP/1.1[0m" 304 -
+2025-03-17 14:32:39 --- 127.0.0.1 - - [17/Mar/2025 14:32:39] "[36mGET /static/img/USB.jpg HTTP/1.1[0m" 304 -

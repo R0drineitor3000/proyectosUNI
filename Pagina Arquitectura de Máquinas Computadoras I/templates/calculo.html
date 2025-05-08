@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Memorias de cálculo{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/css/computadoras.css">{% endblock %}
+
+{% block body %}
+<br>
+<div class="container">
+	<div class="container-header"><h1>Memorias de Cálculo</h1></div>
+	<p>La memoria RAM (Random Access Memory) es un dispositivo que almacena temporalmente los datos y programas que se usan en una computadora, es un componente fundamental de los dispositivos informáticos.</p>
+	<img class="img-center" src="/static/img/RAM.png" alt="Memoria RAM" />
+
+	<h2>Tipos de Memoria RAM</h2>
+	<ul>
+		<li><strong>SRAM (Static RAM):</strong> Memoria de acceso aleatorio estática, más rápida y costosa, utilizada en cachés.</li>
+		<li><strong>DRAM (Dynamic RAM):</strong> Memoria de acceso aleatorio dinámica, más lenta y económica, utilizada como memoria principal.</li>
+		<li><strong>SDRAM (Synchronous DRAM):</strong> Memoria DRAM sincronizada con el reloj del sistema, mejora el rendimiento.</li>
+		<li><strong>DDR SDRAM (Double Data Rate SDRAM):</strong> Transfiere datos en ambos flancos del ciclo de reloj, aumentando la velocidad.</li>
+		<li><strong>DDR2/DDR3/DDR4 SDRAM:</strong> Versiones mejoradas de DDR SDRAM, con mayor velocidad y eficiencia energética.</li>
+	</ul>
+	<br>
+</div>
+{% endblock %}

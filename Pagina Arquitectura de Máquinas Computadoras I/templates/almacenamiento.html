@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block title %}Dispositivos de almacenamiento{% endblock %}
+{% block styles %}<link rel="stylesheet" href="/static/css/computadoras.css">{% endblock %}
+
+{% block body %}
+<br>
+<div class="container">
+	<div class="container-header"><h1>Dispositivos de Almacenamiento</h1></div>
+	<p>Haz clic en los diferentes dispositivos de los almacenamiento para aprender más sobre ellos.</p>
+	<div class="computer-view" id="computerView">
+		<div class="computer-image" id="computerImage">
+			<img src="/static/img/almacenamiento.png" usemap="#pcmap" alt="almacenamiento" class="imagen-pc img-fluid" id="image" />
+			<map name="pcmap">
+				<area shape="rect" coords="1,1,202,250" href="#hdd" alt="HDD" />
+				<area shape="rect" coords="188,7,335,151" href="#hdd" alt="HDD" />
+				<area shape="rect" coords="282,181,472,356" href="#ssd" alt="SSD" />
+				<area shape="rect" coords="32,281,215,389" href="#usb" alt="USB" />
+			</map>
+		</div>
+
+		<div id="hdd" class="info-panel">
+			<h2>HDD</h2>
+			<p>HDD son las siglas de Hard Disk Drive, que en español significa unidad de disco duro. Es un dispositivo de almacenamiento que guarda datos de forma permanente en discos magnéticos que giran.</p>
+			<div>
+				<a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Unidad_de_disco_duro">Aprender más</a>
+				<button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+			</div>
+		</div>
+		<div id="ssd" class="info-panel">
+			<h2>SSD</h2>
+			<p>SSD son las siglas de Unidad de Estado Sólido (Solid State Drive), un dispositivo de almacenamiento de datos que usa memoria flash. Son más rápidas y compactas que las unidades de disco duro (HDD).</p>
+			<div>
+				<a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Unidad_de_estado_sólido">Aprender más</a>
+				<button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+			</div>
+		</div>
+		<div id="usb" class="info-panel">
+			<h2>USB</h2>
+			<p>En informática, los términos USB (siglas de Universal Serial Bus, es decir, Bus Universal en Serie) o BUS se refieren a un estándar de conexión y transmisión eléctrica y de datos, entre computadores, dispositivos periféricos y otros aparatos electrónicos.</p>
+			<div>
+				<a class="btn btn-primary" href="https://es.wikipedia.org/wiki/Universal_Serial_Bus">Aprender más</a>
+				<button class="cerrar btn btn-danger" onclick="closePanel()">Cerrar</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="/static/js/info-panel.js"></script>
+
+<script>
+	// Esperamos a que la página cargue completamente
+	window.addEventListener('load', function() {
+		imageMapResize();
+	});
+
+	/*
+	// Obtener la referencia a la imagen
+	const imageElement = document.getElementById('image');
+
+	// Agregar evento de click a la imagen
+	imageElement.addEventListener('click', function(event) {
+		// Obtener las coordenadas de la imagen dentro del viewport
+		const rect = imageElement.getBoundingClientRect();
+		
+		// Calcular la posición relativa del click dentro de la imagen
+		const x = event.clientX - rect.left;
+		const y = event.clientY - rect.top;
+
+		// Mostrar las coordenadas relativas en un alert
+		alert('Posición relativa: X = ' + x + ', Y = ' + y);
+	});
+	*/
+</script>
+{% endblock %}

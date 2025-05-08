@@ -1,0 +1,12 @@
+2025-03-21 14:12:33 --- Archivo 2025-03-21 14.12.log creado con éxito en E:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-03-21 14.12.log
+2025-03-21 14:12:33 --- [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-21 14:12:33 --- [33mPress CTRL+C to quit[0m
+2025-03-21 14:12:33 ---  * Restarting with stat
+2025-03-21 14:12:33 --- Archivo 2025-03-21 14.12.log creado con éxito en E:\Python\Pagina Arquitectura de Máquinas Computadoras I\static\logs\2025-03-21 14.12.log
+2025-03-21 14:12:33 ---  * Debugger is active!
+2025-03-21 14:12:33 ---  * Debugger PIN: 708-852-129
+2025-03-21 14:12:52 --- Se abrió la página home desde: 127.0.0.1
+2025-03-21 14:12:52 --- 127.0.0.1 - - [21/Mar/2025 14:12:52] "GET / HTTP/1.1" 200 -
+2025-03-21 14:12:52 --- 127.0.0.1 - - [21/Mar/2025 14:12:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-03-21 14:12:56 --- 127.0.0.1 - - [21/Mar/2025 14:12:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

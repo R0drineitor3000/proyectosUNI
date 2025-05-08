@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Inicio{% endblock %}
+
+{% block body %}
+<header class="bg-primary text-white py-5 mb-4 shadow">
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold">Introducción a la Computación</h1>
+        <p class="lead">Descubre el fascinante mundo de las computadoras y cómo han transformado nuestra vida.</p>
+    </div>
+</header>
+
+<main class="container">
+    <section class="mb-5">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <a title="Haz click aquí si quieres saber más sobre los componentes de las computadoras" href="/estructura/perifericos">
+                    <img src="/static/img/computadora.png" alt="Computadora" class="img-fluid rounded shadow">
+                </a>
+            </div>
+            <div class="col-md-6" style="background: rgba(25, 25, 25, 0.5)">
+                <h2>¿Qué es una computadora?</h2>
+                <p class="fs-5">
+                    Una computadora es una máquina electrónica capaz de recibir, procesar y almacenar datos 
+                    para generar información útil. Se compone de elementos físicos (hardware) y programas 
+                    (software) que trabajan en conjunto para ejecutar tareas complejas de manera rápida y precisa.
+                </p>
+                <p class="fs-5">
+                    Se utiliza en casi todos los aspectos de la vida moderna: educación, trabajo, comunicación, 
+                    entretenimiento, investigación y mucho más.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center mb-5" style="background: rgba(25, 25, 25, 0.5)">
+        <h3>¿Sabías que...?</h3>
+        <p class="fs-5">La primera computadora electrónica fue creada en la década de 1940 y ocupaba toda una habitación. ¡Hoy caben en tu bolsillo! (Casi)</p>
+    </section>
+</main>
+
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Introducción a la Computación - Tu primer paso en el mundo digital</p>
+</footer>
+{% endblock %}

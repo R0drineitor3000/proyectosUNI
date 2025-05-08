@@ -1,0 +1,76 @@
+/* Contenedor principal flex */
+.computer-view {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    justify-content: center; /* Alinea los elementos horizontalmente al centro */
+    transition: all 0.4s ease;
+}
+
+
+/* aqui la imagen se mueve (de derecha a izquierda) */
+.computer-image {
+    width: 60%;
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+/*reduccion de la imagen cuando el panel esta activo */
+.computer-image.active {
+    width: 50%;
+    transform: translateX(-2.5%);
+}
+
+.container-header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container-header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Panel de la informacion, esta oculto hasta que se haga un click en alguna parte de la imagen de la computadora(por ahora)*/
+.info-panel {
+    width: 0;
+    display: none;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    background-color: rgba(77, 60, 153, 0.8);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    padding: 0;
+}
+
+/* Panel visible */
+.info-panel.active {
+    width: 40%;
+    opacity: 1;
+    display: block;
+    padding: 20px;
+}
+
+/* Mapa de la imagen (no modificar ni agregar coordenadas pues estas estan como tal en la pagina) */
+map area {
+    cursor: pointer;
+    outline: none;
+}
+
+.container {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(55, 55, 55, 1); /* Fondo gris oscuro transparente */
+}
+
+.container.no-bg {
+    background-color: rgba(55, 55, 55, 0); /* Fondo transparente para el contenedor */
+    box-shadow: none; /* Sin sombra para el contenedor */
+}

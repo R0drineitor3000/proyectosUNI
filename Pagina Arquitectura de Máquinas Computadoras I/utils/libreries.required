@@ -1,0 +1,8 @@
+flask
+flask-login
+Flask-Mail
+werkzeug
+cryptography
+authlib
+requests
+flask-unsign
